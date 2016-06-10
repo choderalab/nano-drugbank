@@ -21,7 +21,7 @@ Steps of the analysis of drugs in DrugBank:
 
 2. Run IPython Notebook get_descriptors_from_drugbank_xml.ipynb
 
-Dependencies of this notebook:
+  Dependencies of this notebook:
 
 * OpenEye OEChem library, version 2.0.5, OpenEye Scientific Software, Inc., Santa Fe, NM, USA, www.eyesopen.com, 2010.
 
@@ -29,6 +29,6 @@ Dependencies of this notebook:
 
 3. Run IPython Notebookdrugbank_decision_tree.ipynb
 
-Output: df_drugbank_decision_tree.csv (Group column represents which group of decision tree each small molecule drug is categorized to.)
+  Output: df_drugbank_decision_tree.csv (Group column represents which group of decision tree each small molecule drug is categorized to.)
 
 
