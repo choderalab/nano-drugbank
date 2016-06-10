@@ -1,4 +1,4 @@
-Self-Assemblers-of-DrugBank
+nano-drugbank
 ==============
 
 Cheminformatic analysis of small molecule type drugs in DrugBank for their ability to form nanoparticles with indocyanine dyes. 
