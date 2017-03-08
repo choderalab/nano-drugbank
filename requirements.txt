@@ -1,0 +1,8 @@
+pandas==0.17.0
+numpy==1.11.1
+untangle==1.1.0
+matplotlib==1.4.3
+
+# OpenEye Installation
+-i https://pypi.anaconda.org/OpenEye/simple
+OpenEye-toolkits==2015.10.1

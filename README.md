@@ -43,8 +43,8 @@ References
 
 Dependencies
 ------------
-- Untangle
-- Pandas
-- NumPy
-- Os
-- OpenEye OEChem, version 2.0.5
+- OpenEye OEChem, version 2.0.5  
+        To install required packages:
+        ```
+        pip install -r requirements.txt
+        ```
