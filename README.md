@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1117405.svg)](https://doi.org/10.5281/zenodo.1117405)
+
 nano-drugbank
 ==============
 
