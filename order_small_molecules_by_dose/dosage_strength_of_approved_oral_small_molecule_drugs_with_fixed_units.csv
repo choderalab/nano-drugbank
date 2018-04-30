@@ -1,0 +1,809 @@
+,drugbank_id,name,min dosage strength value,min dosage strength unit,max dosage strength value,max dosage strength unit,route,form,group,kinase inhibitor category,cas,smiles,ALOGPS solubility value,ALOGPS solubility unit
+0,DB00035,Desmopressin,0.1,mg/1,0.24,mg,Oral,Tablet,['approved'],False,16679-58-6,NC(=O)CC[C@@H]1NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(O)C=C2)NC(=O)CCSSC[C@H](NC(=O)[C@H](CC(N)=O)NC1=O)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCCNC(N)=N)C(=O)NCC(N)=O,0.11,g/l
+1,DB00115,Cyanocobalamin,0.025,mg,1.0,mg,Oral,Tablet,"['approved', 'nutraceutical']",False,68-19-9,[C@H]1([C@@H]2[C@H]([C@@H](N3C4=CC(=C(C)C=C4[N+]([Co-3]456(N7C8=C(C9=[N+]4C(C([C@@H]9CCC(N)=O)(C)C)=CC4=[N+]5C(=C(C5=[N+]6[C@@]([C@]7([C@@H]([C@@]8(C)CCC(=O)NC[C@@]([H])(C)OP([O-])(=O)O2)CC(N)=O)[H])([C@@]([C@@H]5CCC(N)=O)(C)CC(N)=O)C)C)[C@@]([C@@H]4CCC(N)=O)(C)CC(N)=O)C)C#N)=C3)C)O1)O)CO,,
+2,DB00122,Choline,100.0,mg,500.0,mg,Oral,Tablet,"['approved', 'nutraceutical']",False,62-49-7,C[N+](C)(C)CCO,3.61,g/l
+3,DB00126,Vitamin C,0.3,mg,1250.0,mg,Oral,Solution,"['approved', 'nutraceutical']",False,50-81-7,[H][C@@]1(OC(=O)C(O)=C1O)[C@@H](O)CO,245.0,g/l
+4,DB00130,L-Glutamine,5000.0,mg/1,5000.0,mg/1,Oral,"Powder, for solution","['approved', 'investigational', 'nutraceutical']",False,56-85-9,N[C@@H](CCC(N)=O)C(O)=O,97.8,g/l
+5,DB00136,Calcitriol,0.00025,mg/1,3.0,ug/g,Oral,"Capsule, liquid filled","['approved', 'nutraceutical']",False,32222-06-3,C[C@H](CCCC(C)(C)O)[C@@]1([H])CC[C@@]2([H])\C(CCC[C@]12C)=C\C=C1\C[C@@H](O)C[C@H](O)C1=C,0.00667,g/l
+7,DB00146,Calcidiol,0.03,mg/1,0.03,mg/1,Oral,"Capsule, extended release","['approved', 'nutraceutical']",False,19356-17-3,C[C@H](CCCC(C)(C)O)[C@@]1([H])CC[C@@]2([H])\C(CCC[C@]12C)=C\C=C1\C[C@@H](O)CCC1=C,0.0022,g/l
+8,DB00150,L-Tryptophan,1000.0,mg,750.0,mg,Oral,Tablet,"['approved', 'nutraceutical', 'withdrawn']",False,73-22-3,N[C@@H](CC1=CNC2=CC=CC=C12)C(O)=O,1.36,g/l
+9,DB00152,Thiamine,0.05,mg,500.0,mg,Oral,Liquid,"['approved', 'investigational', 'nutraceutical', 'vet_approved']",False,70-16-6,CC1=C(CCO)SC=[N+]1CC1=CN=C(C)N=C1N,0.0153,g/l
+10,DB00152,Thiamine,0.05,mg,500.0,mg,Oral,Liquid,"['approved', 'investigational', 'nutraceutical', 'vet_approved']",False,70-16-6,CC1=C(CCO)SC=[N+]1CC1=CN=C(C)N=C1N,0.0153,g/l
+11,DB00158,Folic Acid,0.4,mg,0.8,mg,Oral,Tablet,"['approved', 'nutraceutical', 'vet_approved']",False,59-30-3,NC1=NC(=O)C2=NC(CNC3=CC=C(C=C3)C(=O)N[C@@H](CCC(O)=O)C(O)=O)=CN=C2N1,0.0761,g/l
+12,DB00165,Pyridoxine,2.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational', 'nutraceutical', 'vet_approved']",False,65-23-6,CC1=C(O)C(CO)=C(CO)C=N1,16.1,g/l
+13,DB00175,Pravastatin,10.0,mg,80.0,mg/1,Oral,Tablet,['approved'],False,81093-37-0,[H][C@]12[C@H](C[C@H](O)C=C1C=C[C@H](C)[C@@H]2CC[C@@H](O)C[C@@H](O)CC(O)=O)OC(=O)[C@@H](C)CC,0.242,g/l
+15,DB00178,Ramipril,1.25,mg,15.0,mg,Oral,Capsule,['approved'],False,87333-19-5,[H][C@@]12CCC[C@]1([H])N([C@@H](C2)C(O)=O)C(=O)[C@H](C)N[C@@H](CCC1=CC=CC=C1)C(=O)OCC,0.039,g/l
+16,DB00185,Cevimeline,30.0,mg/1,30.0,mg/1,Oral,Capsule,['approved'],False,107233-08-9,CC1O[C@@]2(CS1)CN1CCC2CC1,2.41,g/l
+18,DB00189,Ethchlorvynol,200.0,mg,750.0,mg,Oral,Capsule,"['approved', 'illicit', 'withdrawn']",False,113-18-8,[H]C(Cl)=CC(O)(CC)C#C,0.143,g/l
+21,DB00193,Tramadol,50.0,mg/1,400.0,mg,Oral,Tablet,"['approved', 'investigational']",False,27203-92-5,COC1=CC=CC(=C1)[C@@]1(O)CCCC[C@@H]1CN(C)C,0.75,g/l
+22,DB00204,Dofetilide,0.125,mg/1,0.5,mg/1,Oral,Capsule,"['approved', 'investigational']",False,115256-11-6,CN(CCOC1=CC=C(NS(C)(=O)=O)C=C1)CCC1=CC=C(NS(C)(=O)=O)C=C1,0.0198,g/l
+23,DB00205,Pyrimethamine,25.0,mg/1,25.0,mg/1,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,58-14-0,CCC1=C(C(N)=NC(N)=N1)C1=CC=C(Cl)C=C1,0.179,g/l
+24,DB00206,Reserpine,0.1,mg/1,0.25,mg,Oral,Tablet,"['approved', 'investigational']",False,50-55-5,[H][C@]12C[C@@H](OC(=O)C3=CC(OC)=C(OC)C(OC)=C3)[C@H](OC)[C@@H](C(=O)OC)[C@@]1([H])C[C@@]1([H])N(CCC3=C1NC1=C3C=CC(OC)=C1)C2,0.0113,g/l
+25,DB00191,Phentermine,8.0,mg/1,37.5,mg/1,Oral,Tablet,"['approved', 'illicit']",False,122-09-8,CC(C)(N)CC1=CC=CC=C1,0.757,g/l
+26,DB00208,Ticlopidine,250.0,mg,250.0,mg,Oral,Tablet,['approved'],False,55142-85-3,ClC1=CC=CC=C1CN1CCC2=C(C1)C=CS2,0.0219,g/l
+28,DB00211,Midodrine,2.5,mg,10.0,mg/1,Oral,Tablet,['approved'],False,42794-76-3,COC1=CC(C(O)CNC(=O)CN)=C(OC)C=C1,4.45,g/l
+29,DB00213,Pantoprazole,20.0,mg,40.0,mg,Oral,"Tablet, delayed release",['approved'],False,102625-70-7,COC1=C(OC)C(CS(=O)C2=NC3=C(N2)C=C(OC(F)F)C=C3)=NC=C1,0.495,g/l
+30,DB00214,Torasemide,5.0,mg/1,100.0,mg/1,Oral,Tablet,['approved'],False,56211-40-6,CC(C)NC(=O)NS(=O)(=O)C1=C(NC2=CC=CC(C)=C2)C=CN=C1,0.0596,g/l
+31,DB00215,Citalopram,10.0,mg,40.0,mg/1,Oral,Tablet,['approved'],False,59729-33-8,CN(C)CCCC1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1,0.00588,g/l
+32,DB00216,Eletriptan,20.0,mg,40.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,143322-58-1,CN1CCC[C@@H]1CC1=CNC2=C1C=C(CCS(=O)(=O)C1=CC=CC=C1)C=C2,0.00118,g/l
+33,DB00222,Glimepiride,1.0,mg,8.0,mg/1,Oral,Tablet,['approved'],False,93479-97-1,[H][C@]1(C)CC[C@@]([H])(CC1)N=C(O)NS(=O)(=O)C1=CC=C(CCN=C(O)N2CC(C)=C(CC)C2=O)C=C1,0.0347,g/l
+34,DB00224,Indinavir,200.0,mg/1,400.0,mg/1,Oral,Capsule,['approved'],False,150378-17-9,CC(C)(C)NC(=O)[C@@H]1CN(CC2=CN=CC=C2)CCN1C[C@@H](O)C[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]1[C@H](O)CC2=CC=CC=C12,0.0482,g/l
+35,DB00227,Lovastatin,10.0,mg/1,60.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,75330-75-5,[H][C@]12[C@H](C[C@@H](C)C=C1C=C[C@H](C)[C@@H]2CC[C@@H]1C[C@@H](O)CC(=O)O1)OC(=O)[C@@H](C)CC,0.0243,g/l
+36,DB00231,Temazepam,7.5,mg/1,30.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,846-50-4,CN1C2=C(C=C(Cl)C=C2)C(=NC(O)C1=O)C1=CC=CC=C1,0.0534,g/l
+37,DB00232,Methyclothiazide,5.0,mg,5.0,mg,Oral,Tablet,['approved'],False,135-07-9,CN1C(CCl)NC2=CC(Cl)=C(C=C2S1(=O)=O)S(N)(=O)=O,0.824,g/l
+38,DB00233,Aminosalicylic Acid,4000.0,mg,500.0,mg,Oral,"Granule, delayed release",['approved'],False,65-49-6,NC1=CC(O)=C(C=C1)C(O)=O,11.8,g/l
+40,DB00243,Ranolazine,500.0,mg/1,1000.0,mg/1,Oral,"Tablet, film coated, extended release","['approved', 'investigational']",False,95635-55-5,COC1=CC=CC=C1OCC(O)CN1CCN(CC(=O)NC2=C(C)C=CC=C2C)CC1,0.11,g/l
+41,DB00245,Benzatropine,0.5,mg/1,2.0,mg,Oral,Tablet,['approved'],False,86-13-5,[H][C@]12CC[C@]([H])(C[C@@]([H])(C1)OC(C1=CC=CC=C1)C1=CC=CC=C1)N2C,0.00121,g/l
+42,DB00246,Ziprasidone,20.0,mg,80.0,mg/1,Oral,Capsule,['approved'],False,146939-27-7,ClC1=C(CCN2CCN(CC2)C2=NSC3=CC=CC=C23)C=C2CC(=O)NC2=C1,0.00718,g/l
+44,DB00248,Cabergoline,0.5,mg,0.5,mg,Oral,Tablet,['approved'],False,81409-90-7,[H][C@@]12CC3=CNC4=CC=CC(=C34)[C@@]1([H])C[C@H](CN2CC=C)C(=O)N(CCCN(C)C)C(=O)NCC,0.064,g/l
+45,DB00252,Phenytoin,30.0,mg/1,300.0,mg/1,Oral,"Capsule, extended release","['approved', 'vet_approved']",False,57-41-0,O=C1NC(=O)C(N1)(C1=CC=CC=C1)C1=CC=CC=C1,0.0711,g/l
+46,DB00255,Diethylstilbestrol,0.1,mg,250.0,mg,Oral,Tablet,"['approved', 'investigational']",False,56-53-1,CCC(=C(CC)C1=CC=C(O)C=C1)C1=CC=C(O)C=C1,0.0109,g/l
+47,DB00258,Calcium Acetate,667.0,mg/1,667.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,62-54-4,[Ca++].CC([O-])=O.CC([O-])=O,147.0,g/l
+49,DB00263,Sulfisoxazole,500.0,mg,500.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,127-69-5,CC1=NOC(NS(=O)(=O)C2=CC=C(N)C=C2)=C1C,0.313,g/l
+50,DB00268,Ropinirole,0.25,mg,12.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,91374-21-9,CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1,0.353,g/l
+51,DB00270,Isradipine,2.5,mg/1,5.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,75695-93-1,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC2=NON=C12)C(=O)OC(C)C,0.228,g/l
+52,DB00273,Topiramate,15.0,mg/1,200.0,mg,Oral,"Capsule, coated pellets",['approved'],False,97240-79-4,[H][C@@]12CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@]3([H])[C@]1([H])OC(C)(C)O2,6.8,g/l
+53,DB00275,Olmesartan,5.0,mg/1,40.0,mg,Oral,Tablet,"['approved', 'investigational']",False,144689-24-7,CCCC1=NC(=C(N1CC1=CC=C(C=C1)C1=C(C=CC=C1)C1=NN=NN1)C(O)=O)C(C)(C)O,0.0105,g/l
+54,DB00277,Theophylline,50.0,mg,600.0,mg/1,Oral,"Capsule, extended release",['approved'],False,58-55-9,CN1C2=C(NC=N2)C(=O)N(C)C1=O,22.9,g/l
+56,DB00280,Disopyramide,100.0,mg/1,250.0,mg,Oral,Capsule,['approved'],False,3737-09-5,CC(C)N(CCC(C(N)=O)(C1=CC=CC=C1)C1=NC=CC=C1)C(C)C,0.0493,g/l
+57,DB00284,Acarbose,25.0,mg/1,100.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,56180-94-0,[H][C@@](O)(CO)[C@@]([H])(O[C@@]1([H])O[C@]([H])(CO)[C@@]([H])(O[C@@]2([H])O[C@]([H])(C)[C@@]([H])(N[C@@]3([H])C=C(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]3([H])O)[C@]([H])(O)[C@@]2([H])O)[C@]([H])(O)[C@@]1([H])O)[C@]([H])(O)[C@@]([H])(O)C=O,108.0,g/l
+59,DB00289,Atomoxetine,10.0,mg,100.0,mg/1,Oral,Capsule,['approved'],False,83015-26-3,CNCC[C@@H](OC1=CC=CC=C1C)C1=CC=CC=C1,0.0039,g/l
+60,DB00291,Chlorambucil,2.0,mg/1,2.0,mg/1,Oral,"Tablet, film coated",['approved'],False,305-03-3,OC(=O)CCCC1=CC=C(C=C1)N(CCCl)CCCl,0.0773,g/l
+61,DB00301,Flucloxacillin,125.0,mg,500.0,mg,Oral,"Powder, for solution","['approved', 'investigational']",False,5250-39-5,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)C1=C(C)ON=C1C1=C(F)C=CC=C1Cl)C(O)=O,0.0545,g/l
+62,DB00310,Chlorthalidone,15.0,mg/1,100.0,mg,Oral,Tablet,['approved'],False,77-36-1,NS(=O)(=O)C1=C(Cl)C=CC(=C1)C1(O)NC(=O)C2=CC=CC=C12,0.0528,g/l
+63,DB00313,Valproic Acid,50.0,mg,500.0,mg/1,Oral,Syrup,"['approved', 'investigational']",False,99-66-1,CCCC(CCC)C(O)=O,2.36,g/l
+64,DB00315,Zolmitriptan,1.0,mg,5.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,139264-17-8,CN(C)CCC1=CNC2=CC=C(C[C@H]3COC(=O)N3)C=C12,0.19,g/l
+65,DB00317,Gefitinib,250.0,mg,250.0,mg,Oral,Tablet,"['approved', 'investigational']",True,184475-35-2,COC1=C(OCCCN2CCOCC2)C=C2C(NC3=CC(Cl)=C(F)C=C3)=NC=NC2=C1,0.027,g/l
+66,DB00318,Codeine,5.0,mg,300.0,mg/1,Oral,Syrup,"['approved', 'illicit']",False,76-57-3,[H][C@@]12OC3=C(OC)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])C=C[C@@H]2O,0.577,g/l
+67,DB00321,Amitriptyline,2.0,mg,150.0,mg/1,Oral,Syrup,['approved'],False,50-48-6,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,0.0045,g/l
+69,DB00330,Ethambutol,100.0,mg/1,400.0,mg/1,Oral,"Tablet, film coated",['approved'],False,74-55-5,CC[C@@H](CO)NCCN[C@@H](CC)CO,7.58,g/l
+70,DB00331,Metformin,500.0,mg,1000.0,mg/1,Oral,Tablet,['approved'],False,657-24-9,CN(C)C(=N)NC(N)=N,1.38,g/l
+71,DB00333,Methadone,1.0,mg,40.0,mg/1,Oral,Tablet,['approved'],False,76-99-3,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1,0.0059,g/l
+72,DB00334,Olanzapine,2.5,mg/1,405.0,mg,Oral,Tablet,"['approved', 'investigational']",False,132539-06-1,CN1CCN(CC1)C1=NC2=CC=CC=C2NC2=C1C=C(C)S2,0.0942,g/l
+74,DB00338,Omeprazole,2.5,mg/1,40.0,mg/1,Oral,"Granule, delayed release","['approved', 'investigational', 'vet_approved']",False,73590-58-6,COC1=CC2=C(C=C1)N=C(N2)S(=O)CC1=NC=C(C)C(OC)=C1C,0.359,g/l
+75,DB00339,Pyrazinamide,500.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational']",False,98-96-4,NC(=O)C1=NC=CN=C1,93.7,g/l
+76,DB00342,Terfenadine,6.0,mg,120.0,mg,Oral,Suspension,"['approved', 'withdrawn']",False,50679-08-8,CC(C)(C)C1=CC=C(C=C1)C(O)CCCN1CCC(CC1)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,0.000458,g/l
+77,DB00344,Protriptyline,5.0,mg/1,10.0,mg/1,Oral,"Tablet, film coated",['approved'],False,438-60-8,CNCCCC1C2=CC=CC=C2C=CC2=CC=CC=C12,0.000231,g/l
+79,DB00347,Trimethadione,150.0,mg/1,150.0,mg/1,Oral,"Tablet, chewable",['approved'],False,127-48-0,CN1C(=O)OC(C)(C)C1=O,212.0,g/l
+80,DB00348,Nitisinone,2.0,mg,20.0,mg,Oral,Capsule,"['approved', 'investigational']",False,104206-65-7,[O-][N+](=O)C1=C(C=CC(=C1)C(F)(F)F)C(=O)C1C(=O)CCCC1=O,0.00811,g/l
+81,DB00321,Amitriptyline,2.0,mg,150.0,mg/1,Oral,Syrup,['approved'],False,50-48-6,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,0.0045,g/l
+82,DB00352,Tioguanine,40.0,mg,40.0,mg,Oral,Tablet,['approved'],False,154-42-7,NC1=NC(=S)C2=C(N1)N=CN2,0.834,g/l
+83,DB00353,Methylergometrine,0.2,mg/1,0.2,mg/1,Oral,"Tablet, coated",['approved'],False,113-42-8,[H][C@@]12CC3=CNC4=CC=CC(=C34)C1=C[C@H](CN2C)C(=O)N[C@@H](CC)CO,0.204,g/l
+84,DB00356,Chlorzoxazone,250.0,mg/1,750.0,mg/1,Oral,Tablet,['approved'],False,95-25-0,ClC1=CC2=C(OC(=O)N2)C=C1,2.96,g/l
+85,DB00357,Aminoglutethimide,250.0,mg,250.0,mg,Oral,Tablet,"['approved', 'investigational']",False,125-84-8,CCC1(CCC(=O)NC1=O)C1=CC=C(N)C=C1,0.371,g/l
+86,DB00358,Mefloquine,250.0,mg,250.0,mg,Oral,Tablet,"['approved', 'investigational']",False,53230-10-7,OC(C1CCCCN1)C1=CC(=NC2=C1C=CC=C2C(F)(F)F)C(F)(F)F,0.038,g/l
+87,DB00359,Sulfadiazine,500.0,mg/1,500.5,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,68-35-9,NC1=CC=C(C=C1)S(=O)(=O)NC1=NC=CC=N1,0.601,g/l
+88,DB00360,Sapropterin,100.0,mg,500.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,62989-33-7,[H][C@@]1(CNC2=C(N1)C(=O)NC(N)=N2)[C@@H](O)[C@H](C)O,2.03,g/l
+89,DB00363,Clozapine,12.5,mg/1,200.0,mg/1,Oral,"Tablet, orally disintegrating",['approved'],False,5786-21-0,CN1CCN(CC1)C1=NC2=CC(Cl)=CC=C2NC2=CC=CC=C12,0.186,g/l
+91,DB00365,Grepafloxacin,200.0,mg,200.0,mg,Oral,Tablet,"['approved', 'investigational', 'withdrawn']",False,119914-60-2,CC1CN(CCN1)C1=C(F)C(C)=C2C(=O)C(=CN(C3CC3)C2=C1)C(O)=O,0.632,g/l
+92,DB00367,Levonorgestrel,0.75,mg,52.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,797-63-7,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(CC)CC[C@]1([H])[C@@]3([H])CCC(=O)C=C3CC[C@@]21[H],0.00583,g/l
+93,DB00370,Mirtazapine,7.5,mg/1,45.0,mg/1,Oral,"Tablet, film coated",['approved'],False,85650-52-8,CN1CCN2C(C1)C1=CC=CC=C1CC1=C2N=CC=C1,1.1,g/l
+94,DB00371,Meprobamate,200.0,mg/1,400.0,mg,Oral,Tablet,"['approved', 'illicit']",False,57-53-4,CCCC(C)(COC(N)=O)COC(N)=O,2.47,g/l
+95,DB00348,Nitisinone,2.0,mg,20.0,mg,Oral,Capsule,"['approved', 'investigational']",False,104206-65-7,[O-][N+](=O)C1=C(C=CC(=C1)C(F)(F)F)C(=O)C1C(=O)CCCC1=O,0.00811,g/l
+97,DB00376,Trihexyphenidyl,0.4,mg,5.0,mg/1,Oral,Elixir,['approved'],False,144-11-6,OC(CCN1CCCCC1)(C1CCCCC1)C1=CC=CC=C1,0.00314,g/l
+98,DB00379,Mexiletine,100.0,mg,250.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,31828-71-4,CC(N)COC1=C(C)C=CC=C1C,0.538,g/l
+99,DB00381,Amlodipine,2.5,mg/1,10.0,mg/1,Oral,Tablet,['approved'],False,88150-42-9,CCOC(=O)C1=C(COCCN)NC(C)=C(C1C1=CC=CC=C1Cl)C(=O)OC,0.0074,g/l
+100,DB00384,Triamterene,50.0,mg/1,100.0,mg/1,Oral,Capsule,['approved'],False,396-01-0,NC1=NC(N)=C2N=C(C(N)=NC2=N1)C1=CC=CC=C1,0.963,g/l
+101,DB00387,Procyclidine,2.5,mg,5.0,mg,Oral,Elixir,['approved'],False,77-37-2,OC(CCN1CCCC1)(C1CCCCC1)C1=CC=CC=C1,0.00984,g/l
+102,DB00390,Digoxin,0.05,mg,0.25,mg/1,Oral,Solution,['approved'],False,20830-75-5,[H][C@]12CC[C@]3([H])[C@]([H])(C[C@@H](O)[C@]4(C)[C@H](CC[C@]34O)C3=CC(=O)OC3)[C@@]1(C)CC[C@@H](C2)O[C@H]1C[C@H](O)[C@H](O[C@H]2C[C@H](O)[C@H](O[C@H]3C[C@H](O)[C@H](O)[C@@H](C)O3)[C@@H](C)O2)[C@@H](C)O1,0.127,g/l
+103,DB00392,Ethopropazine,50.0,mg,50.0,mg,Oral,Tablet,['approved'],False,522-00-9,CCN(CC)C(C)CN1C2=CC=CC=C2SC2=CC=CC=C12,0.00524,g/l
+104,DB00395,Carisoprodol,250.0,mg/1,350.0,mg/1,Oral,Tablet,['approved'],False,78-44-4,CCCC(C)(COC(N)=O)COC(=O)NC(C)C,0.792,g/l
+105,DB00398,Sorafenib,200.0,mg,200.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",True,284461-73-0,CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1,0.00171,g/l
+106,DB00401,Nisoldipine,8.5,mg/1,40.0,mg/1,Oral,"Tablet, film coated, extended release",['approved'],False,63675-72-9,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC=C1[N+]([O-])=O)C(=O)OCC(C)C,0.00577,g/l
+107,DB00402,Eszopiclone,1.0,mg/1,3.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,138729-47-2,CN1CCN(CC1)C(=O)O[C@@H]1N(C(=O)C2=NC=CN=C12)C1=NC=C(Cl)C=C1,0.885,g/l
+109,DB00405,Dexbrompheniramine,1.0,mg/1,2.0,mg/1,Oral,"Tablet, chewable",['approved'],False,132-21-8,CN(C)CC[C@@H](C1=CC=C(Br)C=C1)C1=CC=CC=N1,0.0127,g/l
+110,DB00408,Loxapine,2.5,mg,68.0,mg,Oral,Tablet,['approved'],False,1977-10-2,CN1CCN(CC1)C1=NC2=CC=CC=C2OC2=C1C=C(Cl)C=C2,0.103,g/l
+111,DB00412,Rosiglitazone,2.0,mg,8.0,mg,Oral,Tablet,"['approved', 'investigational']",False,122320-73-4,CN(CCOC1=CC=C(CC2SC(=O)NC2=O)C=C1)C1=CC=CC=N1,0.038,g/l
+112,DB00413,Pramipexole,0.088,mg,4.5,mg/1,Oral,Tablet,"['approved', 'investigational']",False,104632-26-0,CCCN[C@H]1CCC2=C(C1)SC(N)=N2,0.14,g/l
+113,DB00414,Acetohexamide,500.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational', 'withdrawn']",False,968-81-0,CC(=O)C1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1,0.0483,g/l
+114,DB00418,Secobarbital,100.0,mg,100.0,mg,Oral,Capsule,"['approved', 'vet_approved']",False,76-73-3,CCCC(C)C1(CC=C)C(=O)NC(=O)NC1=O,1.21,g/l
+115,DB00419,Miglustat,100.0,mg/1,100.0,mg/1,Oral,Capsule,['approved'],False,72599-27-0,CCCCN1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,331.0,g/l
+116,DB00421,Spironolactone,25.0,mg/1,100.0,mg,Oral,"Tablet, film coated",['approved'],False,52-01-7,[H][C@@]12CC[C@@]3(CCC(=O)O3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])[C@@]([H])(CC2=CC(=O)CC[C@]12C)SC(C)=O,0.00198,g/l
+117,DB00426,Famciclovir,125.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational']",False,104227-87-4,CC(=O)OCC(CCN1C=NC2=CN=C(N)N=C12)COC(C)=O,1.32,g/l
+118,DB00433,Prochlorperazine,5.0,mg/1,25.0,mg/1,Oral,"Tablet, film coated","['approved', 'vet_approved']",False,58-38-8,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,0.011,g/l
+119,DB00434,Cyproheptadine,0.4,mg,4.0,mg/1,Oral,Syrup,['approved'],False,129-03-3,CN1CCC(CC1)=C1C2=CC=CC=C2C=CC2=CC=CC=C12,0.0136,g/l
+120,DB00436,Bendroflumethiazide,5.0,mg,5.0,mg,Oral,Tablet,['approved'],False,73-48-3,NS(=O)(=O)C1=CC2=C(NC(CC3=CC=CC=C3)NS2(=O)=O)C=C1C(F)(F)F,0.214,g/l
+121,DB00395,Carisoprodol,250.0,mg/1,350.0,mg/1,Oral,Tablet,['approved'],False,78-44-4,CCCC(C)(COC(N)=O)COC(=O)NC(C)C,0.792,g/l
+122,DB00439,Cerivastatin,0.2,mg,0.8,mg,Oral,Tablet,"['approved', 'withdrawn']",False,145599-86-6,COCC1=C(C2=CC=C(F)C=C2)C(\C=C\[C@@H](O)C[C@@H](O)CC(O)=O)=C(C(C)C)N=C1C(C)C,0.00419,g/l
+124,DB00451,Levothyroxine,0.025,mg/1,0.5,mg,Oral,Tablet,['approved'],False,51-48-9,N[C@@H](CC1=CC(I)=C(OC2=CC(I)=C(O)C(I)=C2)C(I)=C1)C(O)=O,0.00898,g/l
+125,DB00455,Loratadine,1.0,mg,10.0,mg/1,Oral,Syrup,"['approved', 'investigational']",False,79794-75-5,CCOC(=O)N1CCC(CC1)=C1C2=C(CCC3=C1N=CC=C3)C=C(Cl)C=C2,0.0134,g/l
+126,DB00457,Prazosin,1.0,mg,5.0,mg,Oral,Tablet,['approved'],False,19216-56-9,COC1=C(OC)C=C2C(N)=NC(=NC2=C1)N1CCN(CC1)C(=O)C1=CC=CO1,0.693,g/l
+127,DB00458,Imipramine,10.0,mg,150.0,mg/1,Oral,Tablet,['approved'],False,50-49-7,CN(C)CCCN1C2=CC=CC=C2CCC2=CC=CC=C12,0.0664,g/l
+128,DB00459,Acitretin,10.0,mg/1,25.0,mg/1,Oral,Capsule,['approved'],False,55079-83-9,COC1=C(C)C(C)=C(\C=C\C(\C)=C\C=C\C(\C)=C\C(O)=O)C(C)=C1,0.000478,g/l
+129,DB00461,Nabumetone,500.0,mg,750.0,mg,Oral,Tablet,['approved'],False,42924-53-8,COC1=CC2=C(C=C1)C=C(CCC(C)=O)C=C2,0.00193,g/l
+130,DB00462,Methylscopolamine bromide,2.5,mg/1,5.0,mg/1,Oral,Tablet,['approved'],False,155-41-9,[Br-].[H][C@]12C[C@@H](C[C@@]([H])(C3OC13)[N+]2(C)C)OC(=O)[C@H](CO)C1=CC=CC=C1,0.0132,g/l
+131,DB00468,Quinine,200.0,mg,324.0,mg/1,Oral,Capsule,['approved'],False,130-95-0,[H][C@]1(C[C@@H]2CC[N@]1C[C@@H]2C=C)[C@H](O)C1=CC=NC2=CC=C(OC)C=C12,0.334,g/l
+133,DB00470,Dronabinol,2.5,mg/1,10.0,mg/1,Oral,Capsule,"['approved', 'illicit']",False,1972-08-3,[H][C@@]12C=C(C)CC[C@@]1([H])C(C)(C)OC1=C2C(O)=CC(CCCCC)=C1,0.00263,g/l
+134,DB00471,Montelukast,4.0,mg/1,10.0,mg,Oral,"Tablet, chewable",['approved'],False,158966-92-8,OC(=O)CC1(CC1)CS[C@H](CCC1=CC=CC=C1C(O)(C)C)C1=CC=CC(\C=C\C2=NC3=C(C=CC(Cl)=C3)C=C2)=C1,8.2e-06,g/l
+135,DB00472,Fluoxetine,10.0,mg,90.0,mg/1,Oral,Capsule,"['approved', 'vet_approved']",False,54910-89-3,CNCCC(OC1=CC=C(C=C1)C(F)(F)F)C1=CC=CC=C1,0.0017,g/l
+137,DB00476,Duloxetine,20.0,mg,60.0,mg,Oral,"Capsule, delayed release",['approved'],False,116539-59-4,CNCC[C@H](OC1=CC=CC2=CC=CC=C12)C1=CC=CS1,0.00296,g/l
+139,DB00478,Rimantadine,100.0,mg/1,100.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,13392-28-4,CC(N)C12CC3CC(CC(C3)C1)C2,0.00915,g/l
+140,DB00480,Lenalidomide,2.5,mg/1,25.0,mg,Oral,Capsule,['approved'],False,191732-72-6,NC1=CC=CC2=C1CN(C1CCC(=O)NC1=O)C2=O,2.33,g/l
+141,DB00481,Raloxifene,60.0,mg,60.0,mg,Oral,Tablet,"['approved', 'investigational']",False,84449-90-1,OC1=CC=C(C=C1)C1=C(C(=O)C2=CC=C(OCCN3CCCCC3)C=C2)C2=C(S1)C=C(O)C=C2,0.000512,g/l
+142,DB00482,Celecoxib,50.0,mg/1,400.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,169590-42-5,CC1=CC=C(C=C1)C1=CC(=NN1C1=CC=C(C=C1)S(N)(=O)=O)C(F)(F)F,0.00503,g/l
+143,DB00485,Dicloxacillin,250.0,mg/1,500.0,mg/1,Oral,Capsule,"['approved', 'investigational', 'vet_approved']",False,3116-76-5,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)C1=C(C)ON=C1C1=C(Cl)C=CC=C1Cl)C(O)=O,0.0296,g/l
+146,DB00490,Buspirone,5.0,mg/1,30.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,36505-84-7,O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(CC1)C1=NC=CC=N1,0.588,g/l
+147,DB00491,Miglitol,25.0,mg/1,100.0,mg/1,Oral,"Tablet, film coated",['approved'],False,72432-03-2,OCCN1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,610.0,g/l
+148,DB00492,Fosinopril,10.0,mg,40.0,mg/1,Oral,Tablet,['approved'],False,98048-97-6,CCC(=O)O[C@@H](O[P@](=O)(CCCCC1=CC=CC=C1)CC(=O)N1C[C@@H](C[C@H]1C(O)=O)C1CCCCC1)C(C)C,0.00101,g/l
+149,DB00494,Entacapone,200.0,mg,200.0,mg,Oral,Tablet,"['approved', 'investigational']",False,130929-57-6,CCN(CC)C(=O)C(=C\C1=CC(=C(O)C(O)=C1)[N+]([O-])=O)\C#N,0.0797,g/l
+150,DB00496,Darifenacin,7.5,mg/1,15.0,mg,Oral,"Tablet, extended release","['approved', 'investigational']",False,133099-04-4,NC(=O)C([C@@H]1CCN(CCC2=CC3=C(OCC3)C=C2)C1)(C1=CC=CC=C1)C1=CC=CC=C1,0.000298,g/l
+151,DB00459,Acitretin,10.0,mg/1,25.0,mg/1,Oral,Capsule,['approved'],False,55079-83-9,COC1=C(C)C(C)=C(\C=C\C(\C)=C\C=C\C(\C)=C\C(O)=O)C(C)=C1,0.000478,g/l
+152,DB00499,Flutamide,125.0,mg/1,250.0,mg,Oral,Capsule,"['approved', 'investigational']",False,13311-84-7,CC(C)C(=O)NC1=CC(=C(C=C1)[N+]([O-])=O)C(F)(F)F,0.00566,g/l
+153,DB00500,Tolmetin,200.0,mg/1,600.0,mg,Oral,Tablet,['approved'],False,26171-23-3,CN1C(CC(O)=O)=CC=C1C(=O)C1=CC=C(C)C=C1,0.131,g/l
+154,DB00468,Quinine,200.0,mg,324.0,mg/1,Oral,Capsule,['approved'],False,130-95-0,[H][C@]1(C[C@@H]2CC[N@]1C[C@@H]2C=C)[C@H](O)C1=CC=NC2=CC=C(OC)C=C12,0.334,g/l
+155,DB00503,Ritonavir,80.0,mg,100.0,mg/1,Oral,Solution,"['approved', 'investigational']",False,155213-67-5,CC(C)[C@H](NC(=O)N(C)CC1=CSC(=N1)C(C)C)C(=O)N[C@H](C[C@H](O)[C@H](CC1=CC=CC=C1)NC(=O)OCC1=CN=CS1)CC1=CC=CC=C1,0.00126,g/l
+156,DB00509,Dextrothyroxine,2.0,mg,4.0,mg,Oral,Tablet,"['approved', 'investigational']",False,51-49-0,N[C@H](CC1=CC(I)=C(OC2=CC(I)=C(O)C(I)=C2)C(I)=C1)C(O)=O,0.00898,g/l
+157,DB00471,Montelukast,4.0,mg/1,10.0,mg,Oral,"Tablet, chewable",['approved'],False,158966-92-8,OC(=O)CC1(CC1)CS[C@H](CCC1=CC=CC=C1C(O)(C)C)C1=CC=CC(\C=C\C2=NC3=C(C=CC(Cl)=C3)C=C2)=C1,8.2e-06,g/l
+158,DB00518,Albendazole,200.0,mg/1,200.0,mg/1,Oral,"Tablet, film coated","['approved', 'vet_approved']",False,54965-21-8,CCCSC1=CC2=C(C=C1)N=C(NC(=O)OC)N2,0.0228,g/l
+159,DB00519,Trandolapril,0.5,mg,4.0,mg/1,Oral,Capsule,['approved'],False,87679-37-6,[H][C@@]12C[C@H](N(C(=O)[C@H](C)N[C@@H](CCC3=CC=CC=C3)C(=O)OCC)[C@@]1([H])CCCC2)C(O)=O,0.0207,g/l
+160,DB00524,Metolazone,2.5,mg/1,10.0,mg/1,Oral,Tablet,['approved'],False,17560-51-9,CC1NC2=CC(Cl)=C(C=C2C(=O)N1C1=CC=CC=C1C)S(N)(=O)=O,0.0407,g/l
+161,DB00530,Erlotinib,25.0,mg,150.0,mg,Oral,Tablet,"['approved', 'investigational']",True,183321-74-6,COCCOC1=C(OCCOC)C=C2C(NC3=CC=CC(=C3)C#C)=NC=NC2=C1,0.00891,g/l
+162,DB00533,Rofecoxib,12.5,mg,25.0,mg,Oral,Suspension,"['approved', 'investigational', 'withdrawn']",False,162011-90-7,CS(=O)(=O)C1=CC=C(C=C1)C1=C(C(=O)OC1)C1=CC=CC=C1,0.0106,g/l
+163,DB00536,Guanidine,125.0,mg/1,125.0,mg/1,Oral,Tablet,['approved'],False,113-00-8,NC(N)=N,11.5,g/l
+164,DB00539,Toremifene,60.0,mg,60.0,mg,Oral,Tablet,"['approved', 'investigational']",False,89778-26-7,CN(C)CCOC1=CC=C(C=C1)C(=C(\CCCl)C1=CC=CC=C1)\C1=CC=CC=C1,0.000409,g/l
+165,DB00540,Nortriptyline,10.0,mg,75.0,mg/1,Oral,Capsule,['approved'],False,72-69-5,CNCCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,0.000874,g/l
+166,DB00542,Benazepril,5.0,mg/1,40.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,86541-75-5,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@H]1CCC2=CC=CC=C2N(CC(O)=O)C1=O,0.0105,g/l
+167,DB00543,Amoxapine,25.0,mg/1,150.0,mg/1,Oral,Tablet,['approved'],False,14028-44-5,ClC1=CC2=C(OC3=CC=CC=C3N=C2N2CCNCC2)C=C1,0.171,g/l
+168,DB00549,Zafirlukast,10.0,mg/1,20.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,107753-78-6,COC1=C(CC2=CN(C)C3=C2C=C(NC(=O)OC2CCCC2)C=C3)C=CC(=C1)C(=O)NS(=O)(=O)C1=CC=CC=C1C,0.000962,g/l
+170,DB00551,Acetohydroxamic Acid,250.0,mg/1,250.0,mg/1,Oral,Tablet,['approved'],False,546-88-3,CC(=O)NO,509.0,g/l
+171,DB00554,Piroxicam,10.0,mg,20.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,36322-90-4,CN1C(C(=O)NC2=NC=CC=C2)=C(O)C2=C(C=CC=C2)S1(=O)=O,0.143,g/l
+172,DB00555,Lamotrigine,2.0,mg,300.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,84057-84-1,NC1=NC(N)=C(N=N1)C1=C(Cl)C(Cl)=CC=C1,0.488,g/l
+173,DB00557,Hydroxyzine,10.0,mg,100.0,mg/1,Oral,Capsule,['approved'],False,68-88-2,OCCOCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,0.0914,g/l
+175,DB00566,Succimer,100.0,mg/1,100.0,mg/1,Oral,Capsule,['approved'],False,304-55-2,OC(=O)[C@@H](S)[C@@H](S)C(O)=O,2.43,g/l
+176,DB00573,Fenoprofen,200.0,mg/1,600.0,mg/1,Oral,Capsule,['approved'],False,29679-58-1,CC(C(O)=O)C1=CC(OC2=CC=CC=C2)=CC=C1,0.0811,g/l
+177,DB00574,Fenfluramine,20.0,mg,20.0,mg,Oral,Tablet,"['approved', 'illicit', 'investigational', 'withdrawn']",False,458-24-2,CCNC(C)CC1=CC(=CC=C1)C(F)(F)F,0.0215,g/l
+178,DB00500,Tolmetin,200.0,mg/1,600.0,mg,Oral,Tablet,['approved'],False,26171-23-3,CN1C(CC(O)=O)=CC=C1C(=O)C1=CC=C(C)C=C1,0.131,g/l
+179,DB00577,Valaciclovir,1000.0,mg/1,1000.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,124832-26-4,CC(C)[C@H](N)C(=O)OCCOCN1C=NC2=C1NC(N)=NC2=O,3.55,g/l
+180,DB00579,Mazindol,1.0,mg,2.0,mg,Oral,Tablet,"['approved', 'investigational']",False,22232-71-9,OC1(N2CCN=C2C2=CC=CC=C12)C1=CC=C(Cl)C=C1,0.139,g/l
+182,DB00582,Voriconazole,3000.0,mg,200.0,mg,Oral,"Powder, for suspension","['approved', 'investigational']",False,137234-62-9,C[C@@H](C1=NC=NC=C1F)[C@](O)(CN1C=NC=N1)C1=C(F)C=C(F)C=C1,0.0978,g/l
+184,DB00592,Piperazine,2000.0,mg,600.0,mg,Oral,"Powder, for solution","['approved', 'vet_approved']",False,110-85-0,C1CNCCN1,371.0,g/l
+185,DB00594,Amiloride,5.0,mg/1,5.0,mg/1,Oral,Tablet,['approved'],False,2609-46-3,NC(N)=NC(=O)C1=C(N)N=C(N)C(Cl)=N1,1.22,g/l
+186,DB00519,Trandolapril,0.5,mg,4.0,mg/1,Oral,Capsule,['approved'],False,87679-37-6,[H][C@@]12C[C@H](N(C(=O)[C@H](C)N[C@@H](CCC3=CC=CC=C3)C(=O)OCC)[C@@]1([H])CCCC2)C(O)=O,0.0207,g/l
+187,DB00604,Cisapride,1.0,mg,20.0,mg,Oral,Suspension,"['approved', 'investigational', 'withdrawn']",False,81098-60-4,CO[C@H]1CN(CCCOC2=CC=C(F)C=C2)CC[C@H]1NC(=O)C1=CC(Cl)=C(N)C=C1OC,0.012,g/l
+188,DB00605,Sulindac,150.0,mg,200.0,mg,Oral,Tablet,"['approved', 'investigational']",False,38194-50-2,CC1=C(CC(O)=O)C2=CC(F)=CC=C2\C1=C/C1=CC=C(C=C1)S(C)=O,0.0251,g/l
+189,DB00608,Chloroquine,250.0,mg,500.0,mg/1,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,54-05-7,CCN(CC)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,0.0175,g/l
+191,DB00612,Bisoprolol,5.0,mg,10.0,mg/1,Oral,Tablet,['approved'],False,66722-44-9,CC(C)NCC(O)COC1=CC=C(COCCOC(C)C)C=C1,0.0707,g/l
+192,DB00615,Rifabutin,150.0,mg/1,150.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,72559-06-9,CO[C@H]1\C=C\O[C@@]2(C)OC3=C(C2=O)C2=C(C(O)=C3C)C(=O)C(NC(=O)\C(C)=C/C=C/[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)=C1NC3(CCN(CC3)CC(C)C)N=C21,0.017,g/l
+193,DB00618,Demeclocycline,150.0,mg,300.0,mg/1,Oral,Tablet,['approved'],False,127-33-3,[H][C@]12C[C@@]3([H])[C@H](N(C)C)C(O)=C(C(N)=O)C(=O)[C@@]3(O)C(O)=C1C(=O)C1=C([C@H]2O)C(Cl)=CC=C1O,0.53,g/l
+194,DB00619,Imatinib,50.0,mg,400.0,mg,Oral,Capsule,['approved'],True,152459-95-5,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1,0.0146,g/l
+195,DB00621,Oxandrolone,2.5,mg/1,10.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,53-39-4,[H][C@@]12CC[C@](C)(O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC[C@@]2([H])CC(=O)OC[C@]12C,0.014,g/l
+196,DB00549,Zafirlukast,10.0,mg/1,20.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,107753-78-6,COC1=C(CC2=CN(C)C3=C2C=C(NC(=O)OC2CCCC2)C=C3)C=CC(=C1)C(=O)NS(=O)(=O)C1=CC=CC=C1C,0.000962,g/l
+197,DB00628,Clorazepate,3.75,mg,15.0,mg,Oral,Capsule,"['approved', 'illicit']",False,23887-31-2,OC(=O)C1N=C(C2=CC=CC=C2)C2=C(NC1=O)C=CC(Cl)=C2,0.0248,g/l
+198,DB00630,Alendronic acid,5.0,mg,70.0,mg/1,Oral,Tablet,['approved'],False,66376-36-1,NCCCC(O)(P(O)(O)=O)P(O)(O)=O,16.9,g/l
+199,DB00635,Prednisone,1.0,mg/1,50.0,mg/1,Oral,Tablet,"['approved', 'vet_approved']",False,53-03-2,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)CC(=O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,0.111,g/l
+200,DB00636,Clofibrate,1000.0,mg,500.0,mg,Oral,Capsule,"['approved', 'investigational']",False,637-07-0,CCOC(=O)C(C)(C)OC1=CC=C(Cl)C=C1,0.029,g/l
+201,DB00637,Astemizole,2.0,mg,10.0,mg,Oral,Suspension,"['approved', 'withdrawn']",False,68844-77-9,COC1=CC=C(CCN2CCC(CC2)NC2=NC3=CC=CC=C3N2CC2=CC=C(F)C=C2)C=C1,0.0012,g/l
+202,DB00641,Simvastatin,5.0,mg,80.0,mg,Oral,Tablet,['approved'],False,79902-63-9,[H][C@]12[C@H](C[C@@H](C)C=C1C=C[C@H](C)[C@@H]2CC[C@@H]1C[C@@H](O)CC(=O)O1)OC(=O)C(C)(C)CC,0.0122,g/l
+203,DB00643,Mebendazole,100.0,mg/1,500.0,mg/1,Oral,"Tablet, chewable","['approved', 'vet_approved']",False,31431-39-7,COC(=O)NC1=NC2=C(N1)C=C(C=C2)C(=O)C1=CC=CC=C1,0.0387,g/l
+205,DB00648,Mitotane,500.0,mg/1,500.0,mg/1,Oral,Tablet,['approved'],False,53-19-0,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,9.42e-06,g/l
+206,DB00574,Fenfluramine,20.0,mg,20.0,mg,Oral,Tablet,"['approved', 'illicit', 'investigational', 'withdrawn']",False,458-24-2,CCNC(C)CC1=CC(=CC=C1)C(F)(F)F,0.0215,g/l
+207,DB00651,Dyphylline,100.0,mg,500.0,mg,Oral,Elixir,['approved'],False,479-18-5,CN1C2=C(N(CC(O)CO)C=N2)C(=O)N(C)C1=O,14.3,g/l
+208,DB00656,Trazodone,50.0,mg/1,300.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,19794-93-5,ClC1=CC=CC(=C1)N1CCN(CCCN2N=C3C=CC=CN3C2=O)CC1,0.29,g/l
+209,DB00657,Mecamylamine,2.5,mg/1,2.5,mg/1,Oral,Tablet,"['approved', 'investigational']",False,60-40-2,CNC1(C)C2CCC(C2)C1(C)C,0.124,g/l
+210,DB00658,Sevelamer,800.0,mg/1,2400.0,mg/1,Oral,"Powder, for suspension",['approved'],False,52757-95-6,NCC=C.ClCC1CO1,,
+211,DB00659,Acamprosate,333.0,mg/1,333.0,mg/1,Oral,"Tablet, delayed release","['approved', 'investigational']",False,77337-76-9,CC(=O)NCCCS(O)(=O)=O,18.8,g/l
+214,DB00670,Pirenzepine,50.0,mg,50.0,mg,Oral,Tablet,['approved'],False,28797-61-7,CN1CCN(CC(=O)N2C3=CC=CC=C3C(=O)NC3=C2N=CC=C3)CC1,0.682,g/l
+215,DB00592,Piperazine,2000.0,mg,600.0,mg,Oral,"Powder, for solution","['approved', 'vet_approved']",False,110-85-0,C1CNCCN1,371.0,g/l
+217,DB00673,Aprepitant,40.0,mg/1,165.0,mg,Oral,Capsule,"['approved', 'investigational']",False,170729-80-3,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,0.0194,g/l
+218,DB00674,Galantamine,4.0,mg,24.0,mg/1,Oral,Tablet,['approved'],False,357-70-0,[H][C@]12C[C@@H](O)C=C[C@]11CCN(C)CC3=C1C(O2)=C(OC)C=C3,1.7,g/l
+219,DB00675,Tamoxifen,10.0,mg,20.0,mg/1,Oral,Tablet,['approved'],False,10540-29-1,CC\C(=C(/C1=CC=CC=C1)C1=CC=C(OCCN(C)C)C=C1)C1=CC=CC=C1,0.00102,g/l
+220,DB00678,Losartan,25.0,mg,100.0,mg,Oral,Tablet,['approved'],False,114798-26-4,CCCCC1=NC(Cl)=C(CO)N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1,0.0047,g/l
+221,DB00679,Thioridazine,2.0,mg,200.0,mg,Oral,Suspension,"['approved', 'withdrawn']",False,50-52-2,CSC1=CC2=C(SC3=CC=CC=C3N2CCC2CCCCN2C)C=C1,0.000855,g/l
+222,DB00682,Warfarin,1.0,mg,10.0,mg/1,Oral,Tablet,['approved'],False,81-81-2,CC(=O)CC(C1=CC=CC=C1)C1=C(O)C2=C(OC1=O)C=CC=C2,0.0472,g/l
+223,DB00686,Pentosan Polysulfate,100.0,mg/1,100.0,mg/1,Oral,"Capsule, gelatin coated",['approved'],False,37300-21-3,O[C@@H]1CO[C@@H](O[C@@H]2CO[C@@H](O)[C@H](OS(O)(=O)=O)[C@H]2OS(O)(=O)=O)[C@H](OS(O)(=O)=O)[C@H]1OS(O)(=O)=O,3.49,g/l
+224,DB00687,Fludrocortisone,0.1,mg,0.1,mg,Oral,Tablet,"['approved', 'investigational']",False,127-31-1,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)CC[C@]12C,0.224,g/l
+225,DB00690,Flurazepam,15.0,mg,30.0,mg,Oral,Capsule,"['approved', 'illicit', 'investigational']",False,17617-23-1,CCN(CC)CCN1C2=C(C=C(Cl)C=C2)C(=NCC1=O)C1=CC=CC=C1F,0.01,g/l
+226,DB00691,Moexipril,7.5,mg/1,15.0,mg/1,Oral,Tablet,['approved'],False,103775-10-6,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N1CC2=CC(OC)=C(OC)C=C2C[C@H]1C(O)=O,0.00585,g/l
+227,DB00697,Tizanidine,2.0,mg/1,6.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,51322-75-9,ClC1=C(NC2=NCCN2)C2=NSN=C2C=C1,0.133,g/l
+228,DB00698,Nitrofurantoin,5.0,mg,100.0,mg,Oral,Suspension,"['approved', 'vet_approved']",False,67-20-9,[O-][N+](=O)C1=CC=C(O1)\C=N\N1CC(=O)NC1=O,0.415,g/l
+230,DB00703,Methazolamide,25.0,mg,50.0,mg,Oral,Tablet,['approved'],False,554-57-4,CN1N=C(SC1=NC(C)=O)S(N)(=O)=O,1.74,g/l
+231,DB00704,Naltrexone,50.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,16590-41-3,[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(CC3CC3)[C@]([H])(C4)[C@]1(O)CCC2=O,3.07,g/l
+232,DB00705,Delavirdine,100.0,mg/1,200.0,mg/1,Oral,Tablet,['approved'],False,136817-59-9,CC(C)NC1=C(N=CC=C1)N1CCN(CC1)C(=O)C1=CC2=C(N1)C=CC(NS(C)(=O)=O)=C2,0.086,g/l
+233,DB00706,Tamsulosin,0.4,mg,0.4,mg,Oral,"Tablet, extended release","['approved', 'investigational']",False,106133-20-4,CCOC1=CC=CC=C1OCCN[C@H](C)CC1=CC(=C(OC)C=C1)S(N)(=O)=O,0.00655,g/l
+234,DB00709,Lamivudine,5.0,mg,300.0,mg,Oral,Solution,"['approved', 'investigational']",False,134678-17-4,NC1=NC(=O)N(C=C1)[C@@H]1CS[C@H](CO)O1,2.76,g/l
+235,DB00711,Diethylcarbamazine,50.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,90-89-1,CCN(CC)C(=O)N1CCN(C)CC1,236.0,g/l
+236,DB00715,Paroxetine,7.5,mg/1,40.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,61869-08-7,FC1=CC=C(C=C1)[C@@H]1CCNC[C@H]1COC1=CC2=C(OCO2)C=C1,0.00853,g/l
+238,DB00718,Adefovir Dipivoxil,10.0,mg/1,10.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,142340-99-6,CC(C)(C)C(=O)OCOP(=O)(COCCN1C=NC2=C(N)N=CN=C12)OCOC(=O)C(C)(C)C,0.633,g/l
+239,DB00719,Azatadine,1.0,mg,1.0,mg,Oral,Tablet,['approved'],False,3964-81-6,CN1CCC(CC1)=C1C2=CC=CC=C2CCC2=C1N=CC=C2,0.113,g/l
+241,DB00730,Thiabendazole,500.0,mg,500.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,148-79-8,N1C2=CC=CC=C2N=C1C1=CSC=N1,0.138,g/l
+242,DB00731,Nateglinide,60.0,mg/1,180.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,105816-04-4,[H][C@](CC1=CC=CC=C1)(N=C(O)[C@@]1([H])CC[C@@]([H])(CC1)C(C)C)C(O)=O,0.00688,g/l
+243,DB00734,Risperidone,0.25,mg/1,50.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,106266-06-2,CC1=C(CCN2CCC(CC2)C2=NOC3=C2C=CC(F)=C3)C(=O)N2CCCCC2=N1,0.171,g/l
+244,DB00736,Esomeprazole,2.5,mg/1,49.3,mg/1,Oral,"Granule, delayed release","['approved', 'investigational']",False,119141-88-7,COC1=CC2=C(NC(=N2)[S@@](=O)CC2=NC=C(C)C(OC)=C2C)C=C1,0.353,g/l
+245,DB00737,Meclizine,12.5,mg/1,50.0,mg/1,Oral,Tablet,['approved'],False,569-65-3,CC1=CC(CN2CCN(CC2)C(C2=CC=CC=C2)C2=CC=C(Cl)C=C2)=CC=C1,0.00103,g/l
+246,DB00740,Riluzole,50.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational']",False,1744-22-5,NC1=NC2=C(S1)C=C(OC(F)(F)F)C=C2,0.0395,g/l
+247,DB00744,Zileuton,600.0,mg/1,600.0,mg/1,Oral,"Tablet, extended release","['approved', 'investigational', 'withdrawn']",False,111406-87-2,CC(N(O)C(N)=O)C1=CC2=CC=CC=C2S1,0.0539,g/l
+248,DB00745,Modafinil,100.0,mg,200.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,68693-11-8,NC(=O)CS(=O)C(C1=CC=CC=C1)C1=CC=CC=C1,0.622,g/l
+249,DB00749,Etodolac,200.0,mg/1,600.0,mg/1,Oral,Capsule,"['approved', 'investigational', 'vet_approved']",False,41340-25-4,CCC1=C2NC3=C(CCOC3(CC)CC(O)=O)C2=CC=C1,0.0392,g/l
+250,DB00752,Tranylcypromine,10.0,mg,10.0,mg,Oral,Tablet,"['approved', 'investigational']",False,155-09-9,NC1CC1C1=CC=CC=C1,1.49,g/l
+251,DB00754,Ethotoin,250.0,mg/1,250.0,mg/1,Oral,Tablet,['approved'],False,86-35-1,CCN1C(=O)NC(C1=O)C1=CC=CC=C1,2.38,g/l
+252,DB00758,Clopidogrel,75.0,mg,300.0,mg/1,Oral,Tablet,['approved'],False,113665-84-2,[H][C@@](N1CCC2=C(C1)C=CS2)(C(=O)OC)C1=CC=CC=C1Cl,0.0118,g/l
+253,DB00763,Methimazole,5.0,mg,20.0,mg,Oral,Tablet,['approved'],False,60-56-0,CN1C=CNC1=S,11.3,g/l
+254,DB00765,Metyrosine,250.0,mg/1,250.0,mg/1,Oral,Capsule,['approved'],False,672-87-7,C[C@](N)(CC1=CC=C(O)C=C1)C(O)=O,2.48,g/l
+255,DB00776,Oxcarbazepine,60.0,mg,600.0,mg/1,Oral,Suspension,['approved'],False,28721-07-5,NC(=O)N1C2=CC=CC=C2CC(=O)C2=CC=CC=C12,0.16,g/l
+256,DB00779,Nalidixic Acid,500.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational']",False,389-08-2,CCN1C=C(C(O)=O)C(=O)C2=C1N=C(C)C=C2,2.3,g/l
+257,DB00780,Phenelzine,15.0,mg/1,15.0,mg/1,Oral,"Tablet, film coated",['approved'],False,51-71-8,NNCCC1=CC=CC=C1,11.1,g/l
+258,DB00782,Propantheline,7.5,mg,15.0,mg,Oral,Tablet,['approved'],False,298-50-0,CC(C)[N+](C)(CCOC(=O)C1C2=CC=CC=C2OC2=CC=CC=C12)C(C)C,7.22e-05,g/l
+259,DB00784,Mefenamic acid,250.0,mg,250.0,mg,Oral,Capsule,['approved'],False,61-68-7,CC1=C(C)C(NC2=CC=CC=C2C(O)=O)=CC=C1,0.0137,g/l
+261,DB00790,Perindopril,2.0,mg/1,10.0,mg,Oral,Tablet,['approved'],False,82834-16-0,[H][C@]12C[C@H](N(C(=O)[C@H](C)N[C@@H](CCC)C(=O)OCC)[C@@]1([H])CCCC2)C(O)=O,1.22,g/l
+262,DB00794,Primidone,50.0,mg/1,250.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,125-33-7,CCC1(C(=O)NCNC1=O)C1=CC=CC=C1,1.04,g/l
+263,DB00796,Candesartan cilexetil,4.0,mg,32.0,mg/1,Oral,Tablet,['approved'],False,145040-37-5,CCOC1=NC2=C(N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NN=NN1)C(=CC=C2)C(=O)OC(C)OC(=O)OC1CCCCC1,0.00204,g/l
+264,DB00804,Dicyclomine,10.0,mg/1,30.0,mg,Oral,Capsule,['approved'],False,77-19-0,CCN(CC)CCOC(=O)C1(CCCCC1)C1CCCCC1,0.00327,g/l
+265,DB00806,Pentoxifylline,400.0,mg,400.0,mg,Oral,"Tablet, extended release","['approved', 'investigational']",False,6493-05-6,CN1C=NC2=C1C(=O)N(CCCCC(C)=O)C(=O)N2C,5.17,g/l
+267,DB00810,Biperiden,2.0,mg,2.0,mg,Oral,Tablet,"['approved', 'investigational']",False,514-65-8,OC(CCN1CCCCC1)(C1CC2CC1C=C2)C1=CC=CC=C1,0.00426,g/l
+268,DB00812,Phenylbutazone,100.0,mg,100.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,50-33-9,CCCCC1C(=O)N(N(C1=O)C1=CC=CC=C1)C1=CC=CC=C1,0.144,g/l
+269,DB00814,Meloxicam,5.0,mg/1,15.0,mg/1,Oral,Capsule,"['approved', 'vet_approved']",False,71125-38-7,CN1C(C(=O)NC2=NC=C(C)S2)=C(O)C2=C(C=CC=C2)S1(=O)=O,0.154,g/l
+270,DB00819,Acetazolamide,125.0,mg/1,500.0,mg/1,Oral,Tablet,"['approved', 'vet_approved']",False,59-66-5,CC(=O)NC1=NN=C(S1)S(N)(=O)=O,2.79,g/l
+271,DB00820,Tadalafil,2.5,mg,20.0,mg,Oral,Tablet,"['approved', 'investigational']",False,171596-29-5,[H][C@]12CC3=C(NC4=CC=CC=C34)[C@H](N1C(=O)CN(C)C2=O)C1=CC2=C(OCO2)C=C1,0.25,g/l
+272,DB00822,Disulfiram,250.0,mg/1,500.0,mg/1,Oral,Tablet,['approved'],False,97-77-8,CCN(CC)C(=S)SSC(=S)N(CC)CC,0.0126,g/l
+273,DB00828,Fosfomycin,3000.0,mg/1,3000.0,mg/1,Oral,Powder,['approved'],False,23155-02-4,C[C@@H]1O[C@@H]1P(O)(O)=O,46.9,g/l
+274,DB00717,Norethisterone,0.35,mg/1,5.0,mg/1,Oral,Tablet,['approved'],False,68-22-4,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@]1([H])[C@@]3([H])CCC(=O)C=C3CC[C@@]21[H],0.00668,g/l
+275,DB00831,Trifluoperazine,1.0,mg/1,23.6,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,117-89-5,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1,0.00876,g/l
+276,DB00833,Cefaclor,25.0,mg,500.0,mg,Oral,"Powder, for solution",['approved'],False,53994-73-3,[H][C@]12SCC(Cl)=C(N1C(=O)[C@H]2NC(=O)[C@H](N)C1=CC=CC=C1)C(O)=O,0.21,g/l
+278,DB00836,Loperamide,0.2,mg,2.0,mg/1,Oral,Solution,['approved'],False,53179-11-6,CN(C)C(=O)C(CCN1CCC(O)(CC1)C1=CC=C(Cl)C=C1)(C1=CC=CC=C1)C1=CC=CC=C1,0.00086,g/l
+279,DB00839,Tolazamide,250.0,mg/1,500.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,1156-19-0,CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN1CCCCCC1,0.308,g/l
+280,DB00842,Oxazepam,10.0,mg,30.0,mg,Oral,Tablet,['approved'],False,604-75-1,OC1N=C(C2=CC=CC=C2)C2=C(NC1=O)C=CC(Cl)=C2,0.0881,g/l
+281,DB00843,Donepezil,5.0,mg,23.0,mg/1,Oral,Tablet,['approved'],False,120014-06-4,COC1=C(OC)C=C2C(=O)C(CC3CCN(CC4=CC=CC=C4)CC3)CC2=C1,0.0045,g/l
+282,DB00848,Levamisole,50.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved', 'withdrawn']",False,14769-73-4,C1CN2C[C@@H](N=C2S1)C1=CC=CC=C1,1.44,g/l
+283,DB00850,Perphenazine,2.0,mg/1,16.0,mg,Oral,"Tablet, film coated",['approved'],False,58-39-9,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,0.0237,g/l
+284,DB00852,Pseudoephedrine,7.5,mg,240.0,mg/1,Oral,Liquid,['approved'],False,90-82-4,CN[C@@H](C)[C@@H](O)C1=CC=CC=C1,8.26,g/l
+285,DB00854,Levorphanol,2.0,mg/1,2.0,mg/1,Oral,Tablet,['approved'],False,77-07-6,[H][C@@]12CCCC[C@@]11CCN(C)[C@@H]2CC2=C1C=C(O)C=C2,0.173,g/l
+286,DB00859,Penicillamine,125.0,mg,250.0,mg,Oral,Capsule,['approved'],False,52-67-5,[H][C@](N)(C(O)=O)C(C)(C)S,4.65,g/l
+288,DB00862,Vardenafil,2.5,mg/1,20.0,mg/1,Oral,"Tablet, film coated",['approved'],False,224785-90-4,CCCC1=NC(C)=C2N1NC(=NC2=O)C1=C(OCC)C=CC(=C1)S(=O)(=O)N1CCN(CC)CC1,0.325,g/l
+289,DB00865,Benzphetamine,25.0,mg/1,50.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,156-08-1,C[C@@H](CC1=CC=CC=C1)N(C)CC1=CC=CC=C1,0.0233,g/l
+290,DB00868,Benzonatate,100.0,mg/1,200.0,mg/1,Oral,"Capsule, liquid filled",['approved'],False,104-31-4,CCCCNC1=CC=C(C=C1)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC,0.00159,g/l
+291,DB00875,Flupentixol,0.5,mg,100.0,mg,Oral,Tablet,"['approved', 'investigational', 'withdrawn']",False,2709-56-0,[H]\C(CCN1CCN(CCO)CC1)=C1/C2=CC=CC=C2SC2=C1C=C(C=C2)C(F)(F)F,0.00399,g/l
+293,DB00877,Sirolimus,0.5,mg,5.0,mg,Oral,"Tablet, coated","['approved', 'investigational']",True,53123-88-9,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)\C=C(C)\[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)\C=C\C=C\C=C(C)\[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,0.00173,g/l
+294,DB00881,Quinapril,5.0,mg/1,40.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,85441-61-8,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N1CC2=CC=CC=C2C[C@H]1C(O)=O,0.0085,g/l
+295,DB00882,Clomifene,50.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational']",False,911-45-5,CCN(CC)CCOC1=CC=C(C=C1)C(=C(Cl)C1=CC=CC=C1)C1=CC=CC=C1,0.000414,g/l
+296,DB00884,Risedronate,5.0,mg,150.0,mg,Oral,Tablet,"['approved', 'investigational']",False,105462-24-6,OC(CC1=CN=CC=C1)(P(O)(O)=O)P(O)(O)=O,10.4,g/l
+297,DB00891,Sulfapyridine,500.0,mg,500.0,mg,Oral,Tablet,['approved'],False,144-83-2,NC1=CC=C(C=C1)S(=O)(=O)NC1=CC=CC=N1,0.235,g/l
+298,DB00897,Triazolam,0.125,mg,0.25,mg/1,Oral,Tablet,"['approved', 'investigational']",False,28911-01-5,CC1=NN=C2CN=C(C3=CC=CC=C3Cl)C3=C(C=CC(Cl)=C3)N12,0.0183,g/l
+299,DB00900,Didanosine,4000.0,mg,400.0,mg/1,Oral,"Powder, for solution",['approved'],False,69655-05-6,OC[C@@H]1CC[C@@H](O1)N1C=NC2=C1NC=NC2=O,6.58,g/l
+300,DB00903,Etacrynic acid,25.0,mg/1,50.0,mg,Oral,Tablet,"['approved', 'investigational']",False,58-54-8,CCC(=C)C(=O)C1=C(Cl)C(Cl)=C(OCC(O)=O)C=C1,0.0194,g/l
+301,DB00906,Tiagabine,2.0,mg/1,16.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,115103-54-3,CC1=C(SC=C1)C(=CCCN1CCC[C@H](C1)C(O)=O)C1=C(C)C=CS1,0.0211,g/l
+302,DB00909,Zonisamide,25.0,mg,300.0,mg,Oral,Capsule,"['approved', 'investigational']",False,68291-97-4,NS(=O)(=O)CC1=NOC2=CC=CC=C12,2.09,g/l
+303,DB00796,Candesartan cilexetil,4.0,mg,32.0,mg/1,Oral,Tablet,['approved'],False,145040-37-5,CCOC1=NC2=C(N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NN=NN1)C(=CC=C2)C(=O)OC(C)OC(=O)OC1CCCCC1,0.00204,g/l
+304,DB00911,Tinidazole,250.0,mg/1,500.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,19387-91-8,CCS(=O)(=O)CCN1C(C)=NC=C1[N+]([O-])=O,3.03,g/l
+305,DB00912,Repaglinide,0.5,mg,2.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,135062-02-1,CCOC1=C(C=CC(CC(=O)N[C@@H](CC(C)C)C2=CC=CC=C2N2CCCCC2)=C1)C(O)=O,0.00294,g/l
+306,DB00915,Amantadine,10.0,mg,137.0,mg/1,Oral,Syrup,['approved'],False,768-94-5,NC12CC3CC(CC(C3)C1)C2,0.0846,g/l
+307,DB00918,Almotriptan,6.25,mg/1,12.5,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,154323-57-6,CN(C)CCC1=CNC2=C1C=C(CS(=O)(=O)N1CCCC1)C=C2,0.121,g/l
+308,DB00924,Cyclobenzaprine,5.0,mg/1,30.0,mg/1,Oral,"Tablet, film coated",['approved'],False,303-53-7,CN(C)CCC=C1C2=CC=CC=C2C=CC2=CC=CC=C12,0.00689,g/l
+309,DB00925,Phenoxybenzamine,10.0,mg/1,10.0,mg/1,Oral,Capsule,['approved'],False,59-96-1,CC(COC1=CC=CC=C1)N(CCCl)CC1=CC=CC=C1,0.0103,g/l
+311,DB00933,Mesoridazine,10.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational']",False,5588-33-0,CN1CCCCC1CCN1C2=CC=CC=C2SC2=C1C=C(C=C2)S(C)=O,0.0767,g/l
+312,DB00934,Maprotiline,10.0,mg,75.0,mg,Oral,Tablet,"['approved', 'investigational']",False,10262-69-8,CNCCCC12CCC(C3=CC=CC=C13)C1=CC=CC=C21,0.00015,g/l
+313,DB00937,Diethylpropion,25.0,mg/1,75.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,90-84-6,CCN(CC)C(C)C(=O)C1=CC=CC=C1,1.22,g/l
+314,DB00939,Meclofenamic acid,50.0,mg/1,100.0,mg/1,Oral,Capsule,"['approved', 'vet_approved']",False,644-62-2,CC1=C(Cl)C(NC2=CC=CC=C2C(O)=O)=C(Cl)C=C1,0.00366,g/l
+315,DB00943,Zalcitabine,0.375,mg,0.75,mg,Oral,Tablet,"['approved', 'investigational']",False,7481-89-2,NC1=NC(=O)N(C=C1)[C@H]1CC[C@@H](CO)O1,7.05,g/l
+316,DB00945,Acetylsalicylic acid,80.0,mg,975.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,50-78-2,CC(=O)OC1=CC=CC=C1C(O)=O,1.46,g/l
+317,DB00949,Felbamate,400.0,mg/1,600.0,mg/1,Oral,Tablet,['approved'],False,25451-15-4,NC(=O)OCC(COC(N)=O)C1=CC=CC=C1,0.742,g/l
+318,DB00951,Isoniazid,10.0,mg,500000.0,mg,Oral,Syrup,"['approved', 'investigational']",False,54-85-3,NNC(=O)C1=CC=NC=C1,34.9,g/l
+320,DB00953,Rizatriptan,5.0,mg/1,10.0,mg,Oral,Tablet,['approved'],False,144034-80-0,CN(C)CCC1=CNC2=C1C=C(CN1C=NC=N1)C=C2,0.338,g/l
+321,DB00956,Hydrocodone,1.0,mg,120.0,mg/1,Oral,Syrup,"['approved', 'illicit']",False,125-29-1,[H][C@@]12OC3=C(OC)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])CCC2=O,0.797,g/l
+322,DB00960,Pindolol,5.0,mg,15.0,mg,Oral,Tablet,"['approved', 'investigational']",False,13523-86-9,CC(C)NCC(O)COC1=CC=CC2=C1C=CN2,0.861,g/l
+323,DB00962,Zaleplon,5.0,mg/1,10.0,mg/1,Oral,Capsule,"['approved', 'illicit', 'investigational']",False,151319-34-5,CCN(C(C)=O)C1=CC=CC(=C1)C1=CC=NC2=C(C=NN12)C#N,0.0403,g/l
+324,DB00966,Telmisartan,20.0,mg,80.0,mg,Oral,Tablet,"['approved', 'investigational']",False,144701-48-4,CCCC1=NC2=C(C=C(C=C2C)C2=NC3=CC=CC=C3N2C)N1CC1=CC=C(C=C1)C1=CC=CC=C1C(O)=O,0.0035,g/l
+325,DB00967,Desloratadine,0.5,mg,5.0,mg,Oral,Syrup,"['approved', 'investigational']",False,100643-71-8,ClC1=CC2=C(C=C1)C(=C1CCNCC1)C1=C(CC2)C=CC=N1,0.00395,g/l
+326,DB00969,Alosetron,0.5,mg/1,1.0,mg/1,Oral,Tablet,"['approved', 'withdrawn']",False,122852-42-0,CN1C2=C(C3=CC=CC=C13)C(=O)N(CC1=C(C)NC=N1)CC2,0.438,g/l
+327,DB00973,Ezetimibe,10.0,mg,10.0,mg,Oral,Tablet,['approved'],False,163222-33-1,O[C@@H](CC[C@@H]1[C@H](N(C1=O)C1=CC=C(F)C=C1)C1=CC=C(O)C=C1)C1=CC=C(F)C=C1,0.00846,g/l
+328,DB00976,Telithromycin,300.0,mg/1,400.0,mg,Oral,"Tablet, film coated",['approved'],False,191114-48-4,[H][C@@]12[C@@H](C)C(=O)[C@H](C)C[C@@](C)(OC)[C@H](O[C@@H]3O[C@H](C)C[C@@H]([C@H]3O)N(C)C)[C@@H](C)C(=O)[C@@H](C)C(=O)O[C@H](CC)[C@@]1(C)OC(=O)N2CCCCN1C=NC(=C1)C1=CC=CN=C1,0.0283,g/l
+329,DB00977,Ethinyl Estradiol,0.02,mg,0.5,mg,Oral,Tablet,['approved'],False,57-63-6,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3,0.00677,g/l
+330,DB00980,Ramelteon,8.0,mg/1,8.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,196597-26-9,CCC(=O)NCC[C@@H]1CCC2=C1C1=C(OCC1)C=C2,0.0164,g/l
+332,DB00989,Rivastigmine,1.5,mg,18.0,mg,Oral,Capsule,"['approved', 'investigational']",False,123441-03-2,CCN(C)C(=O)OC1=CC=CC(=C1)[C@H](C)N(C)C,2.04,g/l
+333,DB00990,Exemestane,25.0,mg,25.0,mg,Oral,Tablet,"['approved', 'investigational']",False,107868-30-4,[H][C@@]12CCC(=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC(=C)C2=CC(=O)C=C[C@]12C,0.00683,g/l
+335,DB00995,Auranofin,3.0,mg/1,3.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,34031-32-8,CCP(CC)(CC)=[Au]S[C@@H]1O[C@H](COC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@H]1OC(C)=O,0.151,g/l
+336,DB00996,Gabapentin,100.0,mg,800.0,mg,Oral,Capsule,"['approved', 'investigational']",False,60142-96-3,NCC1(CC(O)=O)CCCCC1,4.34,g/l
+337,DB00998,Frovatriptan,2.5,mg,2.5,mg,Oral,Tablet,"['approved', 'investigational']",False,158747-02-5,CN[C@@H]1CCC2=C(C1)C1=C(N2)C=CC(=C1)C(N)=O,0.123,g/l
+339,DB01005,Hydroxyurea,100.0,mg,1000.0,mg,Oral,"Tablet, film coated",['approved'],False,127-07-1,NC(=O)NO,269.0,g/l
+340,DB01006,Letrozole,2.5,mg,2.5,mg,Oral,Tablet,"['approved', 'investigational']",False,112809-51-5,N#CC1=CC=C(C=C1)C(N1C=NC=N1)C1=CC=C(C=C1)C#N,0.0799,g/l
+341,DB01008,Busulfan,2.0,mg/1,60.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,55-98-1,CS(=O)(=O)OCCCCOS(C)(=O)=O,5.16,g/l
+342,DB01011,Metyrapone,250.0,mg/1,250.0,mg/1,Oral,"Capsule, gelatin coated","['approved', 'investigational']",False,54-36-4,CC(C)(C(=O)C1=CN=CC=C1)C1=CN=CC=C1,0.427,g/l
+343,DB01012,Cinacalcet,30.0,mg,90.0,mg,Oral,Tablet,['approved'],False,226256-56-0,C[C@@H](NCCCC1=CC(=CC=C1)C(F)(F)F)C1=CC=CC2=CC=CC=C12,5.59e-05,g/l
+344,DB01014,Balsalazide,1100.0,mg/1,750.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,80573-04-2,OC(=O)CCNC(=O)C1=CC=C(C=C1)\N=N\C1=CC=C(O)C(=C1)C(O)=O,0.0621,g/l
+345,DB01015,Sulfamethoxazole,500.0,mg,800.0,mg/1,Oral,Tablet,['approved'],False,723-46-6,CC1=CC(NS(=O)(=O)C2=CC=C(N)C=C2)=NO1,0.459,g/l
+346,DB01016,Glyburide,1.25,mg/1,6.0,mg/1,Oral,Tablet,['approved'],False,10238-21-8,COC1=C(C=C(Cl)C=C1)C(=O)NCCC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1,0.00206,g/l
+347,DB01017,Minocycline,1.0,mg/1,135.0,mg/1,Oral,Powder,"['approved', 'investigational']",False,10118-90-8,[H][C@@]12CC3=C(C(O)=CC=C3N(C)C)C(=O)C1=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@]1([H])C2,3.07,g/l
+348,DB01018,Guanfacine,1.0,mg/1,4.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,29110-47-2,NC(=N)NC(=O)CC1=C(Cl)C=CC=C1Cl,0.139,g/l
+349,DB01019,Bethanechol,5.0,mg/1,50.0,mg,Oral,Tablet,['approved'],False,674-38-4,CC(C[N+](C)(C)C)OC(N)=O,0.311,g/l
+350,DB01020,Isosorbide Mononitrate,10.0,mg/1,120.0,mg/1,Oral,Tablet,['approved'],False,16051-77-7,[H][C@]12OC[C@@H](O[N+]([O-])=O)[C@@]1([H])OC[C@@H]2O,57.0,g/l
+351,DB01023,Felodipine,2.5,mg,10.0,mg/1,Oral,"Tablet, extended release","['approved', 'investigational']",False,72509-76-3,CCOC(=O)C1=C(C)NC(C)=C(C1C1=C(Cl)C(Cl)=CC=C1)C(=O)OC,0.00715,g/l
+352,DB01024,Mycophenolic acid,180.0,mg,360.0,mg/1,Oral,"Tablet, delayed release",['approved'],False,24280-93-1,COC1=C(C\C=C(/C)CCC(O)=O)C(O)=C2C(=O)OCC2=C1C,0.0355,g/l
+353,DB01029,Irbesartan,75.0,mg,300.0,mg,Oral,Tablet,"['approved', 'investigational']",False,138402-11-6,CCCCC1=NC2(CCCC2)C(=O)N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1,0.00884,g/l
+354,DB01030,Topotecan,0.25,mg,4.0,mg,Oral,Capsule,"['approved', 'investigational']",False,123948-87-8,CC[C@@]1(O)C(=O)OCC2=C1C=C1N(CC3=CC4=C(C=CC(O)=C4CN(C)C)N=C13)C2=O,0.861,g/l
+355,DB01032,Probenecid,500.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational']",False,57-66-9,CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(O)=O,0.425,g/l
+357,DB00933,Mesoridazine,10.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational']",False,5588-33-0,CN1CCCCC1CCN1C2=CC=CC=C2SC2=C1C=C(C=C2)S(C)=O,0.0767,g/l
+358,DB01039,Fenofibrate,30.0,mg/1,200.0,mg/1,Oral,Capsule,['approved'],False,49562-28-9,CC(C)OC(=O)C(C)(C)OC1=CC=C(C=C1)C(=O)C1=CC=C(Cl)C=C1,0.000707,g/l
+359,DB01041,Thalidomide,50.0,mg,200.0,mg,Oral,Capsule,"['approved', 'investigational', 'withdrawn']",False,50-35-1,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,2.55,g/l
+360,DB00939,Meclofenamic acid,50.0,mg/1,100.0,mg/1,Oral,Capsule,"['approved', 'vet_approved']",False,644-62-2,CC1=C(Cl)C(NC2=CC=CC=C2C(O)=O)=C(Cl)C=C1,0.00366,g/l
+361,DB00943,Zalcitabine,0.375,mg,0.75,mg,Oral,Tablet,"['approved', 'investigational']",False,7481-89-2,NC1=NC(=O)N(C=C1)[C@H]1CC[C@@H](CO)O1,7.05,g/l
+362,DB01046,Lubiprostone,0.008,mg/1,0.024,mg/1,Oral,"Capsule, gelatin coated","['approved', 'investigational']",False,136790-76-6,[H][C@@]12CC(=O)[C@H](CCCCCCC(O)=O)[C@@]1([H])CC[C@@](O)(O2)C(F)(F)CCCC,0.0256,g/l
+363,DB01056,Tocainide,400.0,mg,400.0,mg,Oral,Tablet,['approved'],False,41708-72-9,CC(N)C(=O)NC1=C(C)C=CC=C1C,1.6,g/l
+365,DB01060,Amoxicillin,25.0,mg,875.0,mg/1,Oral,Suspension,"['approved', 'vet_approved']",False,26787-78-0,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)[C@H](N)C1=CC=C(O)C=C1)C(O)=O,0.958,g/l
+366,DB00952,Naratriptan,1.0,mg/1,2.5,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,121679-13-8,CNS(=O)(=O)CCC1=CC2=C(NC=C2C2CCN(C)CC2)C=C1,0.114,g/l
+367,DB01065,Melatonin,2.0,mg,2.0,mg,Oral,"Tablet, extended release","['approved', 'nutraceutical', 'vet_approved']",False,73-31-4,COC1=CC2=C(NC=C2CCNC(C)=O)C=C1,0.143,g/l
+368,DB01066,Cefditoren,200.0,mg/1,400.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,104145-95-1,[H][C@]12SCC(\C=C/C3=C(C)N=CS3)=C(N1C(=O)[C@H]2NC(=O)C(=N/OC)\C1=CSC(N)=N1)C(O)=O,0.0441,g/l
+369,DB01067,Glipizide,2.5,mg/1,10.0,mg/1,Oral,"Tablet, film coated, extended release","['approved', 'investigational']",False,29094-61-9,CC1=CN=C(C=N1)C(=O)NCCC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1,0.0164,g/l
+370,DB01068,Clonazepam,0.125,mg/1,2.0,mg/1,Oral,"Tablet, orally disintegrating","['approved', 'illicit']",False,1622-61-3,[O-][N+](=O)C1=CC2=C(NC(=O)CN=C2C2=CC=CC=C2Cl)C=C1,0.0106,g/l
+371,DB01070,Dihydrotachysterol,0.125,mg,0.125,mg,Oral,Capsule,['approved'],False,67-96-9,CC(C)[C@@H](C)\C=C\[C@@H](C)[C@@]1([H])CC[C@@]2([H])\C(CCC[C@]12C)=C\C=C1/C[C@@H](O)CC[C@@H]1C,0.000125,g/l
+372,DB01072,Atazanavir,50.0,mg/1,300.0,mg,Oral,Powder,"['approved', 'investigational']",False,198904-31-3,COC(=O)N[C@H](C(=O)N[C@@H](CC1=CC=CC=C1)[C@@H](O)CN(CC1=CC=C(C=C1)C1=CC=CC=N1)NC(=O)[C@@H](NC(=O)OC)C(C)(C)C)C(C)(C)C,0.00327,g/l
+373,DB01073,Fludarabine,10.0,mg,50.0,mg,Oral,Tablet,['approved'],False,21679-14-1,NC1=NC(F)=NC2=C1N=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@@H]1O,12.1,g/l
+374,DB01076,Atorvastatin,10.0,mg,80.0,mg,Oral,Tablet,['approved'],False,134523-00-5,CC(C)C1=C(C(=O)NC2=CC=CC=C2)C(=C(N1CC[C@@H](O)C[C@@H](O)CC(O)=O)C1=CC=C(F)C=C1)C1=CC=CC=C1,0.00063,g/l
+375,DB01080,Vigabatrin,1000.0,mg,500.0,mg,Oral,Powder,['approved'],False,68506-86-5,NC(CCC(O)=O)C=C,96.6,g/l
+376,DB01083,Orlistat,27.0,mg,120.0,mg/1,Oral,"Tablet, chewable","['approved', 'investigational']",False,96829-58-2,CCCCCCCCCCC[C@@H](C[C@@H]1OC(=O)[C@H]1CCCCCC)OC(=O)[C@H](CC(C)C)NC=O,9.19e-05,g/l
+377,DB01087,Primaquine,15.0,mg/1,26.3,mg,Oral,"Tablet, film coated",['approved'],False,90-34-6,COC1=CC(NC(C)CCCN)=C2N=CC=CC2=C1,0.0564,g/l
+378,DB01095,Fluvastatin,20.0,mg/1,80.0,mg/1,Oral,Capsule,['approved'],False,93957-54-1,CC(C)N1C(\C=C\[C@H](O)C[C@H](O)CC(O)=O)=C(C2=CC=C(F)C=C2)C2=CC=CC=C12,0.00441,g/l
+379,DB01097,Leflunomide,10.0,mg,100.0,mg,Oral,Tablet,"['approved', 'investigational']",False,75706-12-6,CC1=C(C=NO1)C(=O)NC1=CC=C(C=C1)C(F)(F)F,0.0844,g/l
+380,DB01098,Rosuvastatin,5.0,mg,40.0,mg,Oral,Tablet,['approved'],False,287714-41-4,CC(C)C1=NC(=NC(C2=CC=C(F)C=C2)=C1\C=C\[C@@H](O)C[C@@H](O)CC(=O)O)N(C)S(C)(=O)=O,0.0886,g/l
+381,DB01099,Flucytosine,250.0,mg/1,500.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,2022-85-7,NC1=C(F)C=NC(=O)N1,1.92,g/l
+383,DB01101,Capecitabine,150.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational']",False,154361-50-9,CCCCCOC(=O)NC1=NC(=O)N(C=C1F)[C@@H]1O[C@H](C)[C@@H](O)[C@H]1O,0.248,g/l
+384,DB01105,Sibutramine,10.0,mg,15.0,mg,Oral,Capsule,"['approved', 'illicit', 'investigational', 'withdrawn']",False,106650-56-0,CC(C)CC(N(C)C)C1(CCC1)C1=CC=C(Cl)C=C1,0.00094,g/l
+385,DB01114,Chlorphenamine,1.25,mg/1,12.0,mg,Oral,Capsule,['approved'],False,132-22-9,CN(C)CCC(C1=CC=C(Cl)C=C1)C1=CC=CC=N1,0.0519,g/l
+386,DB01115,Nifedipine,5.0,mg,90.0,mg/1,Oral,Capsule,['approved'],False,21829-25-4,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC=C1[N+]([O-])=O)C(=O)OC,0.0177,g/l
+387,DB01117,Atovaquone,250.0,mg,750.0,mg,Oral,Tablet,['approved'],False,95233-18-4,OC1=C([C@H]2CC[C@@H](CC2)C2=CC=C(Cl)C=C2)C(=O)C2=CC=CC=C2C1=O,0.000796,g/l
+388,DB01120,Gliclazide,30.0,mg,80.0,mg,Oral,"Tablet, extended release",['approved'],False,21187-98-4,CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN1CC2CCCC2C1,0.19,g/l
+389,DB01124,Tolbutamide,1000.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational']",False,64-77-7,CCCCNC(=O)NS(=O)(=O)C1=CC=C(C)C=C1,0.202,g/l
+390,DB01126,Dutasteride,0.5,mg,0.5,mg,Oral,Capsule,"['approved', 'investigational']",False,164656-23-9,[H][C@@]1(CC[C@@]2([H])[C@]3([H])CC[C@@]4([H])NC(=O)C=C[C@]4(C)[C@@]3([H])CC[C@]12C)C(=O)NC1=CC(=CC=C1C(F)(F)F)C(F)(F)F,0.000908,g/l
+391,DB01128,Bicalutamide,50.0,mg,50.0,mg,Oral,Tablet,['approved'],False,90357-06-5,CC(O)(CS(=O)(=O)C1=CC=C(F)C=C1)C(=O)NC1=CC(=C(C=C1)C#N)C(F)(F)F,0.00928,g/l
+392,DB01129,Rabeprazole,5.0,mg/1,20.0,mg/1,Oral,"Capsule, delayed release","['approved', 'investigational']",False,117976-89-3,COCCCOC1=C(C)C(CS(=O)C2=NC3=CC=CC=C3N2)=NC=C1,0.336,g/l
+393,DB01131,Proguanil,100.0,mg,100.0,mg,Oral,Tablet,['approved'],False,500-92-5,CC(C)\N=C(/N)N=C(N)NC1=CC=C(Cl)C=C1,0.286,g/l
+394,DB01132,Pioglitazone,15.0,mg,45.0,mg,Oral,Tablet,"['approved', 'investigational']",False,111025-46-8,CCC1=CN=C(CCOC2=CC=C(CC3SC(=O)NC3=O)C=C2)C=C1,0.00442,g/l
+395,DB01136,Carvedilol,3.125,mg,80.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,72956-09-3,COC1=CC=CC=C1OCCNCC(O)COC1=CC=CC2=C1C1=CC=CC=C1N2,0.00444,g/l
+396,DB01138,Sulfinpyrazone,100.0,mg,200.0,mg,Oral,Tablet,['approved'],False,57-96-5,O=C1C(CCS(=O)C2=CC=CC=C2)C(=O)N(N1C1=CC=CC=C1)C1=CC=CC=C1,0.323,g/l
+397,DB01140,Cefadroxil,1000.0,mg/1,1000.0,mg/1,Oral,"Tablet, film coated","['approved', 'vet_approved', 'withdrawn']",False,50370-12-2,[H][C@]12SCC(C)=C(N1C(=O)[C@H]2NC(=O)[C@H](N)C1=CC=C(O)C=C1)C(O)=O,0.399,g/l
+398,DB01142,Doxepin,3.0,mg/1,150.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,1668-19-5,[H]C(CCN(C)C)=C1C2=CC=CC=C2COC2=CC=CC=C12,0.0319,g/l
+399,DB01144,Diclofenamide,50.0,mg/1,50.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,120-97-8,NS(=O)(=O)C1=CC(=C(Cl)C(Cl)=C1)S(N)(=O)=O,0.398,g/l
+400,DB01148,Flavoxate,100.0,mg/1,200.0,mg,Oral,Tablet,['approved'],False,15301-69-6,CC1=C(OC2=C(C=CC=C2C(=O)OCCN2CCCCC2)C1=O)C1=CC=CC=C1,0.0154,g/l
+402,DB01151,Desipramine,10.0,mg,150.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,50-47-5,CNCCCN1C2=CC=CC=C2CCC2=CC=CC=C12,0.0396,g/l
+403,DB01155,Gemifloxacin,320.0,mg,320.0,mg,Oral,Tablet,"['approved', 'investigational']",False,175463-14-6,CO\N=C1/CN(CC1CN)C1=NC2=C(C=C1F)C(=O)C(=CN2C1CC1)C(O)=O,0.21,g/l
+404,DB01156,Bupropion,75.0,mg/1,522.0,mg/1,Oral,"Tablet, film coated",['approved'],False,34911-55-2,CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1,0.0693,g/l
+406,DB01166,Cilostazol,50.0,mg/1,100.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,73963-72-1,O=C1CCC2=C(N1)C=CC(OCCCCC1=NN=NN1C1CCCCC1)=C2,0.0324,g/l
+407,DB01167,Itraconazole,10.0,mg,200.0,mg/1,Oral,Solution,"['approved', 'investigational']",False,84625-61-6,CCC(C)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@H]2CO[C@@](CN3C=NC=N3)(O2)C2=C(Cl)C=C(Cl)C=C2)C=C1,0.00964,g/l
+408,DB01168,Procarbazine,50.0,mg,50.0,mg,Oral,Capsule,"['approved', 'investigational']",False,671-16-9,CNNCC1=CC=C(C=C1)C(=O)NC(C)C,0.228,g/l
+409,DB01170,Guanethidine,10.0,mg,25.0,mg,Oral,Tablet,['approved'],False,55-65-2,NC(N)=NCCN1CCCCCCC1,2.25,g/l
+410,DB01171,Moclobemide,100.0,mg,300.0,mg,Oral,Tablet,"['approved', 'investigational']",False,71320-77-9,ClC1=CC=C(C=C1)C(=O)NCCN1CCOCC1,1.12,g/l
+412,DB01182,Propafenone,150.0,mg,425.0,mg/1,Oral,Tablet,['approved'],False,54063-53-5,CCCNCC(O)COC1=CC=CC=C1C(=O)CCC1=CC=CC=C1,0.00758,g/l
+413,DB01184,Domperidone,10.0,mg,10.0,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,57808-66-9,ClC1=CC2=C(C=C1)N(C1CCN(CCCN3C(=O)NC4=CC=CC=C34)CC1)C(=O)N2,0.0925,g/l
+416,DB01193,Acebutolol,100.0,mg,400.0,mg,Oral,Tablet,"['approved', 'investigational']",False,37517-30-9,CCCC(=O)NC1=CC(C(C)=O)=C(OCC(O)CNC(C)C)C=C1,0.172,g/l
+417,DB01195,Flecainide,50.0,mg,150.0,mg/1,Oral,Tablet,"['approved', 'withdrawn']",False,54143-55-4,FC(F)(F)COC1=CC(C(=O)NCC2CCCCN2)=C(OCC(F)(F)F)C=C1,0.0324,g/l
+418,DB01196,Estramustine,140.0,mg,140.0,mg,Oral,Capsule,"['approved', 'investigational']",False,2998-57-4,[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC=C(OC(=O)N(CCCl)CCCl)C=C3CC[C@@]21[H],0.000385,g/l
+419,DB01197,Captopril,6.25,mg,100.0,mg,Oral,Tablet,['approved'],False,62571-86-2,C[C@H](CS)C(=O)N1CCC[C@H]1C(O)=O,4.52,g/l
+420,DB01198,Zopiclone,3.75,mg,7.5,mg,Oral,Tablet,['approved'],False,43200-80-2,CN1CCN(CC1)C(=O)OC1N(C(=O)C2=NC=CN=C12)C1=NC=C(Cl)C=C1,0.885,g/l
+421,DB01200,Bromocriptine,0.8,mg/1,5.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,25614-03-3,[H][C@@]12CCCN1C(=O)[C@H](CC(C)C)N1C(=O)[C@](NC(=O)[C@H]3CN(C)[C@]4([H])CC5=C(Br)NC6=CC=CC(=C56)C4=C3)(O[C@@]21O)C(C)C,0.0858,g/l
+422,DB01201,Rifapentine,150.0,mg/1,150.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,61379-65-5,CO[C@H]1\C=C\O[C@@]2(C)OC3=C(C2=O)C2=C(C(O)=C3C)C(O)=C(NC(=O)\C(C)=C/C=C/[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C(\C=N\N1CCN(CC1)C1CCCC1)=C2O,0.0213,g/l
+423,DB01203,Nadolol,20.0,mg/1,160.0,mg,Oral,Tablet,['approved'],False,42200-33-9,CC(C)(C)NCC(O)COC1=CC=CC2=C1C[C@H](O)[C@H](O)C2,2.25,g/l
+424,DB01206,Lomustine,5.0,mg/1,100.0,mg,Oral,"Capsule, gelatin coated","['approved', 'investigational']",False,13010-47-4,ClCCN(N=O)C(=O)NC1CCCCC1,0.755,g/l
+425,DB01215,Estazolam,1.0,mg/1,2.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,29975-16-4,ClC1=CC2=C(C=C1)N1C=NN=C1CN=C2C1=CC=CC=C1,0.0423,g/l
+426,DB01216,Finasteride,1.0,mg/1,5.0,mg,Oral,"Tablet, coated",['approved'],False,98319-26-7,[H][C@@]12CC[C@H](C(=O)NC(C)(C)C)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC[C@@]2([H])NC(=O)C=C[C@]12C,0.00198,g/l
+427,DB01217,Anastrozole,1.0,mg,1.0,mg,Oral,Tablet,"['approved', 'investigational']",False,120511-73-1,CC(C)(C#N)C1=CC(=CC(CN2C=NC=N2)=C1)C(C)(C)C#N,0.0661,g/l
+428,DB01218,Halofantrine,250.0,mg,250.0,mg,Oral,Tablet,['approved'],False,69756-53-2,CCCCN(CCCC)CCC(O)C1=C2C=CC(=CC2=C2C=C(Cl)C=C(Cl)C2=C1)C(F)(F)F,0.000111,g/l
+429,DB01220,Rifaximin,200.0,mg/1,550.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,80621-81-4,CO[C@H]1\C=C\O[C@@]2(C)OC3=C(C)C(O)=C4C(O)=C(NC(=O)\C(C)=C/C=C/[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C1=C(N=C5C=C(C)C=CN15)C4=C3C2=O,0.00738,g/l
+430,DB01224,Quetiapine,25.0,mg,400.0,mg/1,Oral,"Tablet, multilayer, extended release",['approved'],False,111974-69-7,OCCOCCN1CCN(CC1)C1=NC2=CC=CC=C2SC2=CC=CC=C12,0.0403,g/l
+431,DB01232,Saquinavir,200.0,mg,500.0,mg,Oral,Capsule,"['approved', 'investigational']",False,127779-20-8,[H][C@@](O)(CN1C[C@@]2([H])CCCC[C@@]2([H])C[C@@]1([H])C(O)=NC(C)(C)C)[C@]([H])(CC1=CC=CC=C1)N=C(O)[C@]([H])(CC(O)=N)NC(=O)C1=NC2=CC=CC=C2C=C1,0.00765,g/l
+432,DB01233,Metoclopramide,1.0,mg,10.0,mg,Oral,Syrup,"['approved', 'investigational']",False,364-62-5,CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC,0.31,g/l
+433,DB01235,Levodopa,25.0,mg/1,25.0,mg/1,Oral,Tablet,['approved'],False,59-92-7,N[C@@H](CC1=CC(O)=C(O)C=C1)C(O)=O,3.3,g/l
+434,DB01241,Gemfibrozil,300.0,mg,600.0,mg,Oral,Capsule,['approved'],False,25812-30-0,CC1=CC(OCCCC(C)(C)C(O)=O)=C(C)C=C1,0.0278,g/l
+435,DB01242,Clomipramine,10.0,mg,75.0,mg/1,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,303-49-1,CN(C)CCCN1C2=CC=CC=C2CCC2=C1C=C(Cl)C=C2,0.0144,g/l
+436,DB01246,Alimemazine,2.5,mg,5.0,mg,Oral,Liquid,"['approved', 'vet_approved']",False,84-96-8,CC(CN(C)C)CN1C2=CC=CC=C2SC2=CC=CC=C12,0.00835,g/l
+438,DB01250,Olsalazine,250.0,mg/1,250.0,mg/1,Oral,"Capsule, gelatin coated",['approved'],False,15722-48-2,OC(=O)C1=CC(=CC=C1O)\N=N\C1=CC=C(O)C(=C1)C(O)=O,0.0781,g/l
+439,DB01253,Ergonovine,0.2,mg,0.25,mg,Oral,Tablet,['approved'],False,60-79-7,[H][C@@]12CC3=CNC4=CC=CC(=C34)C1=C[C@H](CN2C)C(=O)N[C@@H](C)CO,0.321,g/l
+440,DB01254,Dasatinib,20.0,mg,140.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",True,302962-49-8,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,0.0128,g/l
+441,DB01255,Lisdexamfetamine,10.0,mg,70.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,608137-32-2,C[C@@H](CC1=CC=CC=C1)NC(=O)[C@@H](N)CCCCN,0.0877,g/l
+442,DB01259,Lapatinib,250.0,mg/1,250.0,mg/1,Oral,Tablet,"['approved', 'investigational']",True,231277-92-2,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=CC=C2)C=C1,0.0223,g/l
+443,DB01261,Sitagliptin,25.0,mg,100.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,486460-32-6,N[C@@H](CC(=O)N1CCN2C(C1)=NN=C2C(F)(F)F)CC1=CC(F)=C(F)C=C1F,0.034,g/l
+444,DB01264,Darunavir,75.0,mg,800.0,mg,Oral,Tablet,['approved'],False,206361-99-1,[H][C@@]12CCO[C@]1([H])OC[C@@H]2OC(=O)N[C@@H](CC1=CC=CC=C1)[C@H](O)CN(CC(C)C)S(=O)(=O)C1=CC=C(N)C=C1,0.0668,g/l
+445,DB01128,Bicalutamide,50.0,mg,50.0,mg,Oral,Tablet,['approved'],False,90357-06-5,CC(O)(CS(=O)(=O)C1=CC=C(F)C=C1)C(=O)NC1=CC(=C(C=C1)C#N)C(F)(F)F,0.00928,g/l
+446,DB01268,Sunitinib,12.5,mg/1,50.0,mg/1,Oral,Capsule,"['approved', 'investigational']",True,557795-19-4,CCN(CC)CCNC(=O)C1=C(C)NC(\C=C2/C(=O)NC3=C2C=C(F)C=C3)=C1C,0.0308,g/l
+447,DB01273,Varenicline,0.5,mg,1.0,mg,Oral,Tablet,"['approved', 'investigational']",False,249296-44-4,[H][C@]12C[C@]([H])(CNC1)C1=CC3=NC=CN=C3C=C21,0.0877,g/l
+448,DB01275,Hydralazine,10.0,mg,100.0,mg/1,Oral,Tablet,['approved'],False,86-54-4,NNC1=NN=CC2=CC=CC=C12,2.61,g/l
+449,DB01303,Oxtriphylline,10.0,mg,600.0,mg,Oral,Syrup,['approved'],False,4499-40-5,C[N+](C)(C)CCO.CN1C2=C([N-]C=N2)C(=O)N(C)C1=O,3.84,g/l
+450,DB01340,Cilazapril,1.0,mg,5.0,mg,Oral,Tablet,['approved'],False,88768-40-5,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@H]1CCCN2CCC[C@H](N2C1=O)C(O)=O,1.06,g/l
+451,DB01345,Potassium,1193.0,mg,975.0,mg,Oral,Powder,"['approved', 'investigational']",False,7440-09-7,[K],,
+452,DB01362,Iohexol,4500.0,mg/1,755.0,mg,Oral,For solution,['approved'],False,66108-95-0,CC(=O)N(CC(O)CO)C1=C(I)C(C(=O)NCC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I,0.796,g/l
+453,DB01144,Diclofenamide,50.0,mg/1,50.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,120-97-8,NS(=O)(=O)C1=CC(=C(Cl)C(Cl)=C1)S(N)(=O)=O,0.398,g/l
+454,DB01367,Rasagiline,0.5,mg,1.0,mg,Oral,Tablet,['approved'],False,136236-51-6,C#CCN[C@@H]1CCC2=CC=CC=C12,0.0249,g/l
+455,DB01377,Magnesium oxide,1750.0,mg,420.0,mg/1,Oral,Liquid,['approved'],False,1309-48-4,O=[Mg],,
+457,DB01380,Cortisone acetate,5.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational']",False,50-04-4,[H][C@@]12CC[C@](O)(C(=O)COC(C)=O)[C@@]1(C)CC(=O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C,0.0278,g/l
+458,DB01392,Yohimbine,2.0,mg,6.0,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,146-48-5,[H][C@@]12CC[C@H](O)[C@H](C(=O)OC)[C@@]1([H])C[C@]1([H])N(CCC3=C1NC1=CC=CC=C31)C2,0.348,g/l
+459,DB01393,Bezafibrate,200.0,mg,400.0,mg,Oral,Tablet,"['approved', 'investigational']",False,41859-67-0,CC(C)(OC1=CC=C(CCNC(=O)C2=CC=C(Cl)C=C2)C=C1)C(O)=O,0.00155,g/l
+460,DB01394,Colchicine,0.6,mg/1,1.0,mg,Oral,"Tablet, film coated",['approved'],False,64-86-8,COC1=CC2=C(C(OC)=C1OC)C1=CC=C(OC)C(=O)C=C1C(CC2)NC(C)=O,0.0276,g/l
+461,DB01396,Digitoxin,0.1,mg,0.1,mg,Oral,Tablet,"['approved', 'investigational']",False,71-63-6,[H][C@]12CC[C@]3([H])[C@]([H])(CC[C@]4(C)[C@H](CC[C@]34O)C3=CC(=O)OC3)[C@@]1(C)CC[C@@H](C2)O[C@H]1C[C@H](O)[C@H](O[C@H]2C[C@H](O)[C@H](O[C@H]3C[C@H](O)[C@H](O)[C@@H](C)O3)[C@@H](C)O2)[C@@H](C)O1,0.0289,g/l
+462,DB01397,Magnesium salicylate,325.0,mg,650.0,mg,Oral,Tablet,['approved'],False,18917-89-0,[Mg++].OC1=CC=CC=C1C([O-])=O.OC1=CC=CC=C1C([O-])=O,0.0686,g/l
+463,DB01399,Salsalate,500.0,mg/1,750.0,mg/1,Oral,Tablet,['approved'],False,552-94-3,OC(=O)C1=CC=CC=C1OC(=O)C1=CC=CC=C1O,0.246,g/l
+464,DB01403,Methotrimeprazine,2.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational']",False,60-99-1,COC1=CC2=C(SC3=C(C=CC=C3)N2C[C@H](C)CN(C)C)C=C1,0.00525,g/l
+465,DB01406,Danazol,50.0,mg,200.0,mg,Oral,Capsule,['approved'],False,17230-88-5,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2=CC3=C(C[C@]12C)C=NO3,0.0176,g/l
+466,DB01418,Acenocoumarol,1.0,mg,4.0,mg,Oral,Tablet,"['approved', 'investigational']",False,152-72-7,CC(=O)CC(C1=CC=C(C=C1)[N+]([O-])=O)C1=C(O)C2=CC=CC=C2OC1=O,0.0106,g/l
+469,DB01438,Phenazopyridine,95.0,mg/1,200.0,mg/1,Oral,Tablet,['approved'],False,94-78-0,NC1=NC(N)=C(C=C1)\N=N\C1=CC=CC=C1,0.202,g/l
+470,DB01558,Bromazepam,1.5,mg,6.0,mg,Oral,Tablet,"['approved', 'illicit', 'investigational']",False,1812-30-2,BrC1=CC2=C(NC(=O)CN=C2C2=CC=CC=N2)C=C1,0.0399,g/l
+471,DB01563,Chloral hydrate,100.0,mg,500.0,mg,Oral,Syrup,"['approved', 'illicit', 'investigational', 'vet_approved']",False,302-17-0,OC(O)C(Cl)(Cl)Cl,43.4,g/l
+472,DB01574,Attapulgite,300.0,mg,750.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,12174-11-7,[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[Mg++].[Al+3].[Si+4].[Si+4].[Si+4].[Si+4].[O-][H].[H]O[H].[H]O[H].[H]O[H].[H]O[H],,
+473,DB01576,Dextroamphetamine,2.5,mg/1,30.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,51-64-9,C[C@H](N)CC1=CC=CC=C1,1.74,g/l
+474,DB01577,Methamphetamine,5.0,mg/1,5.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,537-46-2,CN[C@@H](C)CC1=CC=CC=C1,0.928,g/l
+475,DB01579,Phendimetrazine,35.0,mg/1,105.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,634-03-7,C[C@H]1[C@@H](OCCN1C)C1=CC=CC=C1,2.43,g/l
+476,DB01580,Oxprenolol,20.0,mg,160.0,mg,Oral,Tablet,['approved'],False,6452-71-7,CC(C)NCC(O)COC1=CC=CC=C1OCC=C,0.68,g/l
+477,DB01586,Ursodeoxycholic acid,250.0,mg/1,500.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,128-13-2,[H][C@@]1(CC[C@@]2([H])[C@]3([H])[C@@H](O)C[C@]4([H])C[C@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CCC(O)=O,0.0197,g/l
+478,DB01587,Ketazolam,30.0,mg,30.0,mg,Oral,Capsule,['approved'],False,27223-35-4,CN1C2=C(C=C(Cl)C=C2)C2(OC(C)=CC(=O)N2CC1=O)C1=CC=CC=C1,0.0839,g/l
+479,DB01589,Quazepam,15.0,mg/1,15.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,36735-22-5,FC1=CC=CC=C1C1=NCC(=S)N(CC(F)(F)F)C2=C1C=C(Cl)C=C2,0.00231,g/l
+480,DB01590,Everolimus,0.25,mg/1,10.0,mg,Oral,Tablet,['approved'],True,159351-69-6,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)\C=C(C)\[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)\C=C\C=C\C=C(C)\[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](OCCO)[C@@H](C1)OC,0.00163,g/l
+481,DB01591,Solifenacin,5.0,mg,10.0,mg,Oral,Tablet,['approved'],False,242478-37-1,O=C(O[C@H]1CN2CCC1CC2)N1CCC2=CC=CC=C2[C@@H]1C1=CC=CC=C1,0.0729,g/l
+483,DB01595,Nitrazepam,5.0,mg,10.0,mg,Oral,Tablet,['approved'],False,146-22-5,[O-][N+](=O)C1=CC2=C(NC(=O)CN=C2C2=CC=CC=C2)C=C1,0.0299,g/l
+484,DB01599,Probucol,250.0,mg,250.0,mg,Oral,Tablet,"['approved', 'investigational']",False,23288-49-5,CC(C)(SC1=CC(=C(O)C(=C1)C(C)(C)C)C(C)(C)C)SC1=CC(=C(O)C(=C1)C(C)(C)C)C(C)(C)C,4.18e-05,g/l
+485,DB01600,Tiaprofenic acid,200.0,mg,300.0,mg,Oral,Tablet,['approved'],False,33005-95-7,CC(C(O)=O)C1=CC=C(S1)C(=O)C1=CC=CC=C1,0.0324,g/l
+486,DB01602,Bacampicillin,400.0,mg,800.0,mg,Oral,Tablet,"['approved', 'investigational']",False,50972-17-3,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)[C@H](N)C1=CC=CC=C1)C(=O)OC(C)OC(=O)OCC,0.123,g/l
+487,DB01604,Pivampicillin,175.0,mg,500.0,mg,Oral,"Powder, for solution",['approved'],False,33817-20-8,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)[C@H](N)C1=CC=CC=C1)C(=O)OCOC(=O)C(C)(C)C,0.0354,g/l
+488,DB01605,Pivmecillinam,185.0,mg,400.0,mg,Oral,Tablet,['approved'],False,32886-97-8,[H]C(=N[C@@H]1C(=O)N2[C@@H](C(=O)OCOC(=O)C(C)(C)C)C(C)(C)S[C@]12[H])N1CCCCCC1,0.0526,g/l
+489,DB01608,Propericiazine,5.0,mg,20.0,mg,Oral,Capsule,"['approved', 'investigational']",False,2622-26-6,OC1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C#N)CC1,0.059,g/l
+490,DB01609,Deferasirox,90.0,mg,500.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,201530-41-8,OC(=O)C1=CC=C(C=C1)N1N=C(N=C1C1=CC=CC=C1O)C1=CC=CC=C1O,0.0343,g/l
+491,DB01611,Hydroxychloroquine,200.0,mg,200.0,mg,Oral,Tablet,['approved'],False,118-42-3,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,0.0261,g/l
+493,DB01622,Thioproperazine,10.0,mg,10.0,mg,Oral,Tablet,['approved'],False,316-81-4,CN(C)S(=O)(=O)C1=CC2=C(SC3=CC=CC=C3N2CCCN2CCN(C)CC2)C=C1,0.0569,g/l
+494,DB01623,Thiothixene,1.0,mg/1,10.0,mg/1,Oral,Capsule,['approved'],False,3313-26-6,CN(C)S(=O)(=O)C1=CC2=C(SC3=CC=CC=C3\C2=C\CCN2CCN(C)CC2)C=C1,0.0139,g/l
+495,DB01624,Zuclopenthixol,10.0,mg,500.0,mg,Oral,Tablet,"['approved', 'investigational']",False,53772-83-1,OCCN1CCN(CC\C=C2\C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,0.0026,g/l
+496,DB01656,Roflumilast,0.25,mg/1,0.5,mg/1,Oral,Tablet,['approved'],False,162401-32-3,FC(F)OC1=C(OCC2CC2)C=C(C=C1)C(=O)NC1=C(Cl)C=NC=C1Cl,0.0062,g/l
+497,DB01783,Pantothenic acid,1000.0,mg,500.0,mg,Oral,Tablet,"['approved', 'nutraceutical', 'vet_approved']",False,79-83-4,CC(C)(CO)C(O)C(=O)NCCC(O)=O,60.5,g/l
+498,DB02546,Vorinostat,100.0,mg,100.0,mg,Oral,Capsule,"['approved', 'investigational']",False,149647-78-9,ONC(=O)CCCCCCC(=O)NC1=CC=CC=C1,0.0716,g/l
+499,DB02659,Cholic Acid,50.0,mg/1,250.0,mg/1,Oral,Capsule,['approved'],False,81-25-4,[H][C@@](C)(CCC(O)=O)[C@@]1([H])CC[C@@]2([H])[C@]3([H])[C@]([H])(O)C[C@]4([H])C[C@]([H])(O)CC[C@]4(C)[C@@]3([H])C[C@]([H])(O)[C@]12C,0.0738,g/l
+500,DB03585,Oxyphenbutazone,100.0,mg,100.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,129-20-4,CCCCC1C(=O)N(N(C1=O)C1=CC=C(O)C=C1)C1=CC=CC=C1,0.256,g/l
+501,DB01259,Lapatinib,250.0,mg/1,250.0,mg/1,Oral,Tablet,"['approved', 'investigational']",True,231277-92-2,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=CC=C2)C=C1,0.0223,g/l
+502,DB04465,Lactose,50000.0,mg,50000.0,mg,Oral,Powder,"['approved', 'investigational']",False,63-42-3,OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)C(O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@H]1O,586.0,g/l
+503,DB04571,Trioxsalen,5.0,mg,5.0,mg,Oral,Tablet,['approved'],False,3902-71-4,CC1=CC2=CC3=C(OC(=O)C=C3C)C(C)=C2O1,0.0627,g/l
+505,DB04824,Phenolphthalein,60.0,mg,100.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,77-09-8,OC1=CC=C(C=C1)C1(OC(=O)C2=CC=CC=C12)C1=CC=C(O)C=C1,0.00992,g/l
+506,DB04837,Clofedanol,25.0,mg,25.0,mg,Oral,Syrup,"['approved', 'withdrawn']",False,791-35-5,CN(C)CCC(O)(C1=CC=CC=C1)C1=CC=CC=C1Cl,0.0621,g/l
+507,DB04838,Cyclandelate,200.0,mg,200.0,mg,Oral,Tablet,['approved'],False,456-59-7,CC1CC(CC(C)(C)C1)OC(=O)C(O)C1=CC=CC=C1,0.0997,g/l
+508,DB04839,Cyproterone acetate,50.0,mg,100.0,mg,Oral,Tablet,"['approved', 'investigational']",False,427-51-0,[H][C@@]12C[C@]1([H])[C@@]1(C)C(=CC2=O)C(Cl)=C[C@@]2([H])[C@]3([H])CC[C@](OC(C)=O)(C(C)=O)[C@@]3(C)CC[C@]12[H],0.00152,g/l
+510,DB04843,Mepenzolate,25.0,mg/1,25.0,mg/1,Oral,Tablet,['approved'],False,25990-43-6,C[N+]1(C)CCCC(C1)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,0.000627,g/l
+512,DB04854,Febuxostat,40.0,mg/1,120.0,mg,Oral,Tablet,['approved'],False,144060-53-7,CC(C)COC1=C(C=C(C=C1)C1=NC(C)=C(S1)C(O)=O)C#N,0.0183,g/l
+513,DB04855,Dronedarone,400.0,mg/1,400.0,mg/1,Oral,"Tablet, film coated",['approved'],False,141626-36-0,CCCCN(CCCC)CCCOC1=CC=C(C=C1)C(=O)C1=C(CCCC)OC2=C1C=C(NS(C)(=O)=O)C=C2,0.00201,g/l
+515,DB04868,Nilotinib,50.0,mg/1,200.0,mg/1,Oral,Capsule,"['approved', 'investigational']",True,641571-10-0,CC1=CN(C=N1)C1=CC(=CC(NC(=O)C2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)=C1)C(F)(F)F,0.00201,g/l
+516,DB04871,Lorcaserin,10.0,mg/1,20.0,mg/1,Oral,Tablet,['approved'],False,616202-92-7,C[C@H]1CNCCC2=CC=C(Cl)C=C12,0.0709,g/l
+517,DB04876,Vildagliptin,50.0,mg,50.0,mg,Oral,Tablet,"['approved', 'investigational']",False,274901-16-5,OC12CC3CC(C1)CC(C3)(C2)NCC(=O)N1CCC[C@H]1C#N,1.75,g/l
+519,DB04908,Flibanserin,100.0,mg,100.0,mg,Oral,Tablet,"['approved', 'investigational']",False,167933-07-5,FC(F)(F)C1=CC(=CC=C1)N1CCN(CCN2C(=O)NC3=CC=CC=C23)CC1,0.178,g/l
+520,DB04938,Ospemifene,60.0,mg/1,60.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,128607-22-7,OCCOC1=CC=C(C=C1)C(=C(\CCCl)C1=CC=CC=C1)\C1=CC=CC=C1,0.000526,g/l
+521,DB04946,Iloperidone,1.0,mg/1,12.0,mg/1,Oral,Tablet,['approved'],False,133454-47-4,COC1=C(OCCCN2CCC(CC2)C2=NOC3=C2C=CC(F)=C3)C=CC(=C1)C(C)=O,0.0304,g/l
+522,DB04951,Pirfenidone,267.0,mg,801.0,mg,Oral,Capsule,"['approved', 'investigational']",False,53179-13-8,CC1=CN(C(=O)C=C1)C1=CC=CC=C1,2.89,g/l
+523,DB04953,Ezogabine,50.0,mg/1,400.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,150812-12-7,CCOC(=O)NC1=C(N)C=C(NCC2=CC=C(F)C=C2)C=C1,0.0307,g/l
+524,DB05016,Ataluren,125.0,mg,1000.0,mg,Oral,Granule,"['approved', 'investigational']",False,775304-57-9,OC(=O)C1=CC=CC(=C1)C1=NOC(=N1)C1=CC=CC=C1F,0.117,g/l
+525,DB05018,Migalastat,123.0,mg,123.0,mg,Oral,Capsule,"['approved', 'investigational']",False,,[H][C@]1(O)CN[C@]([H])(CO)[C@]([H])(O)[C@]1([H])O,511.0,g/l
+526,DB05239,Cobimetinib,20.0,mg,20.0,mg,Oral,Tablet,"['approved', 'investigational']",True,934660-93-2,OC1(CN(C1)C(=O)C1=C(NC2=C(F)C=C(I)C=C2)C(F)=C(F)C=C1)[C@@H]1CCCCN1,0.0422,g/l
+527,DB05246,Methsuximide,300.0,mg/1,300.0,mg/1,Oral,Capsule,['approved'],False,77-41-8,CN1C(=O)CC(C)(C1=O)C1=CC=CC=C1,2.13,g/l
+529,DB05316,Pimavanserin,17.0,mg/1,17.0,mg/1,Oral,"Tablet, coated","['approved', 'investigational']",False,706779-91-1,CC(C)COC1=CC=C(CNC(=O)N(CC2=CC=C(F)C=C2)C2CCN(C)CC2)C=C1,0.00748,g/l
+530,DB05382,Iodine,0.09,mg,350.0,mg,Oral,Tablet,"['approved', 'investigational']",False,7553-56-2,II,,
+533,DB05676,Apremilast,30.0,mg/1,30.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,608141-41-9,[H][C@](CS(C)(=O)=O)(N1C(=O)C2=C(C1=O)C(=CC=C2)N=C(C)O)C1=CC(OCC)=C(OC)C=C1,0.0503,g/l
+534,DB05812,Abiraterone,250.0,mg/1,500.0,mg/1,Oral,Tablet,['approved'],False,154229-19-3,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC=C2C[C@@H](O)CC[C@]12C,0.00305,g/l
+535,DB05990,Obeticholic acid,5.0,mg/1,10.0,mg/1,Oral,"Tablet, film coated",['approved'],False,459789-99-2,[H][C@@](C)(CCC(O)=O)[C@@]1([H])CC[C@@]2([H])[C@]3([H])[C@]([H])(O)[C@]([H])(CC)[C@]4([H])C[C@]([H])(O)CC[C@]4(C)[C@@]3([H])CC[C@]12C,0.011,g/l
+536,DB06016,Cariprazine,1.5,mg/1,6.0,mg/1,Oral,"Capsule, gelatin coated","['approved', 'investigational']",False,839712-12-8,CN(C)C(=O)N[C@H]1CC[C@H](CCN2CCN(CC2)C2=C(Cl)C(Cl)=CC=C2)CC1,0.0279,g/l
+537,DB06151,Acetylcysteine,2500.0,mg/1,500.0,mg/1,Oral,"Tablet, effervescent","['approved', 'investigational']",False,616-91-1,CC(=O)N[C@@H](CS)C(O)=O,5.09,g/l
+538,DB06152,Nylidrin,6.0,mg,12.0,mg,Oral,Tablet,['approved'],False,447-41-6,CC(CCC1=CC=CC=C1)NC(C)C(O)C1=CC=C(O)C=C1,0.0204,g/l
+539,DB06153,Pizotifen,0.5,mg,1.0,mg,Oral,Tablet,['approved'],False,15574-96-6,CN1CCC(CC1)=C1C2=C(CCC3=CC=CC=C13)SC=C2,0.00706,g/l
+540,DB06154,Pentaerythritol Tetranitrate,10.0,mg,80.0,mg,Oral,Tablet,['approved'],False,78-11-5,[O-][N+](=O)OCC(CO[N+]([O-])=O)(CO[N+]([O-])=O)CO[N+]([O-])=O,0.133,g/l
+541,DB06155,Rimonabant,20.0,mg,20.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,168273-06-1,CC1=C(N(N=C1C(=O)NN1CCCCC1)C1=C(Cl)C=C(Cl)C=C1)C1=CC=C(Cl)C=C1,0.002,g/l
+542,DB06203,Alogliptin,6.25,mg/1,25.0,mg/1,Oral,"Tablet, film coated",['approved'],False,850649-61-5,CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O,0.58,g/l
+543,DB06207,Silodosin,4.0,mg,8.0,mg/1,Oral,Capsule,['approved'],False,160970-54-7,C[C@H](CC1=CC2=C(N(CCCO)CC2)C(=C1)C(N)=O)NCCOC1=CC=CC=C1OCC(F)(F)F,0.0111,g/l
+544,DB06209,Prasugrel,5.0,mg,10.0,mg/1,Oral,"Tablet, film coated",['approved'],False,150322-43-3,CC(=O)OC1=CC2=C(CCN(C2)C(C(=O)C2CC2)C2=CC=CC=C2F)S1,0.00237,g/l
+545,DB06210,Eltrombopag,12.5,mg/1,100.0,mg/1,Oral,"Tablet, film coated",['approved'],False,496775-61-2,CC1=NN(C(=O)\C1=N/NC1=C(O)C(=CC=C1)C1=CC=CC(=C1)C(O)=O)C1=CC=C(C)C(C)=C1,0.0103,g/l
+546,DB06212,Tolvaptan,15.0,mg/1,60.0,mg,Oral,Tablet,['approved'],False,150683-30-0,CC1=CC=CC=C1C(=O)NC1=CC(C)=C(C=C1)C(=O)N1CCC[C@@H](O)C2=C1C=CC(Cl)=C2,0.00124,g/l
+547,DB06228,Rivaroxaban,2.5,mg,20.0,mg,Oral,"Tablet, film coated",['approved'],False,366789-02-8,ClC1=CC=C(S1)C(=O)NC[C@H]1CN(C(=O)O1)C1=CC=C(C=C1)N1CCOCC1=O,0.01,g/l
+548,DB06230,Nalmefene,18.0,mg,18.0,mg,Oral,"Tablet, film coated","['approved', 'investigational', 'withdrawn']",False,55096-26-9,[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(CC3CC3)[C@]([H])(C4)[C@]1(O)CCC2=C,0.839,g/l
+549,DB06237,Avanafil,50.0,mg,200.0,mg,Oral,Tablet,['approved'],False,330784-47-9,COC1=C(Cl)C=C(CNC2=C(C=NC(=N2)N2CCC[C@H]2CO)C(=O)NCC2=NC=CC=N2)C=C1,0.0297,g/l
+550,DB06262,Droxidopa,100.0,mg/1,300.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,23651-95-8,N[C@@H]([C@H](O)C1=CC(O)=C(O)C=C1)C(O)=O,15.3,g/l
+551,DB06268,Sitaxentan,100.0,mg,100.0,mg,Oral,Tablet,"['approved', 'investigational', 'withdrawn']",False,184036-34-8,CC1=NOC(NS(=O)(=O)C2=C(SC=C2)C(=O)CC2=CC3=C(OCO3)C=C2C)=C1Cl,0.0181,g/l
+552,DB06274,Alvimopan,12.0,mg/1,12.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,156053-89-3,C[C@H]1CN(C[C@H](CC2=CC=CC=C2)C(=O)NCC(O)=O)CC[C@@]1(C)C1=CC(O)=CC=C1,0.00834,g/l
+553,DB06290,Simeprevir,150.0,mg,150.0,mg,Oral,Capsule,['approved'],False,923604-59-5,[H]\C1=C([H])\[C@]2([H])C[C@]2(N=C(O)[C@]2([H])C[C@]([H])(C[C@@]2([H])C(=O)N(C)CCCC1)OC1=C2C=CC(OC)=C(C)C2=NC(=C1)C1=NC(=CS1)C(C)C)C(O)=NS(=O)(=O)C1CC1,0.00458,g/l
+554,DB06292,Dapagliflozin,5.0,mg,10.0,mg/1,Oral,"Tablet, film coated",['approved'],False,461432-26-8,CCOC1=CC=C(CC2=C(Cl)C=CC(=C2)[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C=C1,0.173,g/l
+555,DB06335,Saxagliptin,2.5,mg/1,5.0,mg/1,Oral,"Tablet, film coated",['approved'],False,361442-04-8,N[C@H](C(=O)N1[C@H]2C[C@H]2C[C@H]1C#N)C12CC3CC(CC(O)(C3)C1)C2,2.26,g/l
+556,DB06403,Ambrisentan,5.0,mg/1,10.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,177036-94-1,COC([C@H](OC1=NC(C)=CC(C)=N1)C(O)=O)(C1=CC=CC=C1)C1=CC=CC=C1,0.05,g/l
+557,DB01609,Deferasirox,90.0,mg,500.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,201530-41-8,OC(=O)C1=CC=C(C=C1)N1N=C(N=C1C1=CC=CC=C1O)C1=CC=CC=C1O,0.0343,g/l
+559,DB06413,Armodafinil,50.0,mg/1,250.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,112111-43-0,NC(=O)C[S@@](=O)C(C1=CC=CC=C1)C1=CC=CC=C1,0.622,g/l
+560,DB06414,Etravirine,25.0,mg,200.0,mg,Oral,Tablet,['approved'],False,269055-15-4,CC1=CC(=CC(C)=C1OC1=C(Br)C(N)=NC(NC2=CC=C(C=C2)C#N)=N1)C#N,0.0169,g/l
+561,DB06480,Prucalopride,1.0,mg,2.0,mg,Oral,Tablet,['approved'],False,179474-81-8,COCCCN1CCC(CC1)NC(=O)C1=C2OCCC2=C(N)C(Cl)=C1,0.129,g/l
+562,DB06589,Pazopanib,200.0,mg,400.0,mg,Oral,Tablet,['approved'],True,444731-52-6,CN(C1=CC2=NN(C)C(C)=C2C=C1)C1=CC=NC(NC2=CC=C(C)C(=C2)S(N)(=O)=O)=N1,0.0433,g/l
+563,DB06595,Midostaurin,25.0,mg,25.0,mg,Oral,Capsule,"['approved', 'investigational']",True,120685-11-2,CO[C@@H]1[C@@H](C[C@H]2O[C@]1(C)N1C3=C(C=CC=C3)C3=C1C1=C(C4=C(C=CC=C4)N21)C1=C3CNC1=O)N(C)C(=O)C1=CC=CC=C1,0.0157,g/l
+564,DB06603,Panobinostat,10.0,mg,20.0,mg,Oral,Capsule,"['approved', 'investigational']",False,404950-80-7,[H]\C(=C(\[H])C1=CC=C(CNCCC2=C(C)NC3=CC=CC=C23)C=C1)C(O)=NO,0.000834,g/l
+565,DB06605,Apixaban,2.5,mg,5.0,mg,Oral,Tablet,['approved'],False,503612-47-3,COC1=CC=C(C=C1)N1N=C(C(N)=O)C2=C1C(=O)N(CC2)C1=CC=C(C=C1)N1CCCCC1=O,0.0679,g/l
+566,DB06616,Bosutinib,100.0,mg,500.0,mg,Oral,Tablet,['approved'],True,380843-75-4,COC1=CC(NC2=C(C=NC3=CC(OCCCN4CCN(C)CC4)=C(OC)C=C23)C#N)=C(Cl)C=C1Cl,0.0095,g/l
+567,DB06626,Axitinib,1.0,mg,7.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",True,319460-85-0,[H]\C(=C(\[H])C1=CC=CC=N1)C1=C2C=CC(SC3=CC=CC=C3C(O)=NC)=CC2=NN1,0.000511,g/l
+568,DB06637,Dalfampridine,10.0,mg/1,10.0,mg/1,Oral,"Tablet, film coated, extended release",['approved'],False,504-24-5,NC1=CC=NC=C1,6.73,g/l
+569,DB06654,Safinamide,50.0,mg/1,100.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,133865-89-1,C[C@H](NCC1=CC=C(OCC2=CC(F)=CC=C2)C=C1)C(N)=O,0.00989,g/l
+571,DB06695,Dabigatran etexilate,75.0,mg,150.0,mg,Oral,Capsule,['approved'],False,211915-06-9,CCCCCCOC(=O)N=C(N)C1=CC=C(NCC2=NC3=C(C=CC(=C3)C(=O)N(CCC(=O)OCC)C3=CC=CC=N3)N2C)C=C1,0.00466,g/l
+572,DB06698,Betahistine,4.0,mg,24.0,mg,Oral,Tablet,"['approved', 'investigational']",False,5638-76-6,CNCCC1=CC=CC=N1,49.3,g/l
+573,DB06700,Desvenlafaxine,25.0,mg/1,100.0,mg/1,Oral,"Tablet, extended release","['approved', 'investigational']",False,93413-62-8,CN(C)CC(C1=CC=C(O)C=C1)C1(O)CCCCC1,1.4,g/l
+574,DB06701,Dexmethylphenidate,2.5,mg/1,40.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,40431-64-9,COC(=O)[C@@H]([C@H]1CCCCN1)C1=CC=CC=C1,0.182,g/l
+576,DB06710,Methyltestosterone,10.0,mg/1,25.0,mg,Oral,Capsule,['approved'],False,58-18-4,[H][C@@]12CC[C@](C)(O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C,0.0139,g/l
+577,DB04838,Cyclandelate,200.0,mg,200.0,mg,Oral,Tablet,['approved'],False,456-59-7,CC1CC(CC(C)(C)C1)OC(=O)C(O)C1=CC=CC=C1,0.0997,g/l
+578,DB06775,Carglumic Acid,200.0,mg,200.0,mg,Oral,"Tablet, for suspension",['approved'],False,1188-38-1,NC(=O)N[C@@H](CCC(O)=O)C(O)=O,19.1,g/l
+579,DB06777,Chenodeoxycholic acid,250.0,mg/1,250.0,mg/1,Oral,"Tablet, film coated",['approved'],False,474-25-9,[H][C@@]1(CC[C@@]2([H])[C@]3([H])[C@H](O)C[C@]4([H])C[C@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CCC(O)=O,0.0197,g/l
+580,DB06783,Prussian blue,500.0,mg/1,500.0,mg/1,Oral,Capsule,['approved'],False,14038-43-8,[Fe+3].[Fe+3].[Fe+3].[Fe+3].N#C[Fe-4](C#N)(C#N)(C#N)(C#N)C#N.N#C[Fe-4](C#N)(C#N)(C#N)(C#N)C#N.N#C[Fe-4](C#N)(C#N)(C#N)(C#N)C#N,,
+581,DB06792,Lanthanum carbonate,250.0,mg,1000.0,mg,Oral,"Tablet, chewable",['approved'],False,587-26-8,[La+3].[La+3].[O-]C([O-])=O.[O-]C([O-])=O.[O-]C([O-])=O,31.0,g/l
+582,DB06799,Methenamine,1000.0,mg,1000.0,mg/1,Oral,Tablet,"['approved', 'vet_approved']",False,100-97-0,C1N2CN3CN1CN(C2)C3,766.0,g/l
+583,DB06816,Pyrvinium,50.0,mg,50.0,mg,Oral,Suspension,['approved'],False,7187-62-4,CN(C)C1=CC2=C(C=C1)[N+](C)=C(\C=C\C1=C(C)N(C(C)=C1)C1=CC=CC=C1)C=C2,0.000288,g/l
+584,DB06817,Raltegravir,25.0,mg/1,600.0,mg,Oral,"Tablet, chewable",['approved'],False,518048-05-0,CN1C(=O)C(O)=C(N=C1C(C)(C)NC(=O)C1=NN=C(C)O1)C(=O)NCC1=CC=C(F)C=C1,,
+585,DB06823,Tiopronin,100.0,mg/1,100.0,mg/1,Oral,"Tablet, sugar coated","['approved', 'investigational']",False,1953-02-2,CC(S)C(O)=NCC(O)=O,2.71,g/l
+586,DB06824,Triethylenetetramine,250.0,mg/1,250.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,112-24-3,NCCNCCNCCN,27.5,g/l
+587,DB08815,Lurasidone,20.0,mg,120.0,mg,Oral,Tablet,"['approved', 'investigational']",False,367514-87-2,O=C1[C@H]2[C@@H]3CC[C@@H](C3)[C@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(CC1)C1=NSC2=CC=CC=C12,0.00789,g/l
+588,DB08816,Ticagrelor,60.0,mg/1,90.0,mg,Oral,Tablet,['approved'],False,274693-27-5,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,0.063,g/l
+589,DB08820,Ivacaftor,50.0,mg,150.0,mg,Oral,Granule,['approved'],False,873054-44-5,CC(C)(C)C1=CC(=C(O)C=C1NC(=O)C1=CNC2=CC=CC=C2C1=O)C(C)(C)C,0.002,g/l
+590,DB08822,Azilsartan medoxomil,40.0,mg/1,80.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,863031-21-4,CCOC1=NC2=C(N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NOC(=O)N1)C(=CC=C2)C(=O)OCC1=C(C)OC(=O)O1,0.00703,g/l
+591,DB08827,Lomitapide,5.0,mg,60.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,182431-12-5,FC(F)(F)CNC(=O)C1(CCCCN2CCC(CC2)NC(=O)C2=C(C=CC=C2)C2=CC=C(C=C2)C(F)(F)F)C2=CC=CC=C2C2=CC=CC=C12,,
+592,DB08828,Vismodegib,150.0,mg/1,150.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,879085-55-9,CS(=O)(=O)C1=CC(Cl)=C(C=C1)C(=O)NC1=CC=C(Cl)C(=C1)C1=CC=CC=N1,0.00173,g/l
+593,DB08860,Pitavastatin,1.0,mg/1,4.18,mg/1,Oral,"Tablet, film coated",['approved'],False,147511-69-1,O[C@H](C[C@H](O)\C=C\C1=C(N=C2C=CC=CC2=C1C1=CC=C(F)C=C1)C1CC1)CC(O)=O,0.00394,g/l
+594,DB08864,Rilpivirine,25.0,mg,25.0,mg,Oral,Tablet,['approved'],False,500287-72-9,CC1=CC(\C=C\C#N)=CC(C)=C1NC1=CC=NC(NC2=CC=C(C=C2)C#N)=N1,0.0116,g/l
+595,DB08865,Crizotinib,200.0,mg/1,250.0,mg/1,Oral,Capsule,['approved'],True,877399-52-5,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,0.00611,g/l
+596,DB08867,Ulipristal,5.0,mg,30.0,mg,Oral,Tablet,['approved'],False,159811-51-5,CN(C)C1=CC=C(C=C1)[C@H]1C[C@@]2(C)[C@@H](CC[C@]2(O)C(C)=O)[C@@H]2CCC3=CC(=O)CCC3=C12,0.00943,g/l
+597,DB08868,Fingolimod,0.5,mg,0.5,mg,Oral,Capsule,"['approved', 'investigational']",False,162359-55-9,CCCCCCCCC1=CC=C(CCC(N)(CO)CO)C=C1,0.0069,g/l
+598,DB08872,Gabapentin Enacarbil,300.0,mg/1,600.0,mg/1,Oral,"Tablet, extended release","['approved', 'investigational']",False,478296-72-9,CC(C)C(=O)OC(C)OC(=O)NCC1(CC(O)=O)CCCCC1,0.325,g/l
+599,DB08873,Boceprevir,200.0,mg,200.0,mg,Oral,Capsule,"['approved', 'withdrawn']",False,394730-60-0,[H][C@]12CN([C@H](C(=O)NC(CC3CCC3)C(=O)C(N)=O)[C@@]1([H])C2(C)C)C(=O)[C@@H](NC(=O)NC(C)(C)C)C(C)(C)C,0.0234,g/l
+600,DB08874,Fidaxomicin,200.0,mg/1,200.0,mg/1,Oral,"Tablet, film coated",['approved'],False,873857-62-6,CC[C@H]1\C=C(C)\[C@@H](O)C\C=C\C=C(CO[C@@H]2O[C@H](C)[C@@H](OC(=O)C3=C(CC)C(Cl)=C(O)C(Cl)=C3O)[C@H](O)[C@@H]2OC)\C(=O)OC(C\C=C(/C)\C=C(C)\[C@@H]1O[C@@H]1OC(C)(C)[C@@H](OC(=O)C(C)C)[C@H](O)[C@@H]1O)[C@@H](C)O,0.0125,g/l
+601,DB08875,Cabozantinib,20.0,mg/1,60.0,mg/1,Oral,Tablet,"['approved', 'investigational']",True,849217-68-1,COC1=CC2=C(C=C1OC)C(OC1=CC=C(NC(=O)C3(CC3)C(=O)NC3=CC=C(F)C=C3)C=C1)=CC=N2,0.00199,g/l
+602,DB08877,Ruxolitinib,5.0,mg/1,25.0,mg/1,Oral,Tablet,['approved'],True,941678-49-5,N#CC[C@H](C1CCCC1)N1C=C(C=N1)C1=C2C=CNC2=NC=N1,0.116,g/l
+603,DB08880,Teriflunomide,7.0,mg/1,14.0,mg,Oral,"Tablet, film coated",['approved'],False,163451-81-8,C\C(O)=C(/C#N)C(=O)NC1=CC=C(C=C1)C(F)(F)F,0.0124,g/l
+604,DB08881,Vemurafenib,240.0,mg,240.0,mg,Oral,"Tablet, film coated",['approved'],True,918504-65-1,CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1,0.000362,g/l
+605,DB08882,Linagliptin,5.0,mg/1,5.0,mg/1,Oral,"Tablet, film coated",['approved'],False,668270-12-0,CC#CCN1C(=NC2=C1C(=O)N(CC1=NC3=C(C=CC=C3)C(C)=N1)C(=O)N2C)N1CCC[C@@H](N)C1,0.0502,g/l
+606,DB08883,Perampanel,0.5,mg,12.0,mg/1,Oral,Suspension,['approved'],False,380917-97-5,O=C1N(C=C(C=C1C1=CC=CC=C1C#N)C1=NC=CC=C1)C1=CC=CC=C1,0.0056,g/l
+608,DB06151,Acetylcysteine,2500.0,mg/1,500.0,mg/1,Oral,"Tablet, effervescent","['approved', 'investigational']",False,616-91-1,CC(=O)N[C@@H](CS)C(O)=O,5.09,g/l
+609,DB08893,Mirabegron,25.0,mg,50.0,mg,Oral,"Tablet, extended release",['approved'],False,223673-61-8,NC1=NC(CC(=O)NC2=CC=C(CCNC[C@H](O)C3=CC=CC=C3)C=C2)=CS1,0.00412,g/l
+610,DB08895,Tofacitinib,5.0,mg/1,11.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",True,477600-75-2,[H][C@@]1(C)CCN(C[C@]1([H])N(C)C1=NC=NC2=C1C=CN2)C(=O)CC#N,0.299,g/l
+611,DB08896,Regorafenib,40.0,mg,40.0,mg,Oral,"Tablet, film coated",['approved'],True,755037-03-7,CNC(=O)C1=CC(OC2=CC(F)=C(NC(=O)NC3=CC=C(Cl)C(=C3)C(F)(F)F)C=C2)=CC=N1,0.00102,g/l
+612,DB08899,Enzalutamide,40.0,mg,40.0,mg,Oral,Capsule,['approved'],False,915087-33-1,CNC(=O)C1=C(F)C=C(C=C1)N1C(=S)N(C(=O)C1(C)C)C1=CC=C(C#N)C(=C1)C(F)(F)F,0.00136,g/l
+615,DB08907,Canagliflozin,100.0,mg/1,300.0,mg/1,Oral,"Tablet, film coated",['approved'],False,842133-18-0,[H][C@]1(O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C1=CC=C(C)C(CC2=CC=C(S2)C2=CC=C(F)C=C2)=C1,0.0045,g/l
+617,DB08910,Pomalidomide,1.0,mg,4.0,mg,Oral,Capsule,['approved'],False,19171-19-8,NC1=CC=CC2=C1C(=O)N(C1CCC(=O)NC1=O)C2=O,2.57,g/l
+618,DB08911,Trametinib,0.5,mg,2.0,mg,Oral,"Tablet, film coated",['approved'],True,871700-17-3,CN1C(=O)C(C)=C2N(C(=O)N(C3CC3)C(=O)C2=C1NC1=CC=C(I)C=C1F)C1=CC(NC(C)=O)=CC=C1,0.0307,g/l
+619,DB08912,Dabrafenib,50.0,mg,75.0,mg,Oral,Capsule,"['approved', 'investigational']",True,,CC(C)(C)C1=NC(=C(S1)C1=NC(N)=NC=C1)C1=C(F)C(NS(=O)(=O)C2=C(F)C=CC=C2F)=CC=C1,0.00327,g/l
+620,DB08916,Afatinib,20.0,mg/1,40.0,mg/1,Oral,"Tablet, film coated",['approved'],True,850140-72-6,CN(C)C\C=C\C(=O)NC1=C(O[C@H]2CCOC2)C=C2N=CN=C(NC3=CC(Cl)=C(F)C=C3)C2=C1,0.0128,g/l
+621,DB08918,Levomilnacipran,20.0,mg,120.0,mg,Oral,"Capsule, extended release","['approved', 'investigational']",False,96847-54-0,CCN(CC)C(=O)[C@]1(C[C@H]1CN)C1=CC=CC=C1,,
+622,DB08930,Dolutegravir,10.0,mg/1,50.0,mg,Oral,"Tablet, film coated",['approved'],False,1051375-16-6,[H][C@]12CN3C=C(C(=O)NCC4=CC=C(F)C=C4F)C(=O)C(O)=C3C(=O)N1[C@H](C)CCO2,0.0922,g/l
+623,DB08931,Riociguat,0.5,mg/1,2.5,mg,Oral,"Tablet, film coated",['approved'],False,625115-55-1,COC(=O)N(C)C1=C(N)N=C(N=C1N)C1=NN(CC2=C(F)C=CC=C2)C2=C1C=CC=N2,0.0682,g/l
+624,DB08932,Macitentan,10.0,mg/1,10.0,mg/1,Oral,"Tablet, film coated",['approved'],False,441798-33-0,CCCNS(=O)(=O)NC1=C(C(OCCOC2=NC=C(Br)C=N2)=NC=N1)C1=CC=C(Br)C=C1,0.00668,g/l
+625,DB08934,Sofosbuvir,400.0,mg,400.0,mg,Oral,"Tablet, film coated",['approved'],False,1190307-88-0,CC(C)OC(=O)[C@H](C)N[P@](=O)(OC[C@H]1O[C@@H](N2C=CC(=O)NC2=O)[C@](C)(F)[C@@H]1O)OC1=CC=CC=C1,0.824,g/l
+626,DB08936,Chlorcyclizine,25.0,mg/1,25.0,mg/1,Oral,Tablet,['approved'],False,82-93-9,CN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,0.0424,g/l
+628,DB08941,Isoxsuprine,10.0,mg/1,20.0,mg/1,Oral,Tablet,"['approved', 'withdrawn']",False,395-28-8,C[C@H](COC1=CC=CC=C1)N[C@H](C)[C@@H](O)C1=CC=C(O)C=C1,0.0507,g/l
+629,DB08946,Iopanoic acid,500.0,mg,500.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,96-83-3,CCC(CC1=C(I)C(N)=C(I)C=C1I)C(O)=O,0.0138,g/l
+630,DB08949,Inositol nicotinate,250.0,mg,500.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,6556-11-2,O=C(O[C@H]1[C@H](OC(=O)C2=CC=CN=C2)[C@@H](OC(=O)C2=CC=CN=C2)[C@H](OC(=O)C2=CC=CN=C2)[C@H](OC(=O)C2=CC=CN=C2)[C@@H]1OC(=O)C1=CC=CN=C1)C1=CC=CN=C1,0.0174,g/l
+631,DB08976,Floctafenine,200.0,mg,400.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,23779-99-9,OC[C@@H](O)COC(=O)C1=C(NC2=C3C=CC=C(C3=NC=C2)C(F)(F)F)C=CC=C1,0.0346,g/l
+632,DB09026,Aliskiren,150.0,mg,300.0,mg,Oral,Tablet,"['approved', 'investigational']",False,173334-57-1,COCCCOC1=C(OC)C=CC(C[C@@H](C[C@H](N)[C@@H](O)C[C@@H](C(C)C)C(=O)NCC(C)(C)C(N)=O)C(C)C)=C1,0.0021,g/l
+633,DB09030,Vorapaxar,2.08,mg/1,2.5,mg,Oral,"Tablet, film coated",['approved'],False,618385-01-6,[H]\C(=C(\[H])[C@]1([H])[C@]2([H])[C@@]([H])(C)OC(=O)[C@]2([H])C[C@]2([H])C[C@@]([H])(CC[C@@]12[H])N=C(O)OCC)C1=NC=C(C=C1)C1=CC(F)=CC=C1,0.000787,g/l
+634,DB09031,Miltefosine,50.0,mg/1,50.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,58066-85-6,CCCCCCCCCCCCCCCCOP([O-])(=O)OCC[N+](C)(C)C,0.00022,g/l
+635,DB09034,Suvorexant,5.0,mg/1,20.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,1030377-33-3,[H][C@@]1(C)CCN(CCN1C(=O)C1=C(C=CC(C)=C1)N1N=CC=N1)C1=NC2=C(O1)C=CC(Cl)=C2,0.117,g/l
+636,DB09038,Empagliflozin,10.0,mg/1,25.0,mg/1,Oral,"Tablet, film coated",['approved'],False,864070-44-0,[H][C@@]1(CCOC1)OC1=CC=C(CC2=C(Cl)C=CC(=C2)[C@]2([H])O[C@]([H])(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]2([H])O)C=C1,0.111,g/l
+637,DB09039,Eliglustat,84.0,mg,84.0,mg,Oral,Capsule,['approved'],False,491833-29-5,[H][C@](CN1CCCC1)(N=C(O)CCCCCCC)[C@]([H])(O)C1=CC2=C(OCCO2)C=C1,0.038,g/l
+638,DB09042,Tedizolid Phosphate,200.0,mg,200.0,mg,Oral,"Tablet, film coated",['approved'],False,856867-55-5,CN1N=NC(=N1)C1=CC=C(C=N1)C1=CC=C(C=C1F)N1C[C@H](COP(O)(O)=O)OC1=O,0.608,g/l
+639,DB09049,Naloxegol,12.5,mg/1,25.0,mg/1,Oral,"Tablet, film coated",['approved'],False,854601-70-0,COCCOCCOCCOCCOCCOCCOCCO[C@H]1CC[C@@]2(O)[C@H]3CC4=CC=C(O)C5=C4[C@@]2(CCN3CC=C)[C@H]1O5,0.0566,g/l
+640,DB09053,Ibrutinib,70.0,mg/1,560.0,mg/1,Oral,Capsule,['approved'],True,936563-96-1,NC1=NC=NC2=C1C(=NN2[C@@H]1CCCN(C1)C(=O)C=C)C1=CC=C(OC2=CC=CC=C2)C=C1,0.0203,g/l
+641,DB09054,Idelalisib,100.0,mg,150.0,mg,Oral,Tablet,['approved'],True,870281-82-6,[H][C@@](CC)(NC1=NC=NC2=C1N=CN2)C1=NC2=CC=CC(F)=C2C(=O)N1C1=CC=CC=C1,0.0255,g/l
+642,DB09063,Ceritinib,150.0,mg,150.0,mg,Oral,Capsule,['approved'],True,1032900-25-6,CC(C)OC1=C(NC2=NC=C(Cl)C(N2)=NC2=CC=CC=C2S(=O)(=O)C(C)C)C=C(C)C(=C1)C1CCNCC1,0.00222,g/l
+643,DB09065,Cobicistat,150.0,mg/1,150.0,mg/1,Oral,"Tablet, film coated",['approved'],False,1004316-88-4,CC(C)C1=NC(CN(C)C(=O)N[C@@H](CCN2CCOCC2)C(=O)N[C@H](CC[C@H](CC2=CC=CC=C2)NC(=O)OCC2=CN=CS2)CC2=CC=CC=C2)=CS1,0.00125,g/l
+644,DB09068,Vortioxetine,5.0,mg/1,20.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,508233-74-7,CC1=CC=C(SC2=CC=CC=C2N2CCNCC2)C(C)=C1,0.00362,g/l
+645,DB09071,Tasimelteon,20.0,mg,20.0,mg,Oral,Capsule,"['approved', 'investigational']",False,609799-22-6,[H][C@@]1(CN=C(O)CC)C[C@@]1([H])C1=C2CCOC2=CC=C1,0.0216,g/l
+646,DB09073,Palbociclib,75.0,mg,125.0,mg,Oral,Capsule,"['approved', 'investigational']",True,571190-30-2,CC(=O)C1=C(C)C2=CN=C(NC3=NC=C(C=C3)N3CCNCC3)N=C2N(C2CCCC2)C1=O,0.0174,g/l
+647,DB09074,Olaparib,50.0,mg/1,150.0,mg/1,Oral,Capsule,['approved'],False,763113-22-0,OC1=NN=C(CC2=CC(C(=O)N3CCN(CC3)C(=O)C3CC3)=C(F)C=C2)C2=CC=CC=C12,0.119,g/l
+648,DB09075,Edoxaban,15.0,mg,60.0,mg/1,Oral,Tablet,['approved'],False,480449-70-5,CN(C)C(=O)[C@H]1CC[C@H](NC(=O)C(=O)NC2=NC=C(Cl)C=C2)[C@@H](C1)NC(=O)C1=NC2=C(CN(C)CC2)S1,0.0114,g/l
+649,DB09078,Lenvatinib,4.0,mg/1,24.0,mg,Oral,Capsule,"['approved', 'investigational']",True,417716-92-8,COC1=C(C=C2C(OC3=CC(Cl)=C(NC(O)=NC4CC4)C=C3)=CC=NC2=C1)C(O)=N,0.0177,g/l
+650,DB09079,Nintedanib,100.0,mg/1,150.0,mg/1,Oral,Capsule,['approved'],True,656247-17-5,COC(=O)C1=CC2=C(C=C1)\C(=C(\NC1=CC=C(C=C1)N(C)C(=O)CN1CCN(C)CC1)C1=CC=CC=C1)C(O)=N2,0.0398,g/l
+651,DB09081,Idebenone,150.0,mg,150.0,mg,Oral,Tablet,"['approved', 'investigational']",False,58186-27-9,COC1=C(OC)C(=O)C(CCCCCCCCCCCCO)=C(C)C1=O,0.00747,g/l
+654,DB09092,Xanthinol,150.0,mg,300.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,2530-97-4,CN(CCO)CC(O)CN1C=NC2=C1C(=O)N(C)C(=O)N2C,17.3,g/l
+655,DB09097,Quinagolide,0.025,mg,0.15,mg,Oral,Tablet,"['approved', 'investigational']",False,87056-78-8,[H][C@]12C[C@@H](CN(CCC)[C@]1([H])CC1=CC=CC(O)=C1C2)NS(=O)(=O)N(CC)CC,0.154,g/l
+656,DB09101,Elvitegravir,85.0,mg,150.0,mg,Oral,"Tablet, film coated",['approved'],False,697761-98-1,[H][C@@](CO)(C(C)C)N1C=C(C(O)=O)C(=O)C2=C1C=C(OC)C(CC1=C(F)C(Cl)=CC=C1)=C2,0.00652,g/l
+657,DB09102,Daclatasvir,30.0,mg/1,90.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,1009119-64-5,COC(=O)N[C@@H](C(C)C)C(=O)N1CCC[C@H]1C1=NC=C(N1)C1=CC=C(C=C1)C1=CC=C(C=C1)C1=CN=C(N1)[C@@H]1CCCN1C(=O)[C@@H](NC(=O)OC)C(C)C,0.00852,g/l
+658,DB09115,Diiodohydroxyquinoline,210.0,mg,650.0,mg,Oral,Tablet,['approved'],False,83-73-8,OC1=C2N=CC=CC2=C(I)C=C1I,0.0815,g/l
+659,DB09116,Calcium carbimide,50.0,mg,50.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,156-62-7,[Ca++].[N-]=C=[N-],8.71,g/l
+660,DB09118,Stiripentol,250.0,mg,500.0,mg,Oral,Capsule,['approved'],False,49763-96-4,CC(C)(C)C(O)\C=C\C1=CC2=C(OCO2)C=C1,0.405,g/l
+661,DB09119,Eslicarbazepine acetate,200.0,mg,800.0,mg,Oral,Tablet,['approved'],False,236395-14-5,CC(=O)O[C@H]1CC2=CC=CC=C2N(C(N)=O)C2=CC=CC=C12,0.11,g/l
+663,DB09124,Medrogestone,5.0,mg,5.0,mg,Oral,Tablet,['approved'],False,977-79-7,[H][C@@]12CC[C@](C)(C(C)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])C=C(C)C2=CC(=O)CC[C@]12C,0.00404,g/l
+664,DB09128,Brexpiprazole,0.25,mg,4.0,mg,Oral,Tablet,"['approved', 'investigational']",False,913611-97-9,O=C1NC2=CC(OCCCCN3CCN(CC3)C3=C4C=CSC4=CC=C3)=CC=C2C=C1,0.00227,g/l
+665,DB09143,Sonidegib,200.0,mg/1,200.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,956697-53-3,[H][C@]1(C)CN(C[C@@]([H])(C)O1)C1=CC=C(NC(=O)C2=CC=CC(=C2C)C2=CC=C(OC(F)(F)F)C=C2)C=N1,0.00155,g/l
+666,DB09183,Dasabuvir,250.0,mg,250.0,mg,Oral,"Tablet, film coated",['approved'],False,1132935-63-7,COC1=C(C=C(C=C1C1=CC2=CC=C(NS(C)(=O)=O)C=C2C=C1)N1C=CC(=O)NC1=O)C(C)(C)C,0.000799,g/l
+667,DB09267,Strontium ranelate,2000.0,mg,2000.0,mg,Oral,Granule,"['approved', 'withdrawn']",False,135459-87-9,[Sr++].[Sr++].[O-]C(=O)CN(CC([O-])=O)C1=C(C#N)C(CC([O-])=O)=C(S1)C([O-])=O,2.17,g/l
+668,DB09270,Ubidecarenone,10.0,mg,100.0,mg,Oral,Capsule,"['approved', 'investigational', 'nutraceutical']",False,303-98-0,COC1=C(OC)C(=O)C(C\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CCC=C(C)C)=C(C)C1=O,0.000193,g/l
+670,DB08827,Lomitapide,5.0,mg,60.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,182431-12-5,FC(F)(F)CNC(=O)C1(CCCCN2CCC(CC2)NC(=O)C2=C(C=CC=C2)C2=CC=C(C=C2)C(F)(F)F)C2=CC=CC=C2C2=CC=CC=C12,,
+671,DB09299,Tenofovir alafenamide,25.0,mg,25.0,mg,Oral,Tablet,['approved'],False,379270-37-8,CC(C)OC(=O)[C@H](C)N[P@](=O)(CO[C@H](C)CN1C=NC2=C(N)N=CN=C12)OC1=CC=CC=C1,0.236,g/l
+672,DB09300,Butylscopolamine,10.0,mg,20.0,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,7182-53-8,CCCC[N+]1(C)[C@H]2C[C@@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@H](CO)C1=CC=CC=C1,0.00201,g/l
+673,DB09333,Iopodic acid,500.0,mg,500.0,mg,Oral,Capsule,"['approved', 'investigational', 'withdrawn']",False,5587-89-3,CN(C)C=NC1=C(I)C=C(I)C(CCC(O)=O)=C1I,0.00819,g/l
+674,DB09389,Norgestrel,0.075,mg,0.075,mg,Oral,Tablet,['approved'],False,6533-00-2,CCC12CCC3C(CCC4=CC(=O)CCC34)C1CCC2(O)C#C,0.00583,g/l
+675,DB09396,Propoxyphene napsylate,100.0,mg/1,100.0,mg/1,Oral,"Tablet, film coated",['approved'],False,,O.OS(=O)(=O)C1=CC2=CC=CC=C2C=C1.CCC(=O)O[C@@](CC1=CC=CC=C1)([C@H](C)CN(C)C)C1=CC=CC=C1,0.00419,g/l
+676,DB09418,Potassium perchlorate,200.0,mg,200.0,mg,Oral,Capsule,"['approved', 'investigational']",False,3811-04-9,[K]O[Cl](=O)(=O)=O,,
+677,DB09419,Xylose,25000.0,mg,25000.0,mg,Oral,"Powder, for solution",['approved'],False,58-86-6,OC[C@@H](O)[C@H](O)[C@@H](O)C=O,380.0,g/l
+678,DB09510,Urea C-13,45.0,mg,100.0,mg,Oral,"Powder, for solution",['approved'],False,,N[13C](O)=N,11.8,g/l
+679,DB09570,Ixazomib,2.3,mg,4.0,mg,Oral,Capsule,"['approved', 'investigational']",False,1072833-77-2,[H][C@@](CC(C)C)(N=C(O)CN=C(O)C1=C(Cl)C=CC(Cl)=C1)B(O)O,0.0179,g/l
+680,DB11093,Calcium Citrate,350.0,mg,500.0,mg,Oral,Tablet,['approved'],False,813-94-5,[Ca++].[Ca++].[Ca++].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O.OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,4.12,g/l
+681,DB11106,Pamabrom,50.0,mg/1,50.0,mg/1,Oral,"Capsule, liquid filled",['approved'],False,606-04-2,CC(C)(N)CO.CN1C2=C(N=C(Br)N2)C(=O)N(C)C1=O,3.88,g/l
+682,DB08880,Teriflunomide,7.0,mg/1,14.0,mg,Oral,"Tablet, film coated",['approved'],False,163451-81-8,C\C(O)=C(/C#N)C(=O)NC1=CC=C(C=C1)C(F)(F)F,0.0124,g/l
+683,DB11136,Chromium,0.2,mg,0.5,mg,Oral,Tablet,['approved'],False,7440-47-3,[Cr],,
+684,DB11248,Zinc gluconate,10.0,mg,50.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,4468-02-4,[Zn++].[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O.[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O,40.0,g/l
+685,DB11256,Levomefolic acid,15.0,mg/1,15.0,mg/1,Oral,"Tablet, coated","['approved', 'investigational']",False,31690-09-2,CN1[C@@H](CNC2=CC=C(C=C2)C(=O)N[C@@H](CCC(O)=O)C(O)=O)CNC2=C1C(=O)N=C(N)N2,0.332,g/l
+686,DB08887,Icosapent ethyl,500.0,mg/1,1000.0,mg/1,Oral,Capsule,"['approved', 'investigational', 'nutraceutical']",False,86227-47-6,CCOC(=O)CCC\C=C/C\C=C/C\C=C/C\C=C/C\C=C/CC,9.83e-05,g/l
+687,DB11363,Alectinib,150.0,mg/1,150.0,mg/1,Oral,Capsule,"['approved', 'investigational']",True,,CCC1=CC2=C(C=C1N1CCC(CC1)N1CCOCC1)C(C)(C)C1=C(C3=C(N1)C=C(C=C3)C#N)C2=O,0.0105,g/l
+688,DB11560,Lesinurad,200.0,mg,200.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,878672-00-5,OC(=O)CSC1=NN=C(Br)N1C1=CC=C(C2CC2)C2=C1C=CC=C2,0.00779,g/l
+689,DB11581,Venetoclax,10.0,mg,100.0,mg,Oral,Tablet,"['approved', 'investigational']",False,1257044-40-8,CC1(C)CCC(CN2CCN(CC2)C2=CC=C(C(=O)NS(=O)(=O)C3=CC=C(NCC4CCOCC4)C(=C3)[N+]([O-])=O)C(OC3=CN=C4NC=CC4=C3)=C2)=C(C1)C1=CC=C(Cl)C=C1,0.000933,g/l
+690,DB11586,Asunaprevir,100.0,mg,100.0,mg,Oral,Capsule,"['approved', 'investigational']",False,630420-16-5,[H][C@@](N=C(O)OC(C)(C)C)(C(=O)N1C[C@@]([H])(C[C@@]1([H])C(O)=N[C@@]1(C[C@@]1([H])C=C)C(O)=NS(=O)(=O)C1CC1)OC1=NC=C(OC)C2=C1C=C(Cl)C=C2)C(C)(C)C,0.00329,g/l
+691,DB11591,Bilastine,20.0,mg,20.0,mg,Oral,Tablet,"['approved', 'investigational']",False,202189-78-4,CCOCCN1C(=NC2=CC=CC=C12)C1CCN(CCC2=CC=C(C=C2)C(C)(C)C(O)=O)CC1,0.00203,g/l
+692,DB11614,Rupatadine,1.0,mg,10.0,mg,Oral,Solution,['approved'],False,158876-82-5,CC1=CC(CN2CCC(CC2)=C2C3=CC=C(Cl)C=C3CCC3=C2N=CC=C3)=CN=C1,0.00544,g/l
+693,DB11622,Dehydrocholic acid,300.0,mg,300.0,mg,Oral,Tablet,"['approved', 'experimental']",False,81-23-2,[H][C@@](C)(CCC(O)=O)[C@@]1([H])CC[C@@]2([H])[C@]3([H])C(=O)C[C@]4([H])CC(=O)CC[C@]4(C)[C@@]3([H])CC(=O)[C@]12C,0.00705,g/l
+694,DB11632,Opicapone,25.0,mg,50.0,mg,Oral,Capsule,"['approved', 'investigational']",False,923287-50-7,CC1=C(C2=NOC(=N2)C2=CC(=C(O)C(O)=C2)[N+]([O-])=O)C(Cl)=[N+]([O-])C(C)=C1Cl,0.044,g/l
+695,DB11634,Colestilan chloride,1000.0,mg,3000.0,mg,Oral,"Tablet, film coated","['approved', 'investigational', 'withdrawn']",False,95522-45-5,,,
+697,DB11642,Pitolisant,4.5,mg,18.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,362665-56-3,ClC1=CC=C(CCCOCCCN2CCCCC2)C=C1,0.00142,g/l
+698,DB11644,Tafamidis,20.0,mg,20.0,mg,Oral,Capsule,"['approved', 'investigational']",False,594839-88-0,OC(=O)C1=CC2=C(C=C1)N=C(O2)C1=CC(Cl)=CC(Cl)=C1,0.0323,g/l
+699,DB11691,Naldemedine,0.2,mg/1,0.2,mg/1,Oral,Tablet,"['approved', 'investigational']",False,916072-89-4,[H][C@@]12OC3=C4C(C[C@@]5([H])N(CC6CC6)CC[C@@]14[C@@]5(O)CC(C(=O)NC(C)(C)C1=NC(=NO1)C1=CC=CC=C1)=C2O)=CC=C3O,0.227,g/l
+700,DB11703,Acalabrutinib,100.0,mg/1,100.0,mg/1,Oral,"Capsule, gelatin coated","['approved', 'investigational']",True,1420477-60-6,CC#CC(=O)N1CCC[C@H]1C1=NC(=C2N1C=CN=C2N)C1=CC=C(C=C1)C(=O)NC1=CC=CC=N1,0.0109,g/l
+701,DB11730,Ribociclib,200.0,mg/1,200.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",True,1211441-98-3,CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1,0.231,g/l
+702,DB11793,Niraparib,100.0,mg/1,100.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,1038915-60-4,NC(=O)C1=CC=CC2=CN(N=C12)C1=CC=C(C=C1)[C@@H]1CCCNC1,0.0149,g/l
+703,DB11827,Ertugliflozin,5.0,mg/1,15.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,1210344-57-2,CCOC1=CC=C(CC2=CC(=CC=C2Cl)[C@]23OC[C@](CO)(O2)[C@@H](O)[C@H](O)[C@H]3O)C=C1,0.119,g/l
+704,DB11828,Neratinib,40.0,mg/1,40.0,mg/1,Oral,Tablet,"['approved', 'investigational']",True,698387-09-6,CCOC1=C(NC(=O)\C=C\CN(C)C)C=C2C(NC3=CC=C(OCC4=CC=CC=N4)C(Cl)=C3)=C(C=NC2=C1)C#N,0.00674,g/l
+705,DB11901,Apalutamide,60.0,mg/1,60.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,956104-40-8,CNC(=O)C1=CC=C(C=C1F)N1C(=S)N(C(=O)C11CCC1)C1=CC(=C(N=C1)C#N)C(F)(F)F,0.00178,g/l
+706,DB11915,Valbenazine,40.0,mg/1,80.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,1025504-45-3,COC1=C(OC)C=C2[C@H]3C[C@@H](OC(=O)[C@@H](N)C(C)C)[C@H](CC(C)C)CN3CCC2=C1,0.0383,g/l
+707,DB11921,Deflazacort,6.0,mg/1,36.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,14484-47-0,[H][C@@]12C[C@@]3([H])[C@]4([H])CCC5=CC(=O)C=C[C@]5(C)[C@@]4([H])[C@@]([H])(O)C[C@]3(C)[C@@]1(N=C(C)O2)C(=O)COC(C)=O,0.0175,g/l
+708,DB11989,Benznidazole,12.5,mg/1,100.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,22994-85-0,OC(CN1C=CN=C1N(=O)=O)=NCC1=CC=CC=C1,0.306,g/l
+709,DB12001,Abemaciclib,50.0,mg/1,200.0,mg/1,Oral,Tablet,"['approved', 'investigational']",True,1231929-97-7,CCN1CCN(CC2=CC=C(NC3=NC=C(F)C(=N3)C3=CC(F)=C4N=C(C)N(C(C)C)C4=C3)N=C2)CC1,0.0159,g/l
+710,DB12095,Telotristat ethyl,250.0,mg/1,250.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,1033805-22-9,CCOC(=O)[C@@H](N)CC1=CC=C(C=C1)C1=NC(N)=NC(O[C@H](C2=CC=C(Cl)C=C2N2C=CC(C)=N2)C(F)(F)F)=C1,0.00294,g/l
+711,DB12161,Deutetrabenazine,6.0,mg/1,12.0,mg/1,Oral,"Tablet, coated","['approved', 'investigational']",False,1392826-25-3,[2H]C([2H])([2H])OC1=CC2=C(C=C1OC([2H])([2H])[2H])[C@@H]1CC(=O)[C@@H](CC(C)C)CN1CC2,0.361,g/l
+712,DB12267,Brigatinib,30.0,mg/1,180.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",True,1197953-54-0,COC1=CC(=CC=C1NC1=NC=C(Cl)C(NC2=CC=CC=C2P(C)(C)=O)=N1)N1CCC(CC1)N1CCN(C)CC1,0.022,g/l
+713,DB12278,Propiverine,5.0,mg,45.0,mg,Oral,Tablet,"['approved', 'investigational']",False,60569-19-9,CCCOC(C(=O)OC1CCN(C)CC1)(C1=CC=CC=C1)C1=CC=CC=C1,0.00635,g/l
+714,DB12332,Rucaparib,200.0,mg/1,300.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,283173-50-2,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,0.0114,g/l
+715,DB12364,Betrixaban,40.0,mg/1,80.0,mg/1,Oral,"Capsule, gelatin coated","['approved', 'investigational']",False,330942-05-7,COC1=CC=C(NC(=O)C2=CC=C(C=C2)C(=N)N(C)C)C(=C1)C(=O)NC1=CC=C(Cl)C=N1,0.0163,g/l
+716,DB13156,Inosine pranobex,500.0,mg,500.0,mg,Oral,Tablet,['approved'],False,36703-88-5,C[C@@H](O)CN(C)C.C[C@@H](O)CN(C)C.C[C@@H](O)CN(C)C.CC(=O)NC1=CC=C(C=C1)C(O)=O.CC(=O)NC1=CC=C(C=C1)C(O)=O.CC(=O)NC1=CC=C(C=C1)C(O)=O.OC[C@H]1O[C@H]([C@H](O)[C@@H]1O)N1C=NC2=C1N=CNC2=O,13.8,g/l
+717,DB13170,Plecanatide,3.0,mg/1,3.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,467426-54-6,[H][C@](C)(O)[C@]1([H])N=C(O)[C@]2([H])CSSC[C@]([H])(N=C(O)[C@]([H])(CCC(O)=O)N=C(O)[C@]([H])(CC(O)=O)N=C(O)[C@@]([H])(N)CC(O)=N)C(O)=N[C@@]([H])(CCC(O)=O)C(O)=N[C@@]([H])(CC(C)C)C(O)=N[C@@]([H])(CSSC[C@]([H])(N=C(O)CN=C1O)C(O)=N[C@@]([H])(CC(C)C)C(O)=O)C(O)=N[C@@]([H])(C(C)C)C(O)=N[C@@]([H])(CC(O)=N)C(O)=N[C@@]([H])(C(C)C)C(O)=N[C@@]([H])(C)C(O)=N2,0.165,g/l
+718,DB13231,Calcium lactate,324.0,mg,650.0,mg,Oral,Tablet,"['approved', 'experimental', 'investigational', 'vet_approved']",False,814-80-2,[Ca++].CC(O)C([O-])=O.CC(O)C([O-])=O,191.0,g/l
+719,DB13257,Ferrous sulfate,65.0,mg/1,325.0,mg/1,Oral,Tablet,"['approved', 'experimental']",False,7782-63-0,O.O.O.O.O.O.O.[Fe++].[O-]S([O-])(=O)=O,,
+720,DB13301,Magnesium pidolate,1500.0,mg,1500.0,mg,Oral,Powder,"['approved', 'experimental', 'investigational']",False,62003-27-4,[Mg++].[O-]C(=O)[C@@H]1CCC(=O)N1.[O-]C(=O)[C@@H]1CCC(=O)N1,3.75,g/l
+721,DB13620,Potassium gluconate,4680.0,mg,50.0,mg,Oral,Elixir,"['approved', 'experimental']",False,299-27-4,[K+].[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O,833.0,g/l
+722,DB13707,Sodium tartrate,5600.0,mg,5600.0,mg,Oral,Liquid,"['approved', 'experimental']",False,868-18-8,[Na+].[Na+].O[C@H]([C@@H](O)C([O-])=O)C([O-])=O,779.0,g/l
+723,DB13853,Anethole trithione,12.5,mg,25.0,mg,Oral,Tablet,"['approved', 'experimental']",False,532-11-6,COC1=CC=C(C=C1)C1=CC(=S)SS1,0.00879,g/l
+724,DB13873,Fenofibric acid,35.0,mg/1,135.0,mg/1,Oral,Tablet,['approved'],False,42017-89-0,CC(C)(OC1=CC=C(C=C1)C(=O)C1=CC=C(Cl)C=C1)C(O)=O,0.0051,g/l
+725,DB13874,Enasidenib,50.0,mg/1,100.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,1446502-11-9,CC(C)(O)CNC1=NC(=NC(NC2=CC(=NC=C2)C(F)(F)F)=N1)C1=NC(=CC=C1)C(F)(F)F,0.0366,g/l
+727,DB13909,Bismuth Subgallate,200.0,mg,400.0,mg,Oral,"Tablet, chewable",['approved'],False,99-26-3,O[Bi]1OC2=CC(=CC(O)=C2O1)C(O)=O,44.8,g/l
+728,DB09074,Olaparib,50.0,mg/1,150.0,mg/1,Oral,Capsule,['approved'],False,763113-22-0,OC1=NN=C(CC2=CC(C(=O)N3CCN(CC3)C(=O)C3CC3)=C(F)C=C2)C2=CC=CC=C12,0.119,g/l
+729,DB13949,Ferric cation,210.0,mg/1,210.0,mg/1,Oral,"Tablet, coated",['approved'],False,20074-52-6,[Fe+3],,
+730,DB09078,Lenvatinib,4.0,mg/1,24.0,mg,Oral,Capsule,"['approved', 'investigational']",True,417716-92-8,COC1=C(C=C2C(OC3=CC(Cl)=C(NC(O)=NC4CC4)C=C3)=CC=NC2=C1)C(O)=N,0.0177,g/l
+731,DB09079,Nintedanib,100.0,mg/1,150.0,mg/1,Oral,Capsule,['approved'],True,656247-17-5,COC(=O)C1=CC2=C(C=C1)\C(=C(\NC1=CC=C(C=C1)N(C)C(=O)CN1CCN(C)CC1)C1=CC=CC=C1)C(O)=N2,0.0398,g/l
+732,DB09081,Idebenone,150.0,mg,150.0,mg,Oral,Tablet,"['approved', 'investigational']",False,58186-27-9,COC1=C(OC)C(=O)C(CCCCCCCCCCCCO)=C(C)C1=O,0.00747,g/l
+733,DB09083,Ivabradine,5.0,mg/1,7.5,mg,Oral,"Tablet, film coated",['approved'],False,155974-00-8,COC1=C(OC)C=C2[C@@H](CN(C)CCCN3CCC4=CC(OC)=C(OC)C=C4CC3=O)CC2=C1,0.0202,g/l
+734,DB09090,Pinaverium,50.0,mg,100.0,mg,Oral,Tablet,['approved'],False,59995-65-2,COC1=C(OC)C=C(C[N+]2(CCOCCC3CCC4CC3C4(C)C)CCOCC2)C(Br)=C1,3.42e-06,g/l
+735,DB09092,Xanthinol,150.0,mg,300.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,2530-97-4,CN(CCO)CC(O)CN1C=NC2=C1C(=O)N(C)C(=O)N2C,17.3,g/l
+736,DB09097,Quinagolide,0.025,mg,0.15,mg,Oral,Tablet,"['approved', 'investigational']",False,87056-78-8,[H][C@]12C[C@@H](CN(CCC)[C@]1([H])CC1=CC=CC(O)=C1C2)NS(=O)(=O)N(CC)CC,0.154,g/l
+737,DB09101,Elvitegravir,85.0,mg,150.0,mg,Oral,"Tablet, film coated",['approved'],False,697761-98-1,[H][C@@](CO)(C(C)C)N1C=C(C(O)=O)C(=O)C2=C1C=C(OC)C(CC1=C(F)C(Cl)=CC=C1)=C2,0.00652,g/l
+738,DB09102,Daclatasvir,30.0,mg/1,90.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,1009119-64-5,COC(=O)N[C@@H](C(C)C)C(=O)N1CCC[C@H]1C1=NC=C(N1)C1=CC=C(C=C1)C1=CC=C(C=C1)C1=CN=C(N1)[C@@H]1CCCN1C(=O)[C@@H](NC(=O)OC)C(C)C,0.00852,g/l
+739,DB09115,Diiodohydroxyquinoline,210.0,mg,650.0,mg,Oral,Tablet,['approved'],False,83-73-8,OC1=C2N=CC=CC2=C(I)C=C1I,0.0815,g/l
+740,DB09116,Calcium carbimide,50.0,mg,50.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,156-62-7,[Ca++].[N-]=C=[N-],8.71,g/l
+741,DB09118,Stiripentol,250.0,mg,500.0,mg,Oral,Capsule,['approved'],False,49763-96-4,CC(C)(C)C(O)\C=C\C1=CC2=C(OCO2)C=C1,0.405,g/l
+742,DB09119,Eslicarbazepine acetate,200.0,mg,800.0,mg,Oral,Tablet,['approved'],False,236395-14-5,CC(=O)O[C@H]1CC2=CC=CC=C2N(C(N)=O)C2=CC=CC=C12,0.11,g/l
+743,DB09123,Dienogest,2.0,mg,2.0,mg,Oral,Tablet,['approved'],False,65928-58-7,[H][C@@]12CC[C@@](O)(CC#N)[C@@]1(C)CCC1=C3CCC(=O)C=C3CC[C@@]21[H],0.0761,g/l
+744,DB09124,Medrogestone,5.0,mg,5.0,mg,Oral,Tablet,['approved'],False,977-79-7,[H][C@@]12CC[C@](C)(C(C)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])C=C(C)C2=CC(=O)CC[C@]12C,0.00404,g/l
+746,DB09128,Brexpiprazole,0.25,mg,4.0,mg,Oral,Tablet,"['approved', 'investigational']",False,913611-97-9,O=C1NC2=CC(OCCCCN3CCN(CC3)C3=C4C=CSC4=CC=C3)=CC=C2C=C1,0.00227,g/l
+747,DB09143,Sonidegib,200.0,mg/1,200.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,956697-53-3,[H][C@]1(C)CN(C[C@@]([H])(C)O1)C1=CC=C(NC(=O)C2=CC=CC(=C2C)C2=CC=C(OC(F)(F)F)C=C2)C=N1,0.00155,g/l
+749,DB09183,Dasabuvir,250.0,mg,250.0,mg,Oral,"Tablet, film coated",['approved'],False,1132935-63-7,COC1=C(C=C(C=C1C1=CC2=CC=C(NS(C)(=O)=O)C=C2C=C1)N1C=CC(=O)NC1=O)C(C)(C)C,0.000799,g/l
+751,DB09267,Strontium ranelate,2000.0,mg,2.0,g,Oral,Granule,"['approved', 'withdrawn']",False,135459-87-9,[Sr++].[Sr++].[O-]C(=O)CN(CC([O-])=O)C1=C(C#N)C(CC([O-])=O)=C(S1)C([O-])=O,2.17,g/l
+752,DB09270,Ubidecarenone,10.0,mg,100.0,mg,Oral,Capsule,"['approved', 'investigational', 'nutraceutical']",False,303-98-0,COC1=C(OC)C(=O)C(C\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CC\C=C(/C)CCC=C(C)C)=C(C)C1=O,0.000193,g/l
+753,DB09272,Eluxadoline,75.0,mg/1,100.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,864821-90-9,COC1=CC=C(CN([C@@H](C)C2=NC(=CN2)C2=CC=CC=C2)C(=O)[C@@H](N)CC2=C(C)C=C(C=C2C)C(N)=O)C=C1C(O)=O,0.00268,g/l
+754,DB09278,Activated charcoal,1000.0,mg,1000.0,mg/g,Oral,"Powder, for solution",['approved'],False,64365-11-3,[C],0.0,g/l
+756,DB09299,Tenofovir alafenamide,25.0,mg,25.0,mg,Oral,Tablet,['approved'],False,379270-37-8,CC(C)OC(=O)[C@H](C)N[P@](=O)(CO[C@H](C)CN1C=NC2=C(N)N=CN=C12)OC1=CC=CC=C1,0.236,g/l
+757,DB09300,Butylscopolamine,10.0,mg,20.0,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved']",False,7182-53-8,CCCC[N+]1(C)[C@H]2C[C@@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@H](CO)C1=CC=CC=C1,0.00201,g/l
+760,DB09333,Iopodic acid,500.0,mg,500.0,mg,Oral,Capsule,"['approved', 'investigational', 'withdrawn']",False,5587-89-3,CN(C)C=NC1=C(I)C=C(I)C(CCC(O)=O)=C1I,0.00819,g/l
+761,DB09389,Norgestrel,0.075,mg,0.075,mg,Oral,Tablet,['approved'],False,6533-00-2,CCC12CCC3C(CCC4=CC(=O)CCC34)C1CCC2(O)C#C,0.00583,g/l
+762,DB09396,Propoxyphene napsylate,100.0,mg/1,100.0,mg/1,Oral,"Tablet, film coated",['approved'],False,,O.OS(=O)(=O)C1=CC2=CC=CC=C2C=C1.CCC(=O)O[C@@](CC1=CC=CC=C1)([C@H](C)CN(C)C)C1=CC=CC=C1,0.00419,g/l
+763,DB09418,Potassium perchlorate,200.0,mg,200.0,mg,Oral,Capsule,"['approved', 'investigational']",False,3811-04-9,[K]O[Cl](=O)(=O)=O,,
+764,DB09419,Xylose,25000.0,mg,25.0,g,Oral,"Powder, for solution",['approved'],False,58-86-6,OC[C@@H](O)[C@H](O)[C@@H](O)C=O,380.0,g/l
+767,DB09510,Urea C-13,45.0,mg,100.0,mg,Oral,"Powder, for solution",['approved'],False,,N[13C](O)=N,11.8,g/l
+770,DB09570,Ixazomib,2.3,mg,4.0,mg,Oral,Capsule,"['approved', 'investigational']",False,1072833-77-2,[H][C@@](CC(C)C)(N=C(O)CN=C(O)C1=C(Cl)C=CC(Cl)=C1)B(O)O,0.0179,g/l
+773,DB11093,Calcium Citrate,350.0,mg,500.0,mg,Oral,Tablet,['approved'],False,813-94-5,[Ca++].[Ca++].[Ca++].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O.OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,4.12,g/l
+775,DB11106,Pamabrom,50.0,mg/1,50.0,mg/1,Oral,"Capsule, liquid filled",['approved'],False,606-04-2,CC(C)(N)CO.CN1C2=C(N=C(Br)N2)C(=O)N(C)C1=O,3.88,g/l
+776,DB11127,Selenious acid,0.03,mg,65.4,ug/mL,Oral,Tablet,"['approved', 'investigational']",False,7783-00-8,O[Se](O)=O,,
+777,DB11136,Chromium,0.2,mg,500.0,mcg,Oral,Tablet,['approved'],False,7440-47-3,[Cr],,
+780,DB11248,Zinc gluconate,10.0,mg,50.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,4468-02-4,[Zn++].[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O.[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O,40.0,g/l
+782,DB11256,Levomefolic acid,15.0,mg/1,15.0,mg/1,Oral,"Tablet, coated","['approved', 'investigational']",False,31690-09-2,CN1[C@@H](CNC2=CC=C(C=C2)C(=O)N[C@@H](CCC(O)=O)C(O)=O)CNC2=C1C(=O)N=C(N)N2,0.332,g/l
+784,DB11362,Selexipag,0.2,mg,1600.0,μg,Oral,Tablet,['approved'],False,475086-01-2,CC(C)N(CCCCOCC(=O)NS(C)(=O)=O)C1=NC(C2=CC=CC=C2)=C(N=C1)C1=CC=CC=C1,0.00434,g/l
+785,DB11363,Alectinib,150.0,mg/1,150.0,mg/1,Oral,Capsule,"['approved', 'investigational']",True,,CCC1=CC2=C(C=C1N1CCC(CC1)N1CCOCC1)C(C)(C)C1=C(C3=C(N1)C=C(C=C3)C#N)C2=O,0.0105,g/l
+786,DB11560,Lesinurad,200.0,mg,200.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,878672-00-5,OC(=O)CSC1=NN=C(Br)N1C1=CC=C(C2CC2)C2=C1C=CC=C2,0.00779,g/l
+787,DB11581,Venetoclax,10.0,mg,100.0,mg,Oral,Tablet,"['approved', 'investigational']",False,1257044-40-8,CC1(C)CCC(CN2CCN(CC2)C2=CC=C(C(=O)NS(=O)(=O)C3=CC=C(NCC4CCOCC4)C(=C3)[N+]([O-])=O)C(OC3=CN=C4NC=CC4=C3)=C2)=C(C1)C1=CC=C(Cl)C=C1,0.000933,g/l
+788,DB11586,Asunaprevir,100.0,mg,100.0,mg,Oral,Capsule,"['approved', 'investigational']",False,630420-16-5,[H][C@@](N=C(O)OC(C)(C)C)(C(=O)N1C[C@@]([H])(C[C@@]1([H])C(O)=N[C@@]1(C[C@@]1([H])C=C)C(O)=NS(=O)(=O)C1CC1)OC1=NC=C(OC)C2=C1C=C(Cl)C=C2)C(C)(C)C,0.00329,g/l
+789,DB11591,Bilastine,20.0,mg,20.0,mg,Oral,Tablet,"['approved', 'investigational']",False,202189-78-4,CCOCCN1C(=NC2=CC=CC=C12)C1CCN(CCC2=CC=C(C=C2)C(C)(C)C(O)=O)CC1,0.00203,g/l
+790,DB11614,Rupatadine,1.0,mg,10.0,mg,Oral,Solution,['approved'],False,158876-82-5,CC1=CC(CN2CCC(CC2)=C2C3=CC=C(Cl)C=C3CCC3=C2N=CC=C3)=CN=C1,0.00544,g/l
+791,DB11622,Dehydrocholic acid,300.0,mg,300.0,mg,Oral,Tablet,"['approved', 'experimental']",False,81-23-2,[H][C@@](C)(CCC(O)=O)[C@@]1([H])CC[C@@]2([H])[C@]3([H])C(=O)C[C@]4([H])CC(=O)CC[C@]4(C)[C@@]3([H])CC(=O)[C@]12C,0.00705,g/l
+792,DB11632,Opicapone,25.0,mg,50.0,mg,Oral,Capsule,"['approved', 'investigational']",False,923287-50-7,CC1=C(C2=NOC(=N2)C2=CC(=C(O)C(O)=C2)[N+]([O-])=O)C(Cl)=[N+]([O-])C(C)=C1Cl,0.044,g/l
+793,DB11634,Colestilan chloride,1000.0,mg,3.0,g,Oral,"Tablet, film coated","['approved', 'investigational', 'withdrawn']",False,95522-45-5,,,
+795,DB11637,Delamanid,50.0,mg,50.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,681492-22-8,C[C@]1(COC2=CC=C(C=C2)N2CCC(CC2)OC2=CC=C(OC(F)(F)F)C=C2)CN2C=C(N=C2O1)[N+]([O-])=O,0.00222,g/l
+796,DB11642,Pitolisant,4.5,mg,18.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,362665-56-3,ClC1=CC=C(CCCOCCCN2CCCCC2)C=C1,0.00142,g/l
+797,DB11644,Tafamidis,20.0,mg,20.0,mg,Oral,Capsule,"['approved', 'investigational']",False,594839-88-0,OC(=O)C1=CC2=C(C=C1)N=C(O2)C1=CC(Cl)=CC(Cl)=C1,0.0323,g/l
+798,DB11691,Naldemedine,0.2,mg/1,0.2,mg/1,Oral,Tablet,"['approved', 'investigational']",False,916072-89-4,[H][C@@]12OC3=C4C(C[C@@]5([H])N(CC6CC6)CC[C@@]14[C@@]5(O)CC(C(=O)NC(C)(C)C1=NC(=NO1)C1=CC=CC=C1)=C2O)=CC=C3O,0.227,g/l
+799,DB11703,Acalabrutinib,100.0,mg/1,100.0,mg/1,Oral,"Capsule, gelatin coated","['approved', 'investigational']",True,1420477-60-6,CC#CC(=O)N1CCC[C@H]1C1=NC(=C2N1C=CN=C2N)C1=CC=C(C=C1)C(=O)NC1=CC=CC=N1,0.0109,g/l
+800,DB11730,Ribociclib,200.0,mg/1,200.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",True,1211441-98-3,CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1,0.231,g/l
+801,DB11793,Niraparib,100.0,mg/1,100.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,1038915-60-4,NC(=O)C1=CC=CC2=CN(N=C12)C1=CC=C(C=C1)[C@@H]1CCCNC1,0.0149,g/l
+802,DB11827,Ertugliflozin,5.0,mg/1,15.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,1210344-57-2,CCOC1=CC=C(CC2=CC(=CC=C2Cl)[C@]23OC[C@](CO)(O2)[C@@H](O)[C@H](O)[C@H]3O)C=C1,0.119,g/l
+803,DB11828,Neratinib,40.0,mg/1,40.0,mg/1,Oral,Tablet,"['approved', 'investigational']",True,698387-09-6,CCOC1=C(NC(=O)\C=C\CN(C)C)C=C2C(NC3=CC=C(OCC4=CC=CC=N4)C(Cl)=C3)=C(C=NC2=C1)C#N,0.00674,g/l
+804,DB11901,Apalutamide,60.0,mg/1,60.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,956104-40-8,CNC(=O)C1=CC=C(C=C1F)N1C(=S)N(C(=O)C11CCC1)C1=CC(=C(N=C1)C#N)C(F)(F)F,0.00178,g/l
+805,DB11915,Valbenazine,40.0,mg/1,80.0,mg/1,Oral,Capsule,"['approved', 'investigational']",False,1025504-45-3,COC1=C(OC)C=C2[C@H]3C[C@@H](OC(=O)[C@@H](N)C(C)C)[C@H](CC(C)C)CN3CCC2=C1,0.0383,g/l
+806,DB11921,Deflazacort,6.0,mg/1,36.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,14484-47-0,[H][C@@]12C[C@@]3([H])[C@]4([H])CCC5=CC(=O)C=C[C@]5(C)[C@@]4([H])[C@@]([H])(O)C[C@]3(C)[C@@]1(N=C(C)O2)C(=O)COC(C)=O,0.0175,g/l
+807,DB11989,Benznidazole,12.5,mg/1,100.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,22994-85-0,OC(CN1C=CN=C1N(=O)=O)=NCC1=CC=CC=C1,0.306,g/l
+808,DB12001,Abemaciclib,50.0,mg/1,200.0,mg/1,Oral,Tablet,"['approved', 'investigational']",True,1231929-97-7,CCN1CCN(CC2=CC=C(NC3=NC=C(F)C(=N3)C3=CC(F)=C4N=C(C)N(C(C)C)C4=C3)N=C2)CC1,0.0159,g/l
+809,DB12095,Telotristat ethyl,250.0,mg/1,250.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,1033805-22-9,CCOC(=O)[C@@H](N)CC1=CC=C(C=C1)C1=NC(N)=NC(O[C@H](C2=CC=C(Cl)C=C2N2C=CC(C)=N2)C(F)(F)F)=C1,0.00294,g/l
+810,DB12161,Deutetrabenazine,6.0,mg/1,12.0,mg/1,Oral,"Tablet, coated","['approved', 'investigational']",False,1392826-25-3,[2H]C([2H])([2H])OC1=CC2=C(C=C1OC([2H])([2H])[2H])[C@@H]1CC(=O)[C@@H](CC(C)C)CN1CC2,0.361,g/l
+811,DB12267,Brigatinib,30.0,mg/1,180.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",True,1197953-54-0,COC1=CC(=CC=C1NC1=NC=C(Cl)C(NC2=CC=CC=C2P(C)(C)=O)=N1)N1CCC(CC1)N1CCN(C)CC1,0.022,g/l
+812,DB12278,Propiverine,5.0,mg,45.0,mg,Oral,Tablet,"['approved', 'investigational']",False,60569-19-9,CCCOC(C(=O)OC1CCN(C)CC1)(C1=CC=CC=C1)C1=CC=CC=C1,0.00635,g/l
+813,DB12332,Rucaparib,200.0,mg/1,300.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,283173-50-2,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,0.0114,g/l
+814,DB12364,Betrixaban,40.0,mg/1,80.0,mg/1,Oral,"Capsule, gelatin coated","['approved', 'investigational']",False,330942-05-7,COC1=CC=C(NC(=O)C2=CC=C(C=C2)C(=N)N(C)C)C(=C1)C(=O)NC1=CC=C(Cl)C=N1,0.0163,g/l
+817,DB13156,Inosine pranobex,500.0,mg,500.0,mg,Oral,Tablet,['approved'],False,36703-88-5,C[C@@H](O)CN(C)C.C[C@@H](O)CN(C)C.C[C@@H](O)CN(C)C.CC(=O)NC1=CC=C(C=C1)C(O)=O.CC(=O)NC1=CC=C(C=C1)C(O)=O.CC(=O)NC1=CC=C(C=C1)C(O)=O.OC[C@H]1O[C@H]([C@H](O)[C@@H]1O)N1C=NC2=C1N=CNC2=O,13.8,g/l
+818,DB13170,Plecanatide,3.0,mg/1,3.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,467426-54-6,[H][C@](C)(O)[C@]1([H])N=C(O)[C@]2([H])CSSC[C@]([H])(N=C(O)[C@]([H])(CCC(O)=O)N=C(O)[C@]([H])(CC(O)=O)N=C(O)[C@@]([H])(N)CC(O)=N)C(O)=N[C@@]([H])(CCC(O)=O)C(O)=N[C@@]([H])(CC(C)C)C(O)=N[C@@]([H])(CSSC[C@]([H])(N=C(O)CN=C1O)C(O)=N[C@@]([H])(CC(C)C)C(O)=O)C(O)=N[C@@]([H])(C(C)C)C(O)=N[C@@]([H])(CC(O)=N)C(O)=N[C@@]([H])(C(C)C)C(O)=N[C@@]([H])(C)C(O)=N2,0.165,g/l
+819,DB13231,Calcium lactate,324.0,mg,650.0,mg,Oral,Tablet,"['approved', 'experimental', 'investigational', 'vet_approved']",False,814-80-2,[Ca++].CC(O)C([O-])=O.CC(O)C([O-])=O,191.0,g/l
+820,DB13257,Ferrous sulfate,65.0,mg/1,325.0,mg/1,Oral,Tablet,"['approved', 'experimental']",False,7782-63-0,O.O.O.O.O.O.O.[Fe++].[O-]S([O-])(=O)=O,,
+821,DB13301,Magnesium pidolate,1500.0,mg,1.5,g,Oral,Powder,"['approved', 'experimental', 'investigational']",False,62003-27-4,[Mg++].[O-]C(=O)[C@@H]1CCC(=O)N1.[O-]C(=O)[C@@H]1CCC(=O)N1,3.75,g/l
+822,DB13620,Potassium gluconate,4680.0,mg,50.0,mg,Oral,Elixir,"['approved', 'experimental']",False,299-27-4,[K+].[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O,833.0,g/l
+823,DB13707,Sodium tartrate,5600.0,mg,5.6,g,Oral,Liquid,"['approved', 'experimental']",False,868-18-8,[Na+].[Na+].O[C@H]([C@@H](O)C([O-])=O)C([O-])=O,779.0,g/l
+824,DB13853,Anethole trithione,12.5,mg,25.0,mg,Oral,Tablet,"['approved', 'experimental']",False,532-11-6,COC1=CC=C(C=C1)C1=CC(=S)SS1,0.00879,g/l
+825,DB13873,Fenofibric acid,35.0,mg/1,135.0,mg/1,Oral,Tablet,['approved'],False,42017-89-0,CC(C)(OC1=CC=C(C=C1)C(=O)C1=CC=C(Cl)C=C1)C(O)=O,0.0051,g/l
+826,DB13874,Enasidenib,50.0,mg/1,100.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,1446502-11-9,CC(C)(O)CNC1=NC(=NC(NC2=CC(=NC=C2)C(F)(F)F)=N1)C1=NC(=CC=C1)C(F)(F)F,0.0366,g/l
+827,DB13908,Amylmetacresol,0.6,mg,0.6,mg,Oral,Lozenge,['approved'],False,1300-94-3,CCCCCC1=CC=C(C)C=C1O,0.068,g/l
+828,DB13909,Bismuth Subgallate,200.0,mg,400.0,mg,Oral,"Tablet, chewable",['approved'],False,99-26-3,O[Bi]1OC2=CC(=CC(O)=C2O1)C(O)=O,44.8,g/l
+829,DB13946,Testosterone undecanoate,40.0,mg,250.0,mg/mL,Oral,Capsule,"['approved', 'investigational']",False,5949-44-0,CCCCCCCCCCC(=O)O[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C,7.4e-05,g/l
+830,DB13949,Ferric cation,210.0,mg/1,210.0,mg/1,Oral,"Tablet, coated",['approved'],False,20074-52-6,[Fe+3],,
+6,DB00142,Glutamic Acid,325.0,mg,325.0,mg,Oral,Capsule,"['approved', 'nutraceutical']",False,56-86-0,N[C@@H](CCC(O)=O)C(O)=O,80.6,g/l
+14,DB00176,Fluvoxamine,25.0,mg/1,150.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,54739-18-3,COCCCCC(=NOCCN)C1=CC=C(C=C1)C(F)(F)F,0.00734,g/l
+19,DB00190,Carbidopa,10.0,mg/1,25.0,mg/1,Oral,Tablet,['approved'],False,28860-95-9,C[C@@](CC1=CC(O)=C(O)C=C1)(NN)C(O)=O,3.73,g/l
+20,DB00191,Phentermine,8.0,mg/1,37.5,mg/1,Oral,Tablet,"['approved', 'illicit']",False,122-09-8,CC(C)(N)CC1=CC=CC=C1,0.757,g/l
+27,DB00209,Trospium,20.0,mg,60.0,mg,Oral,Tablet,['approved'],False,47608-32-2,[H][C@]12CC[C@]([H])(C[C@@H](C1)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1)[N+]21CCCC1,6.68e-05,g/l
+39,DB00237,Butabarbital,15.0,mg,100.0,mg,Oral,Tablet,"['approved', 'illicit']",False,125-40-6,CCC(C)C1(CC)C(=O)NC(=O)NC1=O,1.39,g/l
+43,DB00247,Methysergide,2.0,mg,2.0,mg,Oral,Tablet,['approved'],False,361-37-5,[H][C@@]12CC3=CN(C)C4=C3C(=CC=C4)C1=C[C@H](CN2C)C(=O)NC(CC)CO,0.224,g/l
+48,DB00261,Anagrelide,0.5,mg,1.0,mg/1,Oral,Capsule,['approved'],False,68475-42-3,ClC1=CC=C2N=C3NC(=O)CN3CC2=C1Cl,0.279,g/l
+55,DB00279,Liothyronine,0.005,mg/1,0.05,mg/1,Oral,Tablet,"['approved', 'vet_approved']",False,6893-02-3,N[C@@H](CC1=CC(I)=C(OC2=CC(I)=C(O)C=C2)C(I)=C1)C(O)=O,0.0195,g/l
+58,DB00285,Venlafaxine,25.0,mg/1,225.0,mg/1,Oral,Tablet,['approved'],False,93413-69-5,COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1,0.23,g/l
+68,DB00323,Tolcapone,100.0,mg/1,200.0,mg,Oral,"Tablet, film coated","['approved', 'withdrawn']",False,134308-13-7,CC1=CC=C(C=C1)C(=O)C1=CC(=C(O)C(O)=C1)[N+]([O-])=O,0.0569,g/l
+73,DB00335,Atenolol,25.0,mg/1,100.0,mg/1,Oral,Tablet,['approved'],False,29122-68-7,CC(C)NCC(O)COC1=CC=C(CC(N)=O)C=C1,0.429,g/l
+78,DB00346,Alfuzosin,10.0,mg,10.0,mg,Oral,"Tablet, extended release","['approved', 'investigational']",False,81403-80-7,COC1=C(OC)C=C2C(N)=NC(=NC2=C1)N(C)CCCNC(=O)C1CCCO1,0.282,g/l
+90,DB00364,Sucralfate,1000.0,mg,1000.0,mg,Oral,Tablet,['approved'],False,54182-58-0,O[Al](O)OS(=O)(=O)OC[C@H]1O[C@@H](O[C@]2(COS(=O)(=O)O[Al](O)O)O[C@H](OS(=O)(=O)O[Al](O)O)[C@@H](OS(=O)(=O)O[Al](O)O)[C@@H]2OS(=O)(=O)O[Al](O)O)[C@H](OS(=O)(=O)O[Al](O)O)[C@@H](OS(=O)(=O)O[Al](O)O)[C@@H]1OS(=O)(=O)O[Al](O)O,0.714,g/l
+108,DB00404,Alprazolam,0.25,mg/1,3.0,mg/1,Oral,Tablet,"['approved', 'illicit', 'investigational']",False,28981-97-7,CC1=NN=C2CN=C(C3=CC=CC=C3)C3=C(C=CC(Cl)=C3)N12,0.0324,g/l
+123,DB00448,Lansoprazole,15.0,mg,30.0,mg/1,Oral,"Capsule, delayed release","['approved', 'investigational']",False,103577-45-3,CC1=C(OCC(F)(F)F)C=CN=C1CS(=O)C1=NC2=CC=CC=C2N1,0.25,g/l
+132,DB00469,Tenoxicam,20.0,mg,20.0,mg,Oral,Tablet,['approved'],False,59804-37-4,CN1C(C(=O)NC2=CC=CC=N2)=C(O)C2=C(C=CS2)S1(=O)=O,0.257,g/l
+136,DB00475,Chlordiazepoxide,5.0,mg,25.0,mg/1,Oral,Capsule,"['approved', 'illicit', 'investigational']",False,58-25-3,CNC1=NC2=C(C=C(Cl)C=C2)C(C2=CC=CC=C2)=[N+]([O-])C1,0.0199,g/l
+138,DB00477,Chlorpromazine,10.0,mg/1,223.2,mg,Oral,"Tablet, sugar coated","['approved', 'investigational', 'vet_approved']",False,50-53-3,CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(Cl)C=C2,0.00417,g/l
+144,DB00486,Nabilone,0.25,mg,1.0,mg,Oral,Capsule,"['approved', 'investigational']",False,51022-71-0,[H][C@@]12CC(=O)CC[C@@]1([H])C(C)(C)OC1=CC(=CC(O)=C21)C(C)(C)CCCCCC,0.000493,g/l
+145,DB00488,Altretamine,50.0,mg/1,50.0,mg/1,Oral,Capsule,['approved'],False,645-05-6,CN(C)C1=NC(=NC(=N1)N(C)C)N(C)C,3.1,g/l
+169,DB00550,Propylthiouracil,50.0,mg,100.0,mg,Oral,Tablet,"['approved', 'investigational']",False,51-52-5,CCCC1=CC(=O)NC(=S)N1,0.466,g/l
+174,DB00559,Bosentan,32.0,mg,125.0,mg,Oral,"Tablet, for suspension","['approved', 'investigational']",False,147536-97-8,COC1=CC=CC=C1OC1=C(NS(=O)(=O)C2=CC=C(C=C2)C(C)(C)C)N=C(N=C1OCCO)C1=NC=CC=N1,0.00904,g/l
+181,DB00581,Lactulose,3300.0,mg,950.0,mg,Oral,Syrup,['approved'],False,4618-18-2,OC[C@H]1O[C@](O)(CO)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O,792.0,g/l
+183,DB00590,Doxazosin,1.0,mg,8.0,mg/1,Oral,Tablet,['approved'],False,74191-85-8,COC1=C(OC)C=C2C(N)=NC(=NC2=C1)N1CCN(CC1)C(=O)C1COC2=CC=CC=C2O1,0.79,g/l
+190,DB00609,Ethionamide,250.0,mg/1,250.0,mg/1,Oral,"Tablet, film coated",['approved'],False,536-33-4,CCC1=NC=CC(=C1)C(N)=S,0.839,g/l
+204,DB00647,Dextropropoxyphene,65.0,mg,100.0,mg,Oral,Tablet,"['approved', 'illicit', 'investigational', 'withdrawn']",False,469-62-5,CCC(=O)O[C@@](CC1=CC=CC=C1)([C@H](C)CN(C)C)C1=CC=CC=C1,0.00419,g/l
+212,DB00660,Metaxalone,400.0,mg/1,800.0,mg/1,Oral,Tablet,['approved'],False,1665-48-1,CC1=CC(OCC2CNC(=O)O2)=CC(C)=C1,1.28,g/l
+213,DB00665,Nilutamide,50.0,mg,150.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,63612-50-0,CC1(C)NC(=O)N(C1=O)C1=CC(=C(C=C1)[N+]([O-])=O)C(F)(F)F,0.00419,g/l
+216,DB00672,Chlorpropamide,100.0,mg,250.0,mg,Oral,Tablet,"['approved', 'investigational']",False,94-20-2,CCCNC(=O)NS(=O)(=O)C1=CC=C(Cl)C=C1,0.157,g/l
+229,DB00700,Eplerenone,25.0,mg,50.0,mg,Oral,Tablet,['approved'],False,107724-20-9,[H][C@@]12CC[C@@]3(CCC(=O)O3)[C@@]1(C)C[C@H]1O[C@@]11[C@@]2([H])[C@@H](CC2=CC(=O)CC[C@]12C)C(=O)OC,0.00903,g/l
+237,DB00717,Norethisterone,0.35,mg/1,5.0,mg/1,Oral,Tablet,['approved'],False,68-22-4,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@]1([H])[C@@]3([H])CCC(=O)C=C3CC[C@@]21[H],0.00668,g/l
+240,DB00726,Trimipramine,12.5,mg,100.0,mg/1,Oral,Tablet,['approved'],False,739-71-9,CC(CN(C)C)CN1C2=CC=CC=C2CCC2=CC=CC=C12,0.026,g/l
+260,DB00788,Naproxen,25.0,mg,750.0,mg/1,Oral,Suspension,"['approved', 'vet_approved']",False,22204-53-1,COC1=CC2=C(C=C1)C=C(C=C2)[C@H](C)C(O)=O,0.0511,g/l
+266,DB00808,Indapamide,1.25,mg,2.5,mg,Oral,Tablet,['approved'],False,26807-65-8,CC1CC2=CC=CC=C2N1NC(=O)C1=CC(=C(Cl)C=C1)S(N)(=O)=O,0.0342,g/l
+277,DB00834,Mifepristone,300.0,mg/1,300.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,84371-65-3,[H][C@@]12CC[C@@](O)(C#CC)[C@@]1(C)C[C@H](C1=CC=C(C=C1)N(C)C)C1=C3CCC(=O)C=C3CC[C@@]21[H],0.00336,g/l
+287,DB00861,Diflunisal,250.0,mg,500.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,22494-42-4,OC(=O)C1=C(O)C=CC(=C1)C1=C(F)C=C(F)C=C1,0.0711,g/l
+292,DB00876,Eprosartan,300.0,mg,600.0,mg/1,Oral,Tablet,['approved'],False,133040-01-4,CCCCC1=NC=C(\C=C(/CC2=CC=CS2)C(O)=O)N1CC1=CC=C(C=C1)C(O)=O,0.00866,g/l
+310,DB00929,Misoprostol,0.1,mg/1,0.2,mg/1,Oral,Tablet,['approved'],False,59122-46-2,CCCCC(C)(O)C\C=C\[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(=O)OC,0.0164,g/l
+319,DB00952,Naratriptan,1.0,mg/1,2.5,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,121679-13-8,CNS(=O)(=O)CCC1=CC2=C(NC=C2C2CCN(C)CC2)C=C1,0.114,g/l
+331,DB00985,Dimenhydrinate,3.0,mg,100.0,mg,Oral,Syrup,['approved'],False,523-87-5,CN1C2=C([N-]C(Cl)=N2)C(=O)N(C)C1=O.C[NH+](C)CCOC(C1=CC=CC=C1)C1=CC=CC=C1,0.00125,g/l
+334,DB00991,Oxaprozin,600.0,mg,600.0,mg,Oral,Tablet,['approved'],False,21256-18-8,OC(=O)CCC1=NC(=C(O1)C1=CC=CC=C1)C1=CC=CC=C1,0.0325,g/l
+338,DB00999,Hydrochlorothiazide,12.5,mg,100.0,mg,Oral,Tablet,"['approved', 'vet_approved']",False,58-93-5,NS(=O)(=O)C1=C(Cl)C=C2NCNS(=O)(=O)C2=C1,2.24,g/l
+356,DB01036,Tolterodine,1.0,mg/1,4.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,124937-51-5,CC(C)N(CC[C@H](C1=CC=CC=C1)C1=C(O)C=CC(C)=C1)C(C)C,0.00534,g/l
+364,DB01058,Praziquantel,600.0,mg/1,600.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational', 'vet_approved']",False,55268-74-1,O=C(C1CCCCC1)N1CC2N(CCC3=CC=CC=C23)C(=O)C1,0.381,g/l
+382,DB01100,Pimozide,1.0,mg/1,10.0,mg,Oral,Tablet,['approved'],False,2062-78-4,FC1=CC=C(C=C1)C(CCCN1CCC(CC1)N1C(=O)NC2=CC=CC=C12)C1=CC=C(F)C=C1,0.00173,g/l
+401,DB01149,Nefazodone,50.0,mg,250.0,mg/1,Oral,Tablet,"['approved', 'withdrawn']",False,83366-66-9,CCC1=NN(CCCN2CCN(CC2)C2=CC(Cl)=CC=C2)C(=O)N1CCOC1=CC=CC=C1,0.0698,g/l
+405,DB01162,Terazosin,1.0,mg,10.0,mg,Oral,Tablet,['approved'],False,63590-64-7,COC1=C(OC)C=C2C(N)=NC(=NC2=C1)N1CCN(CC1)C(=O)C1CCCO1,1.5,g/l
+414,DB01185,Fluoxymesterone,5.0,mg,10.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,76-43-7,[H][C@@]12CC[C@](C)(O)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)CC[C@]12C,0.0452,g/l
+415,DB01186,Pergolide,0.05,mg,1.0,mg,Oral,Tablet,"['approved', 'investigational', 'vet_approved', 'withdrawn']",False,66104-22-1,[H][C@@]12CC3=CNC4=CC=CC(=C34)[C@@]1([H])C[C@@H](CSC)CN2CCC,0.000584,g/l
+437,DB01247,Isocarboxazid,10.0,mg/1,10.0,mg/1,Oral,Tablet,['approved'],False,59-63-2,CC1=CC(=NO1)C(=O)NNCC1=CC=CC=C1,0.224,g/l
+456,DB01378,Magnesium,1000.0,mg,375.0,mg,Oral,Liquid,"['approved', 'nutraceutical']",False,7439-95-4,[Mg++],,
+467,DB01421,Paromomycin,250.0,mg,250.0,mg,Oral,Capsule,"['approved', 'investigational']",False,7542-37-2,NC[C@@H]1O[C@H](O[C@@H]2[C@@H](CO)O[C@@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3N)[C@@H]2O)[C@H](N)[C@@H](O)[C@@H]1O,79.7,g/l
+468,DB01436,Alfacalcidol,0.0002,mg,0.002,mg,Oral,Liquid,"['approved', 'nutraceutical']",False,41294-56-8,CC(C)CCC[C@@H](C)[C@@]1([H])CC[C@@]2([H])\C(CCC[C@]12C)=C\C=C1\C[C@@H](O)C[C@H](O)C1=C,0.00163,g/l
+482,DB01592,Iron,6.0,mg,325.0,mg/1,Oral,Tablet,['approved'],False,7439-89-6,[Fe],,
+492,DB01618,Molindone,5.0,mg/1,25.0,mg/1,Oral,Tablet,['approved'],False,7416-34-4,CCC1=C(C)NC2=C1C(=O)C(CN1CCOCC1)CC2,0.474,g/l
+504,DB04574,Estrone sulfate,0.75,mg/1,3.0,mg/1,Oral,Tablet,['approved'],False,481-97-0,C[C@]12CC[C@H]3[C@@H](CCC4=C3C=CC(OS(O)(=O)=O)=C4)[C@@H]1CCC2=O,0.0059,g/l
+509,DB04841,Flunarizine,5.0,mg,5.0,mg,Oral,Capsule,['approved'],False,52468-60-7,FC1=CC=C(C=C1)C(N1CCN(C\C=C\C2=CC=CC=C2)CC1)C1=CC=C(F)C=C1,0.00168,g/l
+511,DB04844,Tetrabenazine,12.5,mg/1,25.0,mg,Oral,Tablet,"['approved', 'investigational']",False,58-46-8,COC1=C(OC)C=C2C3CC(=O)C(CC(C)C)CN3CCC2=C1,0.361,g/l
+514,DB04861,Nebivolol,2.5,mg,20.0,mg/1,Oral,Tablet,"['approved', 'investigational']",False,118457-14-0,OC(CNCC(O)C1CCC2=C(O1)C=CC(F)=C2)C1CCC2=C(O1)C=CC(F)=C2,0.0403,g/l
+518,DB04896,Milnacipran,12.5,mg/1,100.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,92623-85-3,CCN(CC)C(=O)[C@@]1(C[C@@H]1CN)C1=CC=CC=C1,1.23,g/l
+528,DB05294,Vandetanib,100.0,mg/1,300.0,mg,Oral,Tablet,['approved'],True,443913-73-3,COC1=C(OCC2CCN(C)CC2)C=C2N=CN=C(NC3=C(F)C=C(Br)C=C3)C2=C1,0.0102,g/l
+531,DB05521,Telaprevir,375.0,mg,375.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,402957-28-2,[H][C@@]12CCC[C@]1([H])[C@H](N(C2)C(=O)[C@@H](NC(=O)[C@@H](NC(=O)C1=NC=CN=C1)C1CCCCC1)C(C)(C)C)C(=O)N[C@@H](CCC)C(=O)C(=O)NC1CC1,0.0355,g/l
+532,DB05541,Brivaracetam,10.0,mg,100.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,357336-20-0,CCC[C@H]1CN([C@@H](CC)C(N)=O)C(=O)C1,46.8,g/l
+558,DB06412,Oxymetholone,50.0,mg/1,50.0,mg/1,Oral,Tablet,"['approved', 'illicit']",False,434-07-1,[H][C@@]12CC[C@](C)(O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC[C@@]2([H])CC(=O)\C(C[C@]12C)=C/O,0.0349,g/l
+570,DB06684,Vilazodone,10.0,mg/1,40.0,mg,Oral,Tablet,['approved'],False,163521-12-8,NC(=O)C1=CC2=C(O1)C=CC(=C2)N1CCN(CCCCC2=CNC3=C2C=C(C=C3)C#N)CC1,0.123,g/l
+575,DB06702,Fesoterodine,4.0,mg/1,8.0,mg,Oral,"Tablet, film coated, extended release",['approved'],False,286930-02-7,CC(C)N(CC[C@H](C1=CC=CC=C1)C1=C(OC(=O)C(C)C)C=CC(CO)=C1)C(C)C,0.00205,g/l
+607,DB08887,Icosapent ethyl,500.0,mg/1,1000.0,mg/1,Oral,Capsule,"['approved', 'investigational', 'nutraceutical']",False,86227-47-6,CCOC(=O)CCC\C=C/C\C=C/C\C=C/C\C=C/C\C=C/CC,9.83e-05,g/l
+613,DB08901,Ponatinib,15.0,mg,45.0,mg/1,Oral,Tablet,"['approved', 'investigational']",True,943319-70-8,CN1CCN(CC2=CC=C(NC(=O)C3=CC(C#CC4=CN=C5C=CC=NN45)=C(C)C=C3)C=C2C(F)(F)F)CC1,0.00295,g/l
+614,DB08903,Bedaquiline,100.0,mg,100.0,mg,Oral,Tablet,['approved'],False,843663-66-1,COC1=NC2=C(C=C(Br)C=C2)C=C1[C@@H](C1=CC=CC=C1)[C@@](O)(CCN(C)C)C1=CC=CC2=C1C=CC=C2,0.000193,g/l
+616,DB08908,Dimethyl fumarate,120.0,mg,240.0,mg,Oral,"Capsule, delayed release","['approved', 'investigational']",False,624-49-7,[H]\C(=C(\[H])C(=O)OC)C(=O)OC,12.9,g/l
+627,DB08938,Magaldrate,480.0,mg,480.0,mg,Oral,Tablet,"['approved', 'withdrawn']",False,74978-16-8,[OH-].[Mg++].[Al+3].[O-]S([O-])(=O)=O,,
+652,DB09083,Ivabradine,5.0,mg/1,7.5,mg,Oral,"Tablet, film coated",['approved'],False,155974-00-8,COC1=C(OC)C=C2[C@@H](CN(C)CCCN3CCC4=CC(OC)=C(OC)C=C4CC3=O)CC2=C1,0.0202,g/l
+653,DB09090,Pinaverium,50.0,mg,100.0,mg,Oral,Tablet,['approved'],False,59995-65-2,COC1=C(OC)C=C(C[N+]2(CCOCCC3CCC4CC3C4(C)C)CCOCC2)C(Br)=C1,3.42e-06,g/l
+662,DB09123,Dienogest,2.0,mg,2.0,mg,Oral,Tablet,['approved'],False,65928-58-7,[H][C@@]12CC[C@@](O)(CC#N)[C@@]1(C)CCC1=C3CCC(=O)C=C3CC[C@@]21[H],0.0761,g/l
+669,DB09272,Eluxadoline,75.0,mg/1,100.0,mg/1,Oral,"Tablet, film coated","['approved', 'investigational']",False,864821-90-9,COC1=CC=C(CN([C@@H](C)C2=NC(=CN2)C2=CC=CC=C2)C(=O)[C@@H](N)CC2=C(C)C=C(C=C2C)C(N)=O)C=C1C(O)=O,0.00268,g/l
+696,DB11637,Delamanid,50.0,mg,50.0,mg,Oral,"Tablet, film coated","['approved', 'investigational']",False,681492-22-8,C[C@]1(COC2=CC=C(C=C2)N2CCC(CC2)OC2=CC=C(OC(F)(F)F)C=C2)CN2C=C(N=C2O1)[N+]([O-])=O,0.00222,g/l
+726,DB13908,Amylmetacresol,0.6,mg,0.6,mg,Oral,Lozenge,['approved'],False,1300-94-3,CCCCCC1=CC=C(C)C=C1O,0.068,g/l
